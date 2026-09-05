@@ -11,3 +11,5 @@ node_modules/
 .ruffle/
 play/**/main*.swf
 play/**/*.swf
+*.nohup.out
+play/vendor/
