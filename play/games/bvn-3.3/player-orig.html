@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>BVN 3.3 ORIG</title>
+  <style>
+    html,body { margin:0; background:#111; color:#fff; font:16px/1.4 sans-serif; }
+    #bar { position:fixed; left:10%; right:10%; top:48%; height:18px; background:#333; z-index:2; }
+    #fill { height:100%; width:0; background:#4caf50; }
+    #msg { position:fixed; left:0; right:0; top:54%; text-align:center; z-index:2; }
+    ruffle-player { width:800px; height:600px; display:block; margin:20px auto; }
+  </style>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      preferredRenderer: "canvas",
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      splashScreen: true,
+      letterbox: "on",
+      allowScriptAccess: true
+    };
+  </script>
+</head>
+<body>
+  <div id="bar"><div id="fill"></div></div>
+  <div id="msg">正在下载原版 SWF…</div>
+  <script src="../../vendor/ruffle/ruffle.js"></script>
+  <script>
+    const fill = document.getElementById('fill');
+    const msg = document.getElementById('msg');
+    async function main() {
+      const res = await fetch('main.swf?v=origclean');
+      const total = +res.headers.get('content-length') || 69431196;
+      const reader = res.body.getReader();
+      const chunks = [];
+      let loaded = 0;
+      while (true) {
+        const {done, value} = await reader.read();
+        if (done) break;
+        chunks.push(value);
+        loaded += value.length;
+        fill.style.width = (100 * loaded / total) + '%';
+        msg.textContent = '下载 ' + Math.round(100 * loaded / total) + '%  (' + Math.round(loaded/1048576) + 'MB)';
+      }
+      const buf = new Uint8Array(loaded);
+      let off = 0;
+      for (const c of chunks) { buf.set(c, off); off += c.length; }
+      msg.textContent = '下载完成 ' + loaded + ' bytes，Ruffle 解析中…';
+      const p = window.RufflePlayer.newest().createPlayer();
+      p.setAttribute('allowScriptAccess', 'always');
+      p.setAttribute('allowNetworking', 'all');
+      document.body.appendChild(p);
+      p.addEventListener('loadedmetadata', () => {
+        document.getElementById('bar').style.display = 'none';
+        msg.textContent = 'metadata ok';
+      });
+      await p.load({
+        data: buf.buffer,
+        autoplay: 'on',
+        unmuteOverlay: 'hidden',
+        splashScreen: true,
+        allowScriptAccess: true,
+        allowNetworking: 'all',
+        preferredRenderer: 'canvas'
+      });
+      msg.textContent = 'load() resolved ready=' + p.readyState;
+    }
+    window.addEventListener('load', () => main().catch(e => { msg.textContent = 'FAIL ' + e; }));
+  </script>
+</body>
+</html>

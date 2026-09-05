@@ -1,0 +1,73 @@
+BVN 3.3 reverse rebuild
+=======================
+
+Output
+------
+path:   /workspace/bvn-3.3/play/games/bvn-rev/main.swf
+bytes:  69433630
+sha256: 7061bcb85ab15da8793873641dacfb9eaa8bb7e871e94dd92613f7c7f6414a6b
+
+Play URL
+--------
+http://127.0.0.1:8765/games/bvn-rev/index.html
+
+Not original, not bvn-zh
+------------------------
+original main.swf
+  path:   /workspace/bvn-3.3/main.swf
+  bytes:  69431196
+  sha256: 5ddf9410af93872c2b988af81e2580d466cc0f87d5e885198687f129cc00ba3e
+
+bvn-zh p-code patch
+  path:   /workspace/bvn-3.3/play/games/bvn-zh/main.swf
+  bytes:  69431196
+  sha256: e3de525feee49f38eb2fb029e6eb9b629770425f1a44650cf7ba50084e7786e9
+
+All three SHA-256 values differ.
+
+Imported ActionScript (JPEXS -importScript, business only)
+----------------------------------------------------------
+source folder: /workspace/bvn-3.3/import-rev
+from decompiled/main/scripts, NOT com.green / ƃ / ɕ / ƒ shell:
+
+  net/play5d/game/bvn/MainGame.as
+    VERSION = "V3.3-REV"
+
+  net/play5d/game/bvn/state/MenuState.as
+    _versionTxt.text = "V3.3-REV"
+    _ui typed as * (stg_title is a library symbol; JPEXS cannot compile it)
+
+  net/play5d/game/bvn/ui/MenuBtn.as
+    ui typed as *
+    Chinese BitmapText (黑体) already in decompiled
+
+Command:
+  java -Xmx2048m -jar /workspace/tools/ffdec/ffdec.jar -onerror ignore \
+    -importScript /workspace/bvn-3.3/main.swf \
+    play/games/bvn-rev/_import.swf \
+    /workspace/bvn-3.3/import-rev
+
+Shell ABCs (DoABC tags 005/009/014) were not rebuilt. Only game DoABC#3 grew
+334345 -> 336779 (+2434). FileLength at offset 4 was already rewritten by JPEXS.
+
+Size gate
+---------
+patched: YES
+reason:  new length 69433630 != original 69431196
+
+  offset 4 UI32 LE FileLength : 69433630 (already set by JPEXS, left as-is)
+  ASCII  #04236f9c @ 118927 -> #0423791e
+  ASCII  #4236f9c  @ 2596 -> #423791e
+
+main.js app.size['main.swf'] = 69433630
+  old base64 metas: eyJpbmZvLmlkIjoiQmxlYWNoVlNOYXJ1dG9fM18zIiwiaW5mby5kZXZlbG9wZXIiOiJkIiwiaW5mby5uYW1lIjoiQmxlYWNoVnNOYXJ1dG8iLCJpbmZvLnZlcnNpb24iOiIzLjMuMSIsImluZm8uZGF0ZSI6IjIwMjYtMDQtMTEgMDk6NTY6MDIiLCJlbGVtZW50LmNvbnRhaW5lciI6IiNjb250YWluZXIiLCJhcHAuc2l6ZSI6eyJtYWluLnN3ZiI6Njk0MzExOTZ9LCJhcHAuZmxhc2hmcmFtZSI6Mn0=
+  new base64 metas: eyJpbmZvLmlkIjoiQmxlYWNoVlNOYXJ1dG9fM18zIiwiaW5mby5kZXZlbG9wZXIiOiJkIiwiaW5mby5uYW1lIjoiQmxlYWNoVnNOYXJ1dG8iLCJpbmZvLnZlcnNpb24iOiIzLjMuMSIsImluZm8uZGF0ZSI6IjIwMjYtMDQtMTEgMDk6NTY6MDIiLCJlbGVtZW50LmNvbnRhaW5lciI6IiNjb250YWluZXIiLCJhcHAuc2l6ZSI6eyJtYWluLnN3ZiI6Njk0MzM2MzB9LCJhcHAuZmxhc2hmcmFtZSI6Mn0=
+  decoded: {"info.id":"BleachVSNaruto_3_3","info.developer":"d","info.name":"BleachVsNaruto","info.version":"3.3.1","info.date":"2026-04-11 09:56:02","element.container":"#container","app.size":{"main.swf":69433630},"app.flashframe":2}
+
+Re-export check (ffdec -selectclass)
+------------------------------------
+MainGame.VERSION = "V3.3-REV"
+MenuState._versionTxt.text = "V3.3-REV"
+MenuBtn.ui = *
+
+bvn-zh was not overwritten.

@@ -1,0 +1,13 @@
+*.swf
+*.mp3
+*.wav
+*.zip
+*.fla
+*.bin
+__MACOSX/
+.DS_Store
+*.log
+node_modules/
+.ruffle/
+play/**/main*.swf
+play/**/*.swf

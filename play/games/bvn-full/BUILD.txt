@@ -1,0 +1,45 @@
+BVN 3.3 FULL-CLEAN reverse rebuild
+==================================
+
+Status: PLAYABLE (2026-09-03) — menu → select → fight confirmed in Ruffle.
+
+Output
+------
+path:   /workspace/bvn-3.3/play/games/bvn-full/main.swf
+bytes:  69540705
+sha256: 1f05340889319d85b269115c01986378309b8267a97bbec88ba2fbc105459cc6
+stamp:  V3.3-FULL (MainGame / MenuState)
+
+Play URL
+--------
+http://127.0.0.1:8765/games/bvn-full/index.html
+Require: blank-ad.swf MUST 404 (do not place a loadable SWF there).
+local-runtime-guard still points data.vsgod.win/v1 at ../../blank-ad.swf.
+
+How built
+---------
+INPUT: original /workspace/bvn-3.3/main.swf (sha 5ddf9410...)
+Import folder: /workspace/bvn-3.3/import-full-clean
+  - 172 .as imported (net.play5d engine)
+  - 9 loader/asset scripts left as .as.skip (keep ORIGINAL ABC):
+      ZipAssetLoader, ZipCtrler, AssetManager, AssetLoader, GameLoader,
+      BitmapAssetLoader, IAssetLoader, LoadingState, GameLoadingState
+  - MenuBtn/MenuState typed * (library symbols)
+  - UI MovieClip types that fail JPEXS compile keep original ABC
+    (-onerror ignore); a later pass can reimport after :* fixes.
+
+Command:
+  java -Xmx3072m -jar /workspace/tools/ffdec/ffdec.jar -onerror ignore \
+    -importScript /workspace/bvn-3.3/main.swf \
+    play/games/bvn-full/_clean.swf \
+    /workspace/bvn-3.3/import-full-clean
+
+Size gate
+---------
+FileLength + ASCII #04236f9c / #4236f9c rewritten to new length.
+main.js app.size['main.swf'] patched to match.
+
+Also working
+------------
+bvn-rev (3 scripts, V3.3-REV): http://127.0.0.1:8765/games/bvn-rev/index.html
+original: http://127.0.0.1:8765/games/bvn-3.3/index.html
