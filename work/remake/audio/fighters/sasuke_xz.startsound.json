@@ -1,0 +1,1041 @@
+{
+  "id": "sasuke_xz",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/sasuke_xz.swf",
+  "defineSoundCount": 26,
+  "startSoundEventCount": 44,
+  "namedEventCount": 2,
+  "actionSpriteId": 602,
+  "actionExport": "sasuke_xz_fla.须作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "936cf3760ca6",
+      "size": 1770,
+      "sampleCount": 6888,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "39": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "59": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:59",
+      "nameSource": "unnamed"
+    },
+    "72": {
+      "sha1": "d6a167e90706",
+      "size": 1354,
+      "sampleCount": 4718,
+      "exportName": null,
+      "resolvedName": "cid:72",
+      "nameSource": "unnamed"
+    },
+    "73": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:73",
+      "nameSource": "unnamed"
+    },
+    "102": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:102",
+      "nameSource": "unnamed"
+    },
+    "105": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:105",
+      "nameSource": "unnamed"
+    },
+    "119": {
+      "sha1": "0307c9319d0b",
+      "size": 834,
+      "sampleCount": 2044,
+      "exportName": null,
+      "resolvedName": "cid:119",
+      "nameSource": "unnamed"
+    },
+    "132": {
+      "sha1": "862c1f2a35df",
+      "size": 834,
+      "sampleCount": 2100,
+      "exportName": null,
+      "resolvedName": "cid:132",
+      "nameSource": "unnamed"
+    },
+    "146": {
+      "sha1": "182170959198",
+      "size": 1146,
+      "sampleCount": 4536,
+      "exportName": null,
+      "resolvedName": "cid:146",
+      "nameSource": "unnamed"
+    },
+    "167": {
+      "sha1": "67587b6de526",
+      "size": 2082,
+      "sampleCount": 8732,
+      "exportName": null,
+      "resolvedName": "cid:167",
+      "nameSource": "unnamed"
+    },
+    "176": {
+      "sha1": "a4f28174a85f",
+      "size": 2082,
+      "sampleCount": 8732,
+      "exportName": null,
+      "resolvedName": "cid:176",
+      "nameSource": "unnamed"
+    },
+    "185": {
+      "sha1": "449910b5ece9",
+      "size": 5618,
+      "sampleCount": 28224,
+      "exportName": null,
+      "resolvedName": "cid:185",
+      "nameSource": "unnamed"
+    },
+    "206": {
+      "sha1": "ca15569fe0f0",
+      "size": 2082,
+      "sampleCount": 8722,
+      "exportName": null,
+      "resolvedName": "cid:206",
+      "nameSource": "unnamed"
+    },
+    "260": {
+      "sha1": "e3e3f6804e02",
+      "size": 2082,
+      "sampleCount": 9716,
+      "exportName": null,
+      "resolvedName": "cid:260",
+      "nameSource": "unnamed"
+    },
+    "278": {
+      "sha1": "72fe23056d61",
+      "size": 2914,
+      "sampleCount": 14288,
+      "exportName": null,
+      "resolvedName": "cid:278",
+      "nameSource": "unnamed"
+    },
+    "290": {
+      "sha1": "f39bc128b957",
+      "size": 3330,
+      "sampleCount": 16632,
+      "exportName": null,
+      "resolvedName": "cid:290",
+      "nameSource": "unnamed"
+    },
+    "303": {
+      "sha1": "0920ebb454ac",
+      "size": 6034,
+      "sampleCount": 30958,
+      "exportName": null,
+      "resolvedName": "cid:303",
+      "nameSource": "unnamed"
+    },
+    "320": {
+      "sha1": "a32771c5d9ce",
+      "size": 3330,
+      "sampleCount": 15752,
+      "exportName": null,
+      "resolvedName": "cid:320",
+      "nameSource": "unnamed"
+    },
+    "330": {
+      "sha1": "2d1b50d4bc76",
+      "size": 3330,
+      "sampleCount": 15920,
+      "exportName": null,
+      "resolvedName": "cid:330",
+      "nameSource": "unnamed"
+    },
+    "417": {
+      "sha1": "9722f7dc9bbf",
+      "size": 3122,
+      "sampleCount": 14350,
+      "exportName": null,
+      "resolvedName": "cid:417",
+      "nameSource": "unnamed"
+    },
+    "439": {
+      "sha1": "9d18797b7e1a",
+      "size": 3434,
+      "sampleCount": 16405,
+      "exportName": null,
+      "resolvedName": "cid:439",
+      "nameSource": "unnamed"
+    },
+    "440": {
+      "sha1": "9b7a49d6cbcb",
+      "size": 2498,
+      "sampleCount": 11035,
+      "exportName": null,
+      "resolvedName": "cid:440",
+      "nameSource": "unnamed"
+    },
+    "448": {
+      "sha1": "e84a972e31df",
+      "size": 8738,
+      "sampleCount": 45598,
+      "exportName": null,
+      "resolvedName": "cid:448",
+      "nameSource": "unnamed"
+    },
+    "578": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:578",
+      "nameSource": "unnamed"
+    },
+    "588": {
+      "sha1": "15bd73b7d70a",
+      "size": 7074,
+      "sampleCount": 36250,
+      "exportName": null,
+      "resolvedName": "cid:588",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 37,
+      "label": "起跳",
+      "tag": "StartSound",
+      "soundId": 39,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 75,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "d6a167e90706"
+    },
+    {
+      "frame": 103,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 140,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 180,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 207,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 239,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 119,
+      "soundName": "cid:119",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "0307c9319d0b"
+    },
+    {
+      "frame": 240,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 276,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 132,
+      "soundName": "cid:132",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "862c1f2a35df"
+    },
+    {
+      "frame": 277,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 318,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "182170959198"
+    },
+    {
+      "frame": 320,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 360,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 176,
+      "soundName": "cid:176",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "a4f28174a85f"
+    },
+    {
+      "frame": 389,
+      "label": "砍技11",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 418,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 185,
+      "soundName": "cid:185",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "449910b5ece9"
+    },
+    {
+      "frame": 422,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 475,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 206,
+      "soundName": "cid:206",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "ca15569fe0f0"
+    },
+    {
+      "frame": 485,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 542,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 543,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 598,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 260,
+      "soundName": "cid:260",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "e3e3f6804e02"
+    },
+    {
+      "frame": 610,
+      "label": "招20",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 631,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 644,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 702,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 278,
+      "soundName": "cid:278",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "72fe23056d61"
+    },
+    {
+      "frame": 707,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 290,
+      "soundName": "cid:290",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "f39bc128b957"
+    },
+    {
+      "frame": 756,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 119,
+      "soundName": "cid:119",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "0307c9319d0b"
+    },
+    {
+      "frame": 757,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 787,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 185,
+      "soundName": "cid:185",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "449910b5ece9"
+    },
+    {
+      "frame": 845,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 303,
+      "soundName": "cid:303",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "0920ebb454ac"
+    },
+    {
+      "frame": 865,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 320,
+      "soundName": "cid:320",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "a32771c5d9ce"
+    },
+    {
+      "frame": 948,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 330,
+      "soundName": "cid:330",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2d1b50d4bc76"
+    },
+    {
+      "frame": 980,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 320,
+      "soundName": "cid:320",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "a32771c5d9ce"
+    },
+    {
+      "frame": 1087,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 278,
+      "soundName": "cid:278",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "72fe23056d61"
+    },
+    {
+      "frame": 1089,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 320,
+      "soundName": "cid:320",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "a32771c5d9ce"
+    },
+    {
+      "frame": 1157,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 417,
+      "soundName": "cid:417",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "9722f7dc9bbf"
+    },
+    {
+      "frame": 1204,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 439,
+      "soundName": "cid:439",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "9d18797b7e1a"
+    },
+    {
+      "frame": 1204,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 440,
+      "soundName": "cid:440",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "9b7a49d6cbcb"
+    },
+    {
+      "frame": 1219,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 448,
+      "soundName": "cid:448",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "e84a972e31df"
+    },
+    {
+      "frame": 1378,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 39,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1388,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 578,
+      "soundName": "cid:578",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1415,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 260,
+      "soundName": "cid:260",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "e3e3f6804e02"
+    },
+    {
+      "frame": 1523,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 588,
+      "soundName": "cid:588",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "15bd73b7d70a"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 37,
+      "label": "起跳",
+      "tag": "StartSound",
+      "soundId": 39,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 75,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "d6a167e90706"
+    },
+    {
+      "frame": 103,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 140,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 180,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 207,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 239,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 119,
+      "soundName": "cid:119",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "0307c9319d0b"
+    },
+    {
+      "frame": 240,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 276,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 132,
+      "soundName": "cid:132",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "862c1f2a35df"
+    },
+    {
+      "frame": 277,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 318,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "182170959198"
+    },
+    {
+      "frame": 320,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 360,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 176,
+      "soundName": "cid:176",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "a4f28174a85f"
+    },
+    {
+      "frame": 389,
+      "label": "砍技11",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 418,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 185,
+      "soundName": "cid:185",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "449910b5ece9"
+    },
+    {
+      "frame": 422,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 475,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 206,
+      "soundName": "cid:206",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "ca15569fe0f0"
+    },
+    {
+      "frame": 485,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 542,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 543,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 598,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 260,
+      "soundName": "cid:260",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "e3e3f6804e02"
+    },
+    {
+      "frame": 610,
+      "label": "招20",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 631,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 644,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 702,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 278,
+      "soundName": "cid:278",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "72fe23056d61"
+    },
+    {
+      "frame": 707,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 290,
+      "soundName": "cid:290",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "f39bc128b957"
+    },
+    {
+      "frame": 756,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 119,
+      "soundName": "cid:119",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "0307c9319d0b"
+    },
+    {
+      "frame": 757,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 787,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 185,
+      "soundName": "cid:185",
+      "nameSource": "unnamed",
+      "spriteId": 602,
+      "spriteExport": "sasuke_xz_fla.须作_1",
+      "sha1": "449910b5ece9"
+    }
+  ]
+}

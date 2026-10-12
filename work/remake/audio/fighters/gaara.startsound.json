@@ -1,0 +1,1110 @@
+{
+  "path": "extracted/full/zips/bin_222/assets/fighter/gaara.swf",
+  "fps": 30.0,
+  "rootFrames": 2,
+  "defineSoundCount": 23,
+  "symbolClassCount": 9,
+  "startSoundEventCount": 47,
+  "namedEventCount": 2,
+  "unnamedEventCount": 45,
+  "actionSpriteId": 500,
+  "actionExport": "gaara_fla.Timeline_1",
+  "actionStartSoundCount": 35,
+  "defineSounds": {
+    "1": {
+      "sha1": "a2996cafec07",
+      "size": 3330,
+      "sampleCount": 15624,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "58": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:58",
+      "nameSource": "unnamed"
+    },
+    "77": {
+      "sha1": "4aa6717ce177",
+      "size": 1458,
+      "sampleCount": 5292,
+      "exportName": null,
+      "resolvedName": "cid:77",
+      "nameSource": "unnamed"
+    },
+    "80": {
+      "sha1": "7d13c33c246a",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:80",
+      "nameSource": "unnamed"
+    },
+    "137": {
+      "sha1": "2a6adac373b2",
+      "size": 2082,
+      "sampleCount": 9016,
+      "exportName": null,
+      "resolvedName": "cid:137",
+      "nameSource": "unnamed"
+    },
+    "150": {
+      "sha1": "f20983c72ab2",
+      "size": 3954,
+      "sampleCount": 19040,
+      "exportName": null,
+      "resolvedName": "cid:150",
+      "nameSource": "unnamed"
+    },
+    "178": {
+      "sha1": "c3c71fd1ee26",
+      "size": 2914,
+      "sampleCount": 13608,
+      "exportName": null,
+      "resolvedName": "cid:178",
+      "nameSource": "unnamed"
+    },
+    "198": {
+      "sha1": "0709899c9d1c",
+      "size": 4578,
+      "sampleCount": 23552,
+      "exportName": null,
+      "resolvedName": "cid:198",
+      "nameSource": "unnamed"
+    },
+    "219": {
+      "sha1": "cf16216608e0",
+      "size": 4266,
+      "sampleCount": 21000,
+      "exportName": null,
+      "resolvedName": "cid:219",
+      "nameSource": "unnamed"
+    },
+    "243": {
+      "sha1": "f2defd58b0b0",
+      "size": 6242,
+      "sampleCount": 32000,
+      "exportName": null,
+      "resolvedName": "cid:243",
+      "nameSource": "unnamed"
+    },
+    "268": {
+      "sha1": "2922aab5c18d",
+      "size": 3122,
+      "sampleCount": 14588,
+      "exportName": null,
+      "resolvedName": "cid:268",
+      "nameSource": "unnamed"
+    },
+    "309": {
+      "sha1": "f9bf3e0ba815",
+      "size": 5930,
+      "sampleCount": 30044,
+      "exportName": null,
+      "resolvedName": "cid:309",
+      "nameSource": "unnamed"
+    },
+    "353": {
+      "sha1": "eb93b139845e",
+      "size": 5930,
+      "sampleCount": 29952,
+      "exportName": null,
+      "resolvedName": "cid:353",
+      "nameSource": "unnamed"
+    },
+    "358": {
+      "sha1": "b2105b809d91",
+      "size": 7490,
+      "sampleCount": 39690,
+      "exportName": null,
+      "resolvedName": "cid:358",
+      "nameSource": "unnamed"
+    },
+    "369": {
+      "sha1": "3ff7a14cf90d",
+      "size": 6242,
+      "sampleCount": 31724,
+      "exportName": null,
+      "resolvedName": "cid:369",
+      "nameSource": "unnamed"
+    },
+    "370": {
+      "sha1": "bb79d080a489",
+      "size": 14562,
+      "sampleCount": 78848,
+      "exportName": null,
+      "resolvedName": "cid:370",
+      "nameSource": "unnamed"
+    },
+    "434": {
+      "sha1": "2ac1e1f1d9e8",
+      "size": 2914,
+      "sampleCount": 14336,
+      "exportName": null,
+      "resolvedName": "cid:434",
+      "nameSource": "unnamed"
+    },
+    "451": {
+      "sha1": "27aaa9ce3e0d",
+      "size": 4578,
+      "sampleCount": 23548,
+      "exportName": null,
+      "resolvedName": "cid:451",
+      "nameSource": "unnamed"
+    },
+    "479": {
+      "sha1": "a2996cafec07",
+      "size": 3330,
+      "sampleCount": 15624,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "sha1-cross"
+    },
+    "486": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "490": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:490",
+      "nameSource": "unnamed"
+    },
+    "496": {
+      "sha1": "2e5b1e0e69b7",
+      "size": 3746,
+      "sampleCount": 18200,
+      "exportName": null,
+      "resolvedName": "cid:496",
+      "nameSource": "unnamed"
+    },
+    "497": {
+      "sha1": "cea19f688d2a",
+      "size": 6242,
+      "sampleCount": 32144,
+      "exportName": null,
+      "resolvedName": "cid:497",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "events": [
+    {
+      "frame": 82,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 98,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "4aa6717ce177"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "7d13c33c246a"
+    },
+    {
+      "frame": 128,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 148,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 178,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "4aa6717ce177"
+    },
+    {
+      "frame": 182,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "7d13c33c246a"
+    },
+    {
+      "frame": 226,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2a6adac373b2"
+    },
+    {
+      "frame": 231,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 269,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 178,
+      "soundName": "cid:178",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "c3c71fd1ee26"
+    },
+    {
+      "frame": 272,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 198,
+      "soundName": "cid:198",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "0709899c9d1c"
+    },
+    {
+      "frame": 326,
+      "label": "招11",
+      "tag": "StartSound",
+      "soundId": 219,
+      "soundName": "cid:219",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "cf16216608e0"
+    },
+    {
+      "frame": 328,
+      "label": "招11",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 371,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2a6adac373b2"
+    },
+    {
+      "frame": 374,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 243,
+      "soundName": "cid:243",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f2defd58b0b0"
+    },
+    {
+      "frame": 423,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 268,
+      "soundName": "cid:268",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2922aab5c18d"
+    },
+    {
+      "frame": 431,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 462,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "4aa6717ce177"
+    },
+    {
+      "frame": 462,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "7d13c33c246a"
+    },
+    {
+      "frame": 482,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2a6adac373b2"
+    },
+    {
+      "frame": 482,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 533,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 309,
+      "soundName": "cid:309",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f9bf3e0ba815"
+    },
+    {
+      "frame": 535,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 353,
+      "soundName": "cid:353",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "eb93b139845e"
+    },
+    {
+      "frame": 573,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "b2105b809d91"
+    },
+    {
+      "frame": 661,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 369,
+      "soundName": "cid:369",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "3ff7a14cf90d"
+    },
+    {
+      "frame": 661,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 370,
+      "soundName": "cid:370",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "bb79d080a489"
+    },
+    {
+      "frame": 801,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 268,
+      "soundName": "cid:268",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2922aab5c18d"
+    },
+    {
+      "frame": 825,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 353,
+      "soundName": "cid:353",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "eb93b139845e"
+    },
+    {
+      "frame": 825,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 434,
+      "soundName": "cid:434",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2ac1e1f1d9e8"
+    },
+    {
+      "frame": 937,
+      "label": "超必杀HIT",
+      "tag": "StartSound",
+      "soundId": 219,
+      "soundName": "cid:219",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "cf16216608e0"
+    },
+    {
+      "frame": 1020,
+      "label": "击飞",
+      "tag": "StartSound",
+      "soundId": 479,
+      "soundName": "snd_hurt1",
+      "nameSource": "sha1-cross",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "a2996cafec07"
+    },
+    {
+      "frame": 1065,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 486,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1074,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 490,
+      "soundName": "cid:490",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1088,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 496,
+      "soundName": "cid:496",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2e5b1e0e69b7"
+    },
+    {
+      "frame": 1195,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 497,
+      "soundName": "cid:497",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "cea19f688d2a"
+    },
+    {
+      "frame": 23,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 30,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 35,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 40,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 44,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 47,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 52,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 54,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 58,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 60,
+      "label": "start",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 88,
+      "label": "big",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 99,
+      "label": "big",
+      "tag": "StartSound",
+      "soundId": 451,
+      "soundName": "cid:451",
+      "nameSource": "unnamed",
+      "spriteId": 468,
+      "spriteExport": "gaara_fla.Timeline_11",
+      "sha1": "27aaa9ce3e0d"
+    }
+  ],
+  "actionEvents": [
+    {
+      "frame": 82,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 98,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "4aa6717ce177"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "7d13c33c246a"
+    },
+    {
+      "frame": 128,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 148,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 178,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "4aa6717ce177"
+    },
+    {
+      "frame": 182,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "7d13c33c246a"
+    },
+    {
+      "frame": 226,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2a6adac373b2"
+    },
+    {
+      "frame": 231,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 269,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 178,
+      "soundName": "cid:178",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "c3c71fd1ee26"
+    },
+    {
+      "frame": 272,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 198,
+      "soundName": "cid:198",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "0709899c9d1c"
+    },
+    {
+      "frame": 326,
+      "label": "招11",
+      "tag": "StartSound",
+      "soundId": 219,
+      "soundName": "cid:219",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "cf16216608e0"
+    },
+    {
+      "frame": 328,
+      "label": "招11",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 371,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2a6adac373b2"
+    },
+    {
+      "frame": 374,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 243,
+      "soundName": "cid:243",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f2defd58b0b0"
+    },
+    {
+      "frame": 423,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 268,
+      "soundName": "cid:268",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2922aab5c18d"
+    },
+    {
+      "frame": 431,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 462,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "4aa6717ce177"
+    },
+    {
+      "frame": 462,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "7d13c33c246a"
+    },
+    {
+      "frame": 482,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2a6adac373b2"
+    },
+    {
+      "frame": 482,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 150,
+      "soundName": "cid:150",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f20983c72ab2"
+    },
+    {
+      "frame": 533,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 309,
+      "soundName": "cid:309",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f9bf3e0ba815"
+    },
+    {
+      "frame": 535,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 353,
+      "soundName": "cid:353",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "eb93b139845e"
+    },
+    {
+      "frame": 573,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "b2105b809d91"
+    },
+    {
+      "frame": 661,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 369,
+      "soundName": "cid:369",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "3ff7a14cf90d"
+    },
+    {
+      "frame": 661,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 370,
+      "soundName": "cid:370",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "bb79d080a489"
+    },
+    {
+      "frame": 801,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 268,
+      "soundName": "cid:268",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2922aab5c18d"
+    },
+    {
+      "frame": 825,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 353,
+      "soundName": "cid:353",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "eb93b139845e"
+    },
+    {
+      "frame": 825,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 434,
+      "soundName": "cid:434",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2ac1e1f1d9e8"
+    },
+    {
+      "frame": 937,
+      "label": "超必杀HIT",
+      "tag": "StartSound",
+      "soundId": 219,
+      "soundName": "cid:219",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "cf16216608e0"
+    },
+    {
+      "frame": 1020,
+      "label": "击飞",
+      "tag": "StartSound",
+      "soundId": 479,
+      "soundName": "snd_hurt1",
+      "nameSource": "sha1-cross",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "a2996cafec07"
+    },
+    {
+      "frame": 1065,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 486,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1074,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 490,
+      "soundName": "cid:490",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1088,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 496,
+      "soundName": "cid:496",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "2e5b1e0e69b7"
+    },
+    {
+      "frame": 1195,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 497,
+      "soundName": "cid:497",
+      "nameSource": "unnamed",
+      "spriteId": 500,
+      "spriteExport": "gaara_fla.Timeline_1",
+      "sha1": "cea19f688d2a"
+    }
+  ],
+  "id": "gaara",
+  "kind": "playable"
+}

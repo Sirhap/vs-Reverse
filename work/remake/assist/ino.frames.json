@@ -1,0 +1,57 @@
+{
+  "id": "ino",
+  "mainTimeline": "decompiled/fighters/fz/ino/scripts/ino_fla/MainTimeline.as",
+  "rootFrames": 73,
+  "addFrameScriptCount": 6,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":20, \"hitType\":5, \"hitx\":0, \"hity\":0, \"hurtTime\":2000, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 19,
+      "frameNumber": 20,
+      "function": "frame20",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 35,
+      "frameNumber": 36,
+      "function": "frame36",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 40,
+      "frameNumber": 41,
+      "function": "frame41",
+      "summary": "effect.shine()",
+      "bodyPreview": "this.$assisterCtrler.effect.shine();"
+    },
+    {
+      "frameIndex0": 44,
+      "frameNumber": 45,
+      "function": "frame45",
+      "summary": "effect.shine(9461816)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(9461816);"
+    },
+    {
+      "frameIndex0": 55,
+      "frameNumber": 56,
+      "function": "frame56",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

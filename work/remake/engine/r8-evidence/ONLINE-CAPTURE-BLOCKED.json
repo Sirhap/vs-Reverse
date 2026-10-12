@@ -1,0 +1,38 @@
+{
+  "captured_at_cst": "2026-10-11 21:52 CST",
+  "url": "https://www.4399.com/flash/205551_4.htm",
+  "html_bytes": 57883,
+  "html_sha256": "e398ddebfde0da1749915a4507555d6c78516e390ec6bce33b0069caba38ce78",
+  "game_path": "/upload_swf/ftp29/haibo/suwei/y2/main.swf",
+  "embed": {
+    "object_id": "flashgame",
+    "allowScriptAccess": "always",
+    "size": "800x600",
+    "note": "页面直接 OBJECT/EMBED 挂 main.swf；HTML/周边 JS 无 setHold/Hold 字面量"
+  },
+  "scripts_checked_no_hold_literal": [
+    "flashopen1.js",
+    "playcoup.js",
+    "newHeadjsForPlay_s.js",
+    "sosmart1_s.js",
+    "serversda.js"
+  ],
+  "hold_cdn_probes": {
+    "https://cdn.4399.com/js/hold.js": "curl fail/000",
+    "https://www.4399.com/jss/Hold.js": "404"
+  },
+  "online_instance_fingerprint": "NOT_CAPTURED",
+  "blockers": [
+    "Hold 实例由 4399 域页面向 Flash ExternalInterface/setHold 注入；静态 HTML 不含对象原型",
+    "本执行子代理无 browser/desktop，无法在 4399 域跑 Ruffle/Flash 并反射 Hold",
+    "WebFetch/curl 只得营销页+embed；不执行 JS，拿不到运行态实例字段",
+    "本地 remake hold=null 路径可玩，故意不含线上指纹（G13 Documented-gap）"
+  ],
+  "what_would_count_as_fingerprint": [
+    "Hold 构造函数/类型名（AS3 getQualifiedClassName 或 JS constructor.name）",
+    "Hold 可枚举属性/方法全集（超壳直通面之外）",
+    "logreturn.ret 实测字段全集（壳已知读 uid/name/nickName）",
+    "serverTimeEvent.data 实测字符串样例",
+    "FC 反套壳日志 in4399/ready4399 在 4399 域真值"
+  ]
+}

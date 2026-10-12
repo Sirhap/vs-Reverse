@@ -1,0 +1,1220 @@
+{
+  "id": "kenshin",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/kenshin.swf",
+  "defineSoundCount": 39,
+  "startSoundEventCount": 91,
+  "namedEventCount": 2,
+  "actionSpriteId": 1411,
+  "actionExport": "kenshin_fla.全动作_15",
+  "defineSounds": {
+    "39": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:39",
+      "nameSource": "unnamed"
+    },
+    "57": {
+      "sha1": "e906fb84481c",
+      "size": 1874,
+      "sampleCount": 7488,
+      "exportName": null,
+      "resolvedName": "cid:57",
+      "nameSource": "unnamed"
+    },
+    "60": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:60",
+      "nameSource": "unnamed"
+    },
+    "90": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:90",
+      "nameSource": "unnamed"
+    },
+    "147": {
+      "sha1": "e61bf6860063",
+      "size": 1250,
+      "sampleCount": 5111,
+      "exportName": null,
+      "resolvedName": "cid:147",
+      "nameSource": "unnamed"
+    },
+    "154": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:154",
+      "nameSource": "unnamed"
+    },
+    "181": {
+      "sha1": "b989cfd7c489",
+      "size": 5981,
+      "sampleCount": 16128,
+      "exportName": null,
+      "resolvedName": "cid:181",
+      "nameSource": "unnamed"
+    },
+    "184": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:184",
+      "nameSource": "unnamed"
+    },
+    "237": {
+      "sha1": "e6f726651869",
+      "size": 1562,
+      "sampleCount": 5760,
+      "exportName": null,
+      "resolvedName": "cid:237",
+      "nameSource": "unnamed"
+    },
+    "262": {
+      "sha1": "654ed677472a",
+      "size": 13376,
+      "sampleCount": 36864,
+      "exportName": null,
+      "resolvedName": "cid:262",
+      "nameSource": "unnamed"
+    },
+    "263": {
+      "sha1": "c85585380106",
+      "size": 4786,
+      "sampleCount": 23641,
+      "exportName": null,
+      "resolvedName": "cid:263",
+      "nameSource": "unnamed"
+    },
+    "318": {
+      "sha1": "44cb20453455",
+      "size": 8361,
+      "sampleCount": 23040,
+      "exportName": null,
+      "resolvedName": "cid:318",
+      "nameSource": "unnamed"
+    },
+    "399": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:399",
+      "nameSource": "unnamed"
+    },
+    "434": {
+      "sha1": "f77eb5f608a8",
+      "size": 3330,
+      "sampleCount": 15776,
+      "exportName": null,
+      "resolvedName": "cid:434",
+      "nameSource": "unnamed"
+    },
+    "443": {
+      "sha1": "b32b1e411a87",
+      "size": 1883,
+      "sampleCount": 5184,
+      "exportName": null,
+      "resolvedName": "cid:443",
+      "nameSource": "unnamed"
+    },
+    "553": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "562": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:562",
+      "nameSource": "unnamed"
+    },
+    "572": {
+      "sha1": "6f2cc2f817e3",
+      "size": 2602,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:572",
+      "nameSource": "unnamed"
+    },
+    "617": {
+      "sha1": "1f456077de6b",
+      "size": 20064,
+      "sampleCount": 55296,
+      "exportName": null,
+      "resolvedName": "cid:617",
+      "nameSource": "unnamed"
+    },
+    "634": {
+      "sha1": "4b030345416d",
+      "size": 1874,
+      "sampleCount": 7933,
+      "exportName": null,
+      "resolvedName": "cid:634",
+      "nameSource": "unnamed"
+    },
+    "647": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:647",
+      "nameSource": "unnamed"
+    },
+    "652": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:652",
+      "nameSource": "unnamed"
+    },
+    "673": {
+      "sha1": "37adbd18b0b9",
+      "size": 3018,
+      "sampleCount": 13851,
+      "exportName": null,
+      "resolvedName": "cid:673",
+      "nameSource": "unnamed"
+    },
+    "707": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:707",
+      "nameSource": "unnamed"
+    },
+    "714": {
+      "sha1": "e61bf6860063",
+      "size": 1250,
+      "sampleCount": 5111,
+      "exportName": null,
+      "resolvedName": "cid:714",
+      "nameSource": "unnamed"
+    },
+    "739": {
+      "sha1": "b989cfd7c489",
+      "size": 5981,
+      "sampleCount": 16128,
+      "exportName": null,
+      "resolvedName": "cid:739",
+      "nameSource": "unnamed"
+    },
+    "742": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:742",
+      "nameSource": "unnamed"
+    },
+    "805": {
+      "sha1": "f4f7ada5a078",
+      "size": 1458,
+      "sampleCount": 5260,
+      "exportName": null,
+      "resolvedName": "cid:805",
+      "nameSource": "unnamed"
+    },
+    "918": {
+      "sha1": "6ed32f98176a",
+      "size": 2706,
+      "sampleCount": 12203,
+      "exportName": null,
+      "resolvedName": "cid:918",
+      "nameSource": "unnamed"
+    },
+    "1003": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:1003",
+      "nameSource": "unnamed"
+    },
+    "1104": {
+      "sha1": "e56977e2eea0",
+      "size": 6689,
+      "sampleCount": 18432,
+      "exportName": null,
+      "resolvedName": "cid:1104",
+      "nameSource": "unnamed"
+    },
+    "1266": {
+      "sha1": "9d15aa0ca93e",
+      "size": 36492,
+      "sampleCount": 100224,
+      "exportName": null,
+      "resolvedName": "cid:1266",
+      "nameSource": "unnamed"
+    },
+    "1286": {
+      "sha1": "c85585380106",
+      "size": 4786,
+      "sampleCount": 23641,
+      "exportName": null,
+      "resolvedName": "cid:1286",
+      "nameSource": "unnamed"
+    },
+    "1363": {
+      "sha1": "4d5a72aa0721",
+      "size": 3122,
+      "sampleCount": 14686,
+      "exportName": null,
+      "resolvedName": "cid:1363",
+      "nameSource": "unnamed"
+    },
+    "1382": {
+      "sha1": "b32b1e411a87",
+      "size": 1883,
+      "sampleCount": 5184,
+      "exportName": null,
+      "resolvedName": "cid:1382",
+      "nameSource": "unnamed"
+    },
+    "1400": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "1401": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:1401",
+      "nameSource": "unnamed"
+    },
+    "1404": {
+      "sha1": "e906fb84481c",
+      "size": 1874,
+      "sampleCount": 7488,
+      "exportName": null,
+      "resolvedName": "cid:1404",
+      "nameSource": "unnamed"
+    },
+    "1405": {
+      "sha1": "6f2cc2f817e3",
+      "size": 2602,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:1405",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {},
+  "actionEvents": [
+    {
+      "frame": 27,
+      "label": "瞬步",
+      "tag": "StartSound",
+      "soundId": 634,
+      "soundName": "cid:634",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 85,
+      "label": "跳砍1",
+      "tag": "StartSound",
+      "soundId": 647,
+      "soundName": "cid:647",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 103,
+      "label": "跳砍2",
+      "tag": "StartSound",
+      "soundId": 652,
+      "soundName": "cid:652",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 132,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 158,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 647,
+      "soundName": "cid:647",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 177,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 647,
+      "soundName": "cid:647",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 200,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 232,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 256,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 714,
+      "soundName": "cid:714",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e61bf6860063"
+    },
+    {
+      "frame": 258,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 283,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 739,
+      "soundName": "cid:739",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "b989cfd7c489"
+    },
+    {
+      "frame": 284,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 742,
+      "soundName": "cid:742",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 295,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 307,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 330,
+      "label": "砍技13",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 382,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 805,
+      "soundName": "cid:805",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f4f7ada5a078"
+    },
+    {
+      "frame": 384,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 393,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 418,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 476,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 634,
+      "soundName": "cid:634",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 566,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 918,
+      "soundName": "cid:918",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "6ed32f98176a"
+    },
+    {
+      "frame": 608,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 805,
+      "soundName": "cid:805",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f4f7ada5a078"
+    },
+    {
+      "frame": 608,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 918,
+      "soundName": "cid:918",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "6ed32f98176a"
+    },
+    {
+      "frame": 645,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 1003,
+      "soundName": "cid:1003",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 649,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 805,
+      "soundName": "cid:805",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f4f7ada5a078"
+    },
+    {
+      "frame": 651,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 399,
+      "soundName": "cid:399",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 672,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 714,
+      "soundName": "cid:714",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e61bf6860063"
+    },
+    {
+      "frame": 673,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 399,
+      "soundName": "cid:399",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 713,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 742,
+      "soundName": "cid:742",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 714,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 714,
+      "soundName": "cid:714",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e61bf6860063"
+    },
+    {
+      "frame": 832,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 836,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 840,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 844,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 848,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 852,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 856,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 860,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 863,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 867,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 871,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 1104,
+      "soundName": "cid:1104",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 1132,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1266,
+      "soundName": "cid:1266",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "9d15aa0ca93e"
+    },
+    {
+      "frame": 1138,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 1143,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1286,
+      "soundName": "cid:1286",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "c85585380106"
+    },
+    {
+      "frame": 1173,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1363,
+      "soundName": "cid:1363",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "4d5a72aa0721"
+    },
+    {
+      "frame": 1196,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1382,
+      "soundName": "cid:1382",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 1301,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 1400,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1311,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 1401,
+      "soundName": "cid:1401",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1319,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 1404,
+      "soundName": "cid:1404",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e906fb84481c"
+    },
+    {
+      "frame": 1319,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 1405,
+      "soundName": "cid:1405",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "6f2cc2f817e3"
+    },
+    {
+      "frame": 1347,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 1382,
+      "soundName": "cid:1382",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "b32b1e411a87"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 27,
+      "label": "瞬步",
+      "tag": "StartSound",
+      "soundId": 634,
+      "soundName": "cid:634",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 85,
+      "label": "跳砍1",
+      "tag": "StartSound",
+      "soundId": 647,
+      "soundName": "cid:647",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 103,
+      "label": "跳砍2",
+      "tag": "StartSound",
+      "soundId": 652,
+      "soundName": "cid:652",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 132,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 158,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 647,
+      "soundName": "cid:647",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 177,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 647,
+      "soundName": "cid:647",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 200,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 232,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 256,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 714,
+      "soundName": "cid:714",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e61bf6860063"
+    },
+    {
+      "frame": 258,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 283,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 739,
+      "soundName": "cid:739",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "b989cfd7c489"
+    },
+    {
+      "frame": 284,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 742,
+      "soundName": "cid:742",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 295,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 307,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 330,
+      "label": "砍技13",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 382,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 805,
+      "soundName": "cid:805",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f4f7ada5a078"
+    },
+    {
+      "frame": 384,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 393,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 707,
+      "soundName": "cid:707",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 418,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 673,
+      "soundName": "cid:673",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "37adbd18b0b9"
+    },
+    {
+      "frame": 476,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 634,
+      "soundName": "cid:634",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 566,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 918,
+      "soundName": "cid:918",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "6ed32f98176a"
+    },
+    {
+      "frame": 608,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 805,
+      "soundName": "cid:805",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f4f7ada5a078"
+    },
+    {
+      "frame": 608,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 918,
+      "soundName": "cid:918",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "6ed32f98176a"
+    },
+    {
+      "frame": 645,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 1003,
+      "soundName": "cid:1003",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 649,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 805,
+      "soundName": "cid:805",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "f4f7ada5a078"
+    },
+    {
+      "frame": 651,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 399,
+      "soundName": "cid:399",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 672,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 714,
+      "soundName": "cid:714",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e61bf6860063"
+    },
+    {
+      "frame": 673,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 399,
+      "soundName": "cid:399",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 713,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 742,
+      "soundName": "cid:742",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 714,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 714,
+      "soundName": "cid:714",
+      "nameSource": "unnamed",
+      "spriteId": 1411,
+      "spriteExport": "kenshin_fla.全动作_15",
+      "sha1": "e61bf6860063"
+    }
+  ]
+}

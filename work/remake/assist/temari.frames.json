@@ -1,0 +1,64 @@
+{
+  "id": "temari",
+  "mainTimeline": "decompiled/fighters/fz/temari/scripts/temari_fla/MainTimeline.as",
+  "rootFrames": 80,
+  "addFrameScriptCount": 7,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":10, \"hitType\":4, \"hitx\":0.5, \"hity\":-1, \"hurtTime\":300, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 19,
+      "frameNumber": 20,
+      "function": "frame20",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 35,
+      "frameNumber": 36,
+      "function": "frame36",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 36,
+      "frameNumber": 37,
+      "function": "frame37",
+      "summary": "move(5,0); damping(1,0)",
+      "bodyPreview": "this.$assisterCtrler.move(5,0); this.$assisterCtrler.damping(1,0);"
+    },
+    {
+      "frameIndex0": 37,
+      "frameNumber": 38,
+      "function": "frame38",
+      "summary": "this.$assisterCtrler.fire(\"atm1\",{ \"x\":{ \"start\":20, \"hit\":1",
+      "bodyPreview": "this.$assisterCtrler.fire(\"atm1\",{ \"x\":{ \"start\":20, \"hit\":1"
+    },
+    {
+      "frameIndex0": 38,
+      "frameNumber": 39,
+      "function": "frame39",
+      "summary": "effect.shine(9461864)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(9461864);"
+    },
+    {
+      "frameIndex0": 68,
+      "frameNumber": 69,
+      "function": "frame69",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

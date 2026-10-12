@@ -1,0 +1,92 @@
+{
+  "legacy12": [
+    {
+      "symbol": "XG_bdj",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "EffectModel 未登记；无引擎 AS 引用。保真导出保留 89 全符号，避免时间轴/旧 FLA 隐性依赖被误删。",
+      "slimDropOK": "仅精简包 + 全特效回归后可 Drop"
+    },
+    {
+      "symbol": "XG_fzbs",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "辅助必杀类旧符号；引擎现用 XG_bs/XG_cbs。无 AS 引用，保真 Keep。",
+      "slimDropOK": "回归后可 Drop"
+    },
+    {
+      "symbol": "XG_ice2",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "冰系变体；现网 EffectModel 用 XG_ice。保真 Keep。",
+      "slimDropOK": "回归后可 Drop"
+    },
+    {
+      "symbol": "XG_kan",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "旧砍击；现用 `XG_kan2`（hit_1 / steel_hit_kan）。勿与 kan2 混淆删除。",
+      "slimDropOK": "确认无 SWF 内嵌引用后可 Drop"
+    },
+    {
+      "symbol": "XG_kanx",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "旧砍击强；现用 `XG_kanx2`（hit_6）。保真 Keep。",
+      "slimDropOK": "回归后可 Drop"
+    },
+    {
+      "symbol": "XG_qdjx2",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "拳/打击变体；现用 XG_qdj / XG_qdjx。保真 Keep。",
+      "slimDropOK": "回归后可 Drop"
+    },
+    {
+      "symbol": "XG_xdash",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "旧冲刺特效；现用 XG_rush / XG_rush_air。保真 Keep。",
+      "slimDropOK": "回归后可 Drop"
+    },
+    {
+      "symbol": "snd_fzbs",
+      "kind": "Sound",
+      "decision": "Keep",
+      "why": "SymbolClass 导出音；EffectModel 无 sound 字段引用。可能曾配 XG_fzbs。保真 Keep。",
+      "slimDropOK": "精简包可 Drop（听感回归）"
+    },
+    {
+      "symbol": "snd_hit1",
+      "kind": "Sound",
+      "decision": "Keep",
+      "why": "导出音 orphan；现 hit 链用 snd_kan1/snd_hit2/…。保真 Keep。",
+      "slimDropOK": "听感回归后可 Drop"
+    },
+    {
+      "symbol": "snd_hit10",
+      "kind": "Sound",
+      "decision": "Keep",
+      "why": "导出音 orphan；非 EffectModel。保真 Keep。",
+      "slimDropOK": "听感回归后可 Drop"
+    },
+    {
+      "symbol": "snd_xdash",
+      "kind": "Sound",
+      "decision": "Keep",
+      "why": "旧冲刺音；现 dash 用 snd_dash / snd_dash_air。保真 Keep。",
+      "slimDropOK": "听感回归后可 Drop"
+    },
+    {
+      "symbol": "xg_dian_ing2",
+      "kind": "MC",
+      "decision": "Keep",
+      "why": "电击持续变体（自带 loop/finish 标签）；现用 `xg_dian_ing`（shock_ing）。保真 Keep。",
+      "slimDropOK": "状态特效回归后可 Drop"
+    }
+  ],
+  "related": [
+    "xg_hitfllor_heavy",
+    "bisha_face_mc"
+  ]
+}

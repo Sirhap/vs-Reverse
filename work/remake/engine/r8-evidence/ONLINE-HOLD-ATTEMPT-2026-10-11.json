@@ -1,0 +1,66 @@
+{
+  "result": "BLOCKED",
+  "captured_at": "2026-10-11T22:14:00+08:00",
+  "url": "https://www.4399.com/flash/205551_4.htm",
+  "page_title": "死神VS火影3.3小游戏,在线玩,4399小游戏",
+  "browser": "Chrome 154 (Linux), no NPAPI/PPAPI Flash",
+  "what_loaded": {
+    "document_ready": true,
+    "game_path_declared": "/upload_swf/ftp29/haibo/suwei/y2/main.swf",
+    "original_markup_before_js": "OBJECT#flashgame + EMBED#flashgame1 (document.write in #swfdiv), 800x600, allowScriptAccess=always",
+    "runtime_swfdiv": "replaced by iframe#flash22 src=/loadimg/blockflashtip.html",
+    "flashgame_count": 0,
+    "flashgame1_count": 0,
+    "ruffle_player_count": 0,
+    "leftover_embeds": [
+      "#loadingframecell / embed#loadingframecell1 src=/flash/cell.swf (loading bar, display none)",
+      "#testplayer / embed#testplayer1 src=/jss/objtest.swf (flash probe)"
+    ],
+    "playable_menu": false,
+    "visible_state": [
+      "Player slot shows 4399 age/health overlay (16+ 适龄提示, 健康游戏忠告) on www.4399.com",
+      "Modal A: 先登录，再游戏 — 4399健康系统: 根据相关规定，您需要登录后才能继续游戏",
+      "Modal B (later paint): 网络异常提醒 — 当前网络出现异常，未检测到登录账号，请重新登录",
+      "blockflashtip iframe text: 当前浏览器或模式不支持打开游戏 (Chrome/Firefox called out as no-Flash)"
+    ]
+  },
+  "tried": [
+    "Opened https://www.4399.com/flash/205551_4.htm and waited for a playable Flash/Ruffle menu",
+    "DOM query #flashgame, #flashgame1, ruffle-player, ruffle-embed, object, embed",
+    "Read #swfdiv innerHTML after flashopen1.js probe",
+    "Searched live page HTML for setHold, Hold, in4399, ready4399, flashgame, ruffle — none present after replacement",
+    "Read console: no in4399, no ready4399, no [FC] lines on the 4399 page",
+    "page.evaluate Object.keys(window).filter(/hold|Hold|4399/i) — blocked by Playwright proxy (Frame.evaluateExpression). DevTools console equivalent not executed in-page.",
+    "Clicked #Anticlose (关闭 / Anti_close) to dismiss anti-indulgence — element present but not visible; .pop-close and .xndclose also not visible. Login/network modal has no working dismiss control, only 立即登录 / 登录.",
+    "Did not log in (no credentials). Did not modify main.swf or any game binary. Did not treat the other tab http://127.0.0.1:8765/games/bvn-rev2/index.html as the online Hold."
+  ],
+  "console_4399": {
+    "in4399": null,
+    "ready4399": null,
+    "fc_logs": [],
+    "notable": [
+      "document.domain mutation ignored (origin-keyed agent cluster) on the play page, Antiindulgence.js, ucenter.js, age.htm, blockflashtip.html",
+      "Antiindulgence.js: countdowninfo [], offlineinfo [], log '203停止' then login wall",
+      "Uncaught TypeError jsonp callback from https://gprp.4399.com/cg/recommend_api.php (unrelated recommend widget)",
+      "Permissions-policy unload violations from hm.baidu.com and jquery (unrelated)"
+    ]
+  },
+  "hold_globals": "NOT_OBSERVED",
+  "fingerprint": null,
+  "blocker": {
+    "primary": "no_flash_plugin",
+    "detail": "flashopen1.js calls embed#testplayer1.checkflash(); after >5 failures showBlockFlash() replaces #swfdiv (and #addiv) with /loadimg/blockflashtip.html. 4399 does not inject Ruffle. OBJECT#flashgame / EMBED#flashgame1 never remain in the DOM, so ExternalInterface/setHold has no target and Hold cannot be reflected.",
+    "secondary": "login_wall",
+    "secondary_detail": "Antiindulgence.js overlays 先登录，再游戏 (must login to continue) and later 网络异常提醒 / 未检测到登录账号，请重新登录. Wall is not dismissible without an account. No 4399 session in this browser.",
+    "why_not_fingerprint_json": "Ideal shape needs a live Hold instance (typeName, methods, props, loginRetSample, serverTimeSample, in4399, ready4399). None of those exist at runtime here. ONLINE-HOLD-FINGERPRINT.json was not written."
+  },
+  "screenshots": [
+    "/workspace/bvn-3.3/work/remake/engine/r8-evidence/4399-205551_4-login-and-noflash.png",
+    "/workspace/bvn-3.3/work/remake/engine/r8-evidence/4399-205551_4-viewport.png",
+    "/workspace/bvn-3.3/work/remake/engine/r8-evidence/4399-205551_4-addressbar.webp"
+  ],
+  "unrelated_tab": {
+    "url": "http://127.0.0.1:8765/games/bvn-rev2/index.html",
+    "note": "Separate local Ruffle remake. Its console is full of Ruffle URLLoader 404s for blank-ad.swf. Those logs are NOT from www.4399.com and are not an online Hold fingerprint."
+  }
+}

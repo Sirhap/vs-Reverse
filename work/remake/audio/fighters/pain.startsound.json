@@ -1,0 +1,823 @@
+{
+  "id": "pain",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/pain.swf",
+  "defineSoundCount": 18,
+  "startSoundEventCount": 46,
+  "namedEventCount": 1,
+  "actionSpriteId": 622,
+  "actionExport": "pain_fla.佩恩_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "74914f506e60",
+      "size": 1042,
+      "sampleCount": 3219,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "43": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:43",
+      "nameSource": "unnamed"
+    },
+    "102": {
+      "sha1": "64c4c22c18e8",
+      "size": 1874,
+      "sampleCount": 7719,
+      "exportName": null,
+      "resolvedName": "cid:102",
+      "nameSource": "unnamed"
+    },
+    "103": {
+      "sha1": "72b1ac283321",
+      "size": 1874,
+      "sampleCount": 7638,
+      "exportName": null,
+      "resolvedName": "cid:103",
+      "nameSource": "unnamed"
+    },
+    "123": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:123",
+      "nameSource": "unnamed"
+    },
+    "139": {
+      "sha1": "0c0210a82a19",
+      "size": 1042,
+      "sampleCount": 2821,
+      "exportName": null,
+      "resolvedName": "cid:139",
+      "nameSource": "unnamed"
+    },
+    "147": {
+      "sha1": "4da78752d657",
+      "size": 3226,
+      "sampleCount": 16064,
+      "exportName": null,
+      "resolvedName": "cid:147",
+      "nameSource": "unnamed"
+    },
+    "259": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:259",
+      "nameSource": "unnamed"
+    },
+    "283": {
+      "sha1": "99ad32cdadb9",
+      "size": 3122,
+      "sampleCount": 14672,
+      "exportName": null,
+      "resolvedName": "cid:283",
+      "nameSource": "unnamed"
+    },
+    "321": {
+      "sha1": "f52ff411c661",
+      "size": 1978,
+      "sampleCount": 8419,
+      "exportName": null,
+      "resolvedName": "cid:321",
+      "nameSource": "unnamed"
+    },
+    "441": {
+      "sha1": "a899ebd6fdfc",
+      "size": 2498,
+      "sampleCount": 10950,
+      "exportName": null,
+      "resolvedName": "cid:441",
+      "nameSource": "unnamed"
+    },
+    "470": {
+      "sha1": "3fb54a605937",
+      "size": 3330,
+      "sampleCount": 15767,
+      "exportName": null,
+      "resolvedName": "cid:470",
+      "nameSource": "unnamed"
+    },
+    "527": {
+      "sha1": "a89287049caa",
+      "size": 2394,
+      "sampleCount": 10416,
+      "exportName": null,
+      "resolvedName": "cid:527",
+      "nameSource": "unnamed"
+    },
+    "532": {
+      "sha1": "6a5617650225",
+      "size": 2394,
+      "sampleCount": 10669,
+      "exportName": null,
+      "resolvedName": "cid:532",
+      "nameSource": "unnamed"
+    },
+    "536": {
+      "sha1": "57389019e134",
+      "size": 4578,
+      "sampleCount": 22900,
+      "exportName": null,
+      "resolvedName": "cid:536",
+      "nameSource": "unnamed"
+    },
+    "610": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "611": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:611",
+      "nameSource": "unnamed"
+    },
+    "614": {
+      "sha1": "8a278ee01269",
+      "size": 6346,
+      "sampleCount": 32321,
+      "exportName": null,
+      "resolvedName": "cid:614",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 84,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 141,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "64c4c22c18e8"
+    },
+    {
+      "frame": 141,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "72b1ac283321"
+    },
+    {
+      "frame": 172,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 192,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 212,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 238,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "64c4c22c18e8"
+    },
+    {
+      "frame": 238,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 268,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 268,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 139,
+      "soundName": "cid:139",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "0c0210a82a19"
+    },
+    {
+      "frame": 343,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 147,
+      "soundName": "cid:147",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "4da78752d657"
+    },
+    {
+      "frame": 344,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 624,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 646,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 259,
+      "soundName": "cid:259",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 646,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 321,
+      "soundName": "cid:321",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "f52ff411c661"
+    },
+    {
+      "frame": 696,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 283,
+      "soundName": "cid:283",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "99ad32cdadb9"
+    },
+    {
+      "frame": 719,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 719,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 321,
+      "soundName": "cid:321",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "f52ff411c661"
+    },
+    {
+      "frame": 758,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "72b1ac283321"
+    },
+    {
+      "frame": 758,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 139,
+      "soundName": "cid:139",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "0c0210a82a19"
+    },
+    {
+      "frame": 813,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 283,
+      "soundName": "cid:283",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "99ad32cdadb9"
+    },
+    {
+      "frame": 911,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 470,
+      "soundName": "cid:470",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "3fb54a605937"
+    },
+    {
+      "frame": 915,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 527,
+      "soundName": "cid:527",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "a89287049caa"
+    },
+    {
+      "frame": 985,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 532,
+      "soundName": "cid:532",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "6a5617650225"
+    },
+    {
+      "frame": 1025,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 536,
+      "soundName": "cid:536",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "57389019e134"
+    },
+    {
+      "frame": 1080,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 1218,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 610,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1228,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 611,
+      "soundName": "cid:611",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1254,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 1323,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 614,
+      "soundName": "cid:614",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "8a278ee01269"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 84,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 141,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "64c4c22c18e8"
+    },
+    {
+      "frame": 141,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "72b1ac283321"
+    },
+    {
+      "frame": 172,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 192,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 212,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 238,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "64c4c22c18e8"
+    },
+    {
+      "frame": 238,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 268,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 268,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 139,
+      "soundName": "cid:139",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "0c0210a82a19"
+    },
+    {
+      "frame": 343,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 147,
+      "soundName": "cid:147",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "4da78752d657"
+    },
+    {
+      "frame": 344,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 624,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 646,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 259,
+      "soundName": "cid:259",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 646,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 321,
+      "soundName": "cid:321",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "f52ff411c661"
+    },
+    {
+      "frame": 696,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 283,
+      "soundName": "cid:283",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "99ad32cdadb9"
+    },
+    {
+      "frame": 719,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 719,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 321,
+      "soundName": "cid:321",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "f52ff411c661"
+    },
+    {
+      "frame": 758,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "72b1ac283321"
+    },
+    {
+      "frame": 758,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 139,
+      "soundName": "cid:139",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "0c0210a82a19"
+    },
+    {
+      "frame": 813,
+      "label": "上必杀1",
+      "tag": "StartSound",
+      "soundId": 283,
+      "soundName": "cid:283",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "99ad32cdadb9"
+    },
+    {
+      "frame": 911,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 470,
+      "soundName": "cid:470",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "3fb54a605937"
+    },
+    {
+      "frame": 915,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 527,
+      "soundName": "cid:527",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "a89287049caa"
+    },
+    {
+      "frame": 985,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 532,
+      "soundName": "cid:532",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "6a5617650225"
+    },
+    {
+      "frame": 1025,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 536,
+      "soundName": "cid:536",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "57389019e134"
+    },
+    {
+      "frame": 1080,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 123,
+      "soundName": "cid:123",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 1218,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 610,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1228,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 611,
+      "soundName": "cid:611",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1254,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 1323,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 614,
+      "soundName": "cid:614",
+      "nameSource": "unnamed",
+      "spriteId": 622,
+      "spriteExport": "pain_fla.佩恩_1",
+      "sha1": "8a278ee01269"
+    }
+  ]
+}

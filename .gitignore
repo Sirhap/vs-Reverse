@@ -13,3 +13,5 @@ play/**/main*.swf
 play/**/*.swf
 *.nohup.out
 play/vendor/
+__pycache__/
+*.pyc

@@ -1,0 +1,43 @@
+{
+  "id": "ichigo_padipata",
+  "mainTimeline": "decompiled/fighters/fz/ichigo_padipata/scripts/ichigo_padipata_fla/MainTimeline.as",
+  "rootFrames": 68,
+  "addFrameScriptCount": 4,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":150, \"hitType\":5, \"hitx\":5, \"hity\":0, \"hurtTime\":500, \"hurtType\":1, \"isBreakDef\":true"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 14,
+      "frameNumber": 15,
+      "function": "frame15",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 28,
+      "frameNumber": 29,
+      "function": "frame29",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 59,
+      "frameNumber": 60,
+      "function": "frame60",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

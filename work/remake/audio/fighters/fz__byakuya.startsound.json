@@ -1,0 +1,64 @@
+{
+  "id": "fz/byakuya",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/byakuya.swf",
+  "defineSoundCount": 2,
+  "startSoundEventCount": 2,
+  "namedEventCount": 0,
+  "actionSpriteId": 16,
+  "defineSounds": {
+    "4": {
+      "sha1": "5194add044e1",
+      "size": 110064,
+      "sampleCount": 27518,
+      "exportName": null,
+      "resolvedName": "cid:4",
+      "nameSource": "unnamed"
+    },
+    "9": {
+      "sha1": "a1dd1ab9ac30",
+      "size": 346800,
+      "sampleCount": 86700,
+      "exportName": null,
+      "resolvedName": "cid:9",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 9,
+      "soundName": "cid:9",
+      "nameSource": "unnamed",
+      "spriteId": 16,
+      "spriteExport": "byakuya_fla.六杖光牢_2",
+      "sha1": "a1dd1ab9ac30"
+    },
+    {
+      "frame": 19,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 4,
+      "soundName": "cid:4",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "byakuya_fla.MainTimeline",
+      "sha1": "5194add044e1"
+    }
+  ],
+  "actionEvents": [
+    {
+      "frame": 1,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 9,
+      "soundName": "cid:9",
+      "nameSource": "unnamed",
+      "spriteId": 16,
+      "spriteExport": "byakuya_fla.六杖光牢_2",
+      "sha1": "a1dd1ab9ac30"
+    }
+  ]
+}

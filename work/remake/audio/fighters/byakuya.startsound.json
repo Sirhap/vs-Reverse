@@ -1,0 +1,976 @@
+{
+  "id": "byakuya",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/byakuya.swf",
+  "defineSoundCount": 36,
+  "startSoundEventCount": 58,
+  "namedEventCount": 1,
+  "actionSpriteId": 640,
+  "actionExport": "byakuya_fla.一护万解全动作_1",
+  "defineSounds": {
+    "54": {
+      "sha1": "8329d15e8028",
+      "size": 2810,
+      "sampleCount": 12691,
+      "exportName": null,
+      "resolvedName": "cid:54",
+      "nameSource": "unnamed"
+    },
+    "105": {
+      "sha1": "e82a49d17085",
+      "size": 4474,
+      "sampleCount": 22148,
+      "exportName": null,
+      "resolvedName": "cid:105",
+      "nameSource": "unnamed"
+    },
+    "124": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:124",
+      "nameSource": "unnamed"
+    },
+    "143": {
+      "sha1": "a46ef238b2c6",
+      "size": 4599,
+      "sampleCount": 12672,
+      "exportName": null,
+      "resolvedName": "cid:143",
+      "nameSource": "unnamed"
+    },
+    "146": {
+      "sha1": "32671cf03c93",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:146",
+      "nameSource": "unnamed"
+    },
+    "159": {
+      "sha1": "a1a46d4e08bf",
+      "size": 7107,
+      "sampleCount": 19584,
+      "exportName": null,
+      "resolvedName": "cid:159",
+      "nameSource": "unnamed"
+    },
+    "184": {
+      "sha1": "8898134c4c5e",
+      "size": 5435,
+      "sampleCount": 14976,
+      "exportName": null,
+      "resolvedName": "cid:184",
+      "nameSource": "unnamed"
+    },
+    "197": {
+      "sha1": "b57c86c51aac",
+      "size": 7943,
+      "sampleCount": 21888,
+      "exportName": null,
+      "resolvedName": "cid:197",
+      "nameSource": "unnamed"
+    },
+    "264": {
+      "sha1": "6f21e41a682b",
+      "size": 2914,
+      "sampleCount": 14336,
+      "exportName": null,
+      "resolvedName": "cid:264",
+      "nameSource": "unnamed"
+    },
+    "319": {
+      "sha1": "0f4e01dba09a",
+      "size": 5852,
+      "sampleCount": 23040,
+      "exportName": null,
+      "resolvedName": "cid:319",
+      "nameSource": "unnamed"
+    },
+    "344": {
+      "sha1": "852975e8c324",
+      "size": 3330,
+      "sampleCount": 15981,
+      "exportName": null,
+      "resolvedName": "cid:344",
+      "nameSource": "unnamed"
+    },
+    "355": {
+      "sha1": "08e46bd5a715",
+      "size": 4994,
+      "sampleCount": 25837,
+      "exportName": null,
+      "resolvedName": "cid:355",
+      "nameSource": "unnamed"
+    },
+    "417": {
+      "sha1": "f16536165c19",
+      "size": 5514,
+      "sampleCount": 27703,
+      "exportName": null,
+      "resolvedName": "cid:417",
+      "nameSource": "unnamed"
+    },
+    "450": {
+      "sha1": "09a417246b70",
+      "size": 7698,
+      "sampleCount": 40063,
+      "exportName": null,
+      "resolvedName": "cid:450",
+      "nameSource": "unnamed"
+    },
+    "516": {
+      "sha1": "76c7fb08a704",
+      "size": 4058,
+      "sampleCount": 20720,
+      "exportName": null,
+      "resolvedName": "cid:516",
+      "nameSource": "unnamed"
+    },
+    "521": {
+      "sha1": "16e08e7f6994",
+      "size": 10033,
+      "sampleCount": 27648,
+      "exportName": null,
+      "resolvedName": "cid:521",
+      "nameSource": "unnamed"
+    },
+    "544": {
+      "sha1": "c4aea456fcf5",
+      "size": 10868,
+      "sampleCount": 29952,
+      "exportName": null,
+      "resolvedName": "cid:544",
+      "nameSource": "unnamed"
+    },
+    "545": {
+      "sha1": "69c87ba9d0ce",
+      "size": 5410,
+      "sampleCount": 27264,
+      "exportName": null,
+      "resolvedName": "cid:545",
+      "nameSource": "unnamed"
+    },
+    "611": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "618": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:618",
+      "nameSource": "unnamed"
+    },
+    "629": {
+      "sha1": "62be7fec521f",
+      "size": 3850,
+      "sampleCount": 18609,
+      "exportName": null,
+      "resolvedName": "cid:629",
+      "nameSource": "unnamed"
+    },
+    "724": {
+      "sha1": "fcc5794b1ce7",
+      "size": 5722,
+      "sampleCount": 29191,
+      "exportName": null,
+      "resolvedName": "cid:724",
+      "nameSource": "unnamed"
+    },
+    "741": {
+      "sha1": "c008f9102b04",
+      "size": 4474,
+      "sampleCount": 22148,
+      "exportName": null,
+      "resolvedName": "cid:741",
+      "nameSource": "unnamed"
+    },
+    "786": {
+      "sha1": "5692dd841c61",
+      "size": 5840,
+      "sampleCount": 12672,
+      "exportName": null,
+      "resolvedName": "cid:786",
+      "nameSource": "unnamed"
+    },
+    "789": {
+      "sha1": "1d9308243207",
+      "size": 3746,
+      "sampleCount": 18895,
+      "exportName": null,
+      "resolvedName": "cid:789",
+      "nameSource": "unnamed"
+    },
+    "836": {
+      "sha1": "b39d806a75ab",
+      "size": 2706,
+      "sampleCount": 12215,
+      "exportName": null,
+      "resolvedName": "cid:836",
+      "nameSource": "unnamed"
+    },
+    "849": {
+      "sha1": "fea3cefb5b89",
+      "size": 6138,
+      "sampleCount": 31505,
+      "exportName": null,
+      "resolvedName": "cid:849",
+      "nameSource": "unnamed"
+    },
+    "883": {
+      "sha1": "8d09bbc510bd",
+      "size": 5410,
+      "sampleCount": 27309,
+      "exportName": null,
+      "resolvedName": "cid:883",
+      "nameSource": "unnamed"
+    },
+    "886": {
+      "sha1": "059d30731ad7",
+      "size": 8738,
+      "sampleCount": 44928,
+      "exportName": null,
+      "resolvedName": "cid:886",
+      "nameSource": "unnamed"
+    },
+    "892": {
+      "sha1": "d8a9d9f06d44",
+      "size": 4578,
+      "sampleCount": 22932,
+      "exportName": null,
+      "resolvedName": "cid:892",
+      "nameSource": "unnamed"
+    },
+    "895": {
+      "sha1": "cf39d9050ea8",
+      "size": 9986,
+      "sampleCount": 51840,
+      "exportName": null,
+      "resolvedName": "cid:895",
+      "nameSource": "unnamed"
+    },
+    "900": {
+      "sha1": "60cd71250934",
+      "size": 4266,
+      "sampleCount": 20720,
+      "exportName": null,
+      "resolvedName": "cid:900",
+      "nameSource": "unnamed"
+    },
+    "931": {
+      "sha1": "3df5b5892076",
+      "size": 6138,
+      "sampleCount": 31331,
+      "exportName": null,
+      "resolvedName": "cid:931",
+      "nameSource": "unnamed"
+    },
+    "942": {
+      "sha1": "3d8a19eba689",
+      "size": 2602,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:942",
+      "nameSource": "unnamed"
+    },
+    "1008": {
+      "sha1": "833814fe0692",
+      "size": 34738,
+      "sampleCount": 188928,
+      "exportName": null,
+      "resolvedName": "cid:1008",
+      "nameSource": "unnamed"
+    },
+    "1053": {
+      "sha1": "445ff3bee2be",
+      "size": 3330,
+      "sampleCount": 15981,
+      "exportName": null,
+      "resolvedName": "cid:1053",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {},
+  "actionEvents": [
+    {
+      "frame": 88,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 110,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "e82a49d17085"
+    },
+    {
+      "frame": 135,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 152,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 169,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a46ef238b2c6"
+    },
+    {
+      "frame": 171,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 194,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 159,
+      "soundName": "cid:159",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a1a46d4e08bf"
+    },
+    {
+      "frame": 195,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 238,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 184,
+      "soundName": "cid:184",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8898134c4c5e"
+    },
+    {
+      "frame": 245,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 295,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "b57c86c51aac"
+    },
+    {
+      "frame": 296,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 340,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 159,
+      "soundName": "cid:159",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a1a46d4e08bf"
+    },
+    {
+      "frame": 348,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 387,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 159,
+      "soundName": "cid:159",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a1a46d4e08bf"
+    },
+    {
+      "frame": 388,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 264,
+      "soundName": "cid:264",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "6f21e41a682b"
+    },
+    {
+      "frame": 420,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 319,
+      "soundName": "cid:319",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "0f4e01dba09a"
+    },
+    {
+      "frame": 446,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 344,
+      "soundName": "cid:344",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "852975e8c324"
+    },
+    {
+      "frame": 480,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 355,
+      "soundName": "cid:355",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "08e46bd5a715"
+    },
+    {
+      "frame": 510,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "e82a49d17085"
+    },
+    {
+      "frame": 521,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 417,
+      "soundName": "cid:417",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "f16536165c19"
+    },
+    {
+      "frame": 602,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 450,
+      "soundName": "cid:450",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "09a417246b70"
+    },
+    {
+      "frame": 662,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 516,
+      "soundName": "cid:516",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "76c7fb08a704"
+    },
+    {
+      "frame": 756,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 319,
+      "soundName": "cid:319",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "0f4e01dba09a"
+    },
+    {
+      "frame": 759,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 521,
+      "soundName": "cid:521",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "16e08e7f6994"
+    },
+    {
+      "frame": 802,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 544,
+      "soundName": "cid:544",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "c4aea456fcf5"
+    },
+    {
+      "frame": 802,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 545,
+      "soundName": "cid:545",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "69c87ba9d0ce"
+    },
+    {
+      "frame": 939,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 611,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 949,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 618,
+      "soundName": "cid:618",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 968,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 629,
+      "soundName": "cid:629",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "62be7fec521f"
+    },
+    {
+      "frame": 1061,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 344,
+      "soundName": "cid:344",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "852975e8c324"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 88,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 110,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "e82a49d17085"
+    },
+    {
+      "frame": 135,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 152,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 169,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a46ef238b2c6"
+    },
+    {
+      "frame": 171,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 194,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 159,
+      "soundName": "cid:159",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a1a46d4e08bf"
+    },
+    {
+      "frame": 195,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 238,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 184,
+      "soundName": "cid:184",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8898134c4c5e"
+    },
+    {
+      "frame": 245,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 295,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "b57c86c51aac"
+    },
+    {
+      "frame": 296,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 340,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 159,
+      "soundName": "cid:159",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a1a46d4e08bf"
+    },
+    {
+      "frame": 348,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 387,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 159,
+      "soundName": "cid:159",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "a1a46d4e08bf"
+    },
+    {
+      "frame": 388,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 264,
+      "soundName": "cid:264",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "6f21e41a682b"
+    },
+    {
+      "frame": 420,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 319,
+      "soundName": "cid:319",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "0f4e01dba09a"
+    },
+    {
+      "frame": 446,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 344,
+      "soundName": "cid:344",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "852975e8c324"
+    },
+    {
+      "frame": 480,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 355,
+      "soundName": "cid:355",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "08e46bd5a715"
+    },
+    {
+      "frame": 510,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "e82a49d17085"
+    },
+    {
+      "frame": 521,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 417,
+      "soundName": "cid:417",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "f16536165c19"
+    },
+    {
+      "frame": 602,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 450,
+      "soundName": "cid:450",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "09a417246b70"
+    },
+    {
+      "frame": 662,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 516,
+      "soundName": "cid:516",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "76c7fb08a704"
+    },
+    {
+      "frame": 756,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 319,
+      "soundName": "cid:319",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "0f4e01dba09a"
+    },
+    {
+      "frame": 759,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 521,
+      "soundName": "cid:521",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "16e08e7f6994"
+    },
+    {
+      "frame": 802,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 544,
+      "soundName": "cid:544",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "c4aea456fcf5"
+    },
+    {
+      "frame": 802,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 545,
+      "soundName": "cid:545",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "69c87ba9d0ce"
+    },
+    {
+      "frame": 939,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 611,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 949,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 618,
+      "soundName": "cid:618",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 968,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 629,
+      "soundName": "cid:629",
+      "nameSource": "unnamed",
+      "spriteId": 640,
+      "spriteExport": "byakuya_fla.一护万解全动作_1",
+      "sha1": "62be7fec521f"
+    }
+  ]
+}

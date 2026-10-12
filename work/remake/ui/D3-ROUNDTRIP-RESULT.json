@@ -1,0 +1,17 @@
+{
+  "src_swf": "/workspace/bvn-3.3/play/games/bvn-rev2/main.swf",
+  "ui_swf": "/workspace/bvn-3.3/extracted/full/swf/bin_2215.swf",
+  "out": "/workspace/bvn-3.3/play/games/bvn-perfect-ui-demo/main.swf",
+  "character_id": 2215,
+  "ui_name": "title",
+  "old_payload_bytes": 499256,
+  "new_payload_bytes": 499256,
+  "old_payload_sha256": "e445ab1bade01415c52395aafae13d10cb14b987d5ab036b0a63570ce3fa4a8f",
+  "new_payload_sha256": "e445ab1bade01415c52395aafae13d10cb14b987d5ab036b0a63570ce3fa4a8f",
+  "payload_unchanged": true,
+  "old_swf_bytes": 69550436,
+  "new_swf_bytes": 69550436,
+  "delta": 0,
+  "size_gate_needed": false,
+  "out_sha256": "94efd9e160df4d2d70674ecd3d14720d21d85bd728194bb11d528f70eb0e0b6c"
+}

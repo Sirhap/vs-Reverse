@@ -1,0 +1,1113 @@
+{
+  "id": "juggo",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/juggo.swf",
+  "defineSoundCount": 24,
+  "startSoundEventCount": 54,
+  "namedEventCount": 3,
+  "actionSpriteId": 505,
+  "actionExport": "juggo_fla.迪达拉全动作_XIN_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "6e0ce37b6f94",
+      "size": 1458,
+      "sampleCount": 5582,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "35": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "48": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:48",
+      "nameSource": "unnamed"
+    },
+    "53": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:53",
+      "nameSource": "unnamed"
+    },
+    "66": {
+      "sha1": "a91c3cc7f7b8",
+      "size": 1562,
+      "sampleCount": 5787,
+      "exportName": null,
+      "resolvedName": "cid:66",
+      "nameSource": "unnamed"
+    },
+    "67": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:67",
+      "nameSource": "unnamed"
+    },
+    "114": {
+      "sha1": "b166e356e594",
+      "size": 1978,
+      "sampleCount": 8295,
+      "exportName": null,
+      "resolvedName": "cid:114",
+      "nameSource": "unnamed"
+    },
+    "119": {
+      "sha1": "42927efac22a",
+      "size": 2082,
+      "sampleCount": 8944,
+      "exportName": null,
+      "resolvedName": "cid:119",
+      "nameSource": "unnamed"
+    },
+    "143": {
+      "sha1": "7c6d84ea5c7e",
+      "size": 1978,
+      "sampleCount": 8096,
+      "exportName": null,
+      "resolvedName": "cid:143",
+      "nameSource": "unnamed"
+    },
+    "160": {
+      "sha1": "cf366cab77ac",
+      "size": 2089,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:160",
+      "nameSource": "unnamed"
+    },
+    "172": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:172",
+      "nameSource": "unnamed"
+    },
+    "187": {
+      "sha1": "74c0964369f0",
+      "size": 1250,
+      "sampleCount": 3975,
+      "exportName": null,
+      "resolvedName": "cid:187",
+      "nameSource": "unnamed"
+    },
+    "188": {
+      "sha1": "212ab75f5dcb",
+      "size": 2290,
+      "sampleCount": 10131,
+      "exportName": null,
+      "resolvedName": "cid:188",
+      "nameSource": "unnamed"
+    },
+    "214": {
+      "sha1": "3853890b982f",
+      "size": 2186,
+      "sampleCount": 9520,
+      "exportName": null,
+      "resolvedName": "cid:214",
+      "nameSource": "unnamed"
+    },
+    "266": {
+      "sha1": "c223bb6c1f8a",
+      "size": 4578,
+      "sampleCount": 22480,
+      "exportName": null,
+      "resolvedName": "cid:266",
+      "nameSource": "unnamed"
+    },
+    "350": {
+      "sha1": "bad81a21fcfe",
+      "size": 3018,
+      "sampleCount": 14112,
+      "exportName": null,
+      "resolvedName": "cid:350",
+      "nameSource": "unnamed"
+    },
+    "351": {
+      "sha1": "a121aeed08cf",
+      "size": 3226,
+      "sampleCount": 15191,
+      "exportName": null,
+      "resolvedName": "cid:351",
+      "nameSource": "unnamed"
+    },
+    "358": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:358",
+      "nameSource": "unnamed"
+    },
+    "364": {
+      "sha1": "683463905a44",
+      "size": 3226,
+      "sampleCount": 15342,
+      "exportName": null,
+      "resolvedName": "cid:364",
+      "nameSource": "unnamed"
+    },
+    "414": {
+      "sha1": "b40ab452accf",
+      "size": 2290,
+      "sampleCount": 10845,
+      "exportName": null,
+      "resolvedName": "cid:414",
+      "nameSource": "unnamed"
+    },
+    "447": {
+      "sha1": "0ba4450e08b3",
+      "size": 4058,
+      "sampleCount": 20629,
+      "exportName": null,
+      "resolvedName": "cid:447",
+      "nameSource": "unnamed"
+    },
+    "452": {
+      "sha1": "d58e87a32501",
+      "size": 3434,
+      "sampleCount": 16288,
+      "exportName": null,
+      "resolvedName": "cid:452",
+      "nameSource": "unnamed"
+    },
+    "489": {
+      "sha1": "1ff945d384a4",
+      "size": 4890,
+      "sampleCount": 24203,
+      "exportName": null,
+      "resolvedName": "cid:489",
+      "nameSource": "unnamed"
+    },
+    "494": {
+      "sha1": "5b59b0fa23b1",
+      "size": 2602,
+      "sampleCount": 11644,
+      "exportName": null,
+      "resolvedName": "cid:494",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 46,
+      "label": "起跳",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 77,
+      "label": "落地",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 79,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 84,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 98,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 121,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 140,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 164,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 167,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 197,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 114,
+      "soundName": "cid:114",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "b166e356e594"
+    },
+    {
+      "frame": 223,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 119,
+      "soundName": "cid:119",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "42927efac22a"
+    },
+    {
+      "frame": 264,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 284,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "7c6d84ea5c7e"
+    },
+    {
+      "frame": 285,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 314,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 322,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 365,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 187,
+      "soundName": "cid:187",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "74c0964369f0"
+    },
+    {
+      "frame": 375,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 188,
+      "soundName": "cid:188",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "212ab75f5dcb"
+    },
+    {
+      "frame": 378,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 214,
+      "soundName": "cid:214",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "3853890b982f"
+    },
+    {
+      "frame": 424,
+      "label": "招22",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 467,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "7c6d84ea5c7e"
+    },
+    {
+      "frame": 471,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 500,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 500,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 526,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 528,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 556,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 266,
+      "soundName": "cid:266",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "c223bb6c1f8a"
+    },
+    {
+      "frame": 594,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 603,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 611,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 625,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 114,
+      "soundName": "cid:114",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "b166e356e594"
+    },
+    {
+      "frame": 637,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 350,
+      "soundName": "cid:350",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "bad81a21fcfe"
+    },
+    {
+      "frame": 708,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 351,
+      "soundName": "cid:351",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a121aeed08cf"
+    },
+    {
+      "frame": 745,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 746,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 350,
+      "soundName": "cid:350",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "bad81a21fcfe"
+    },
+    {
+      "frame": 816,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 364,
+      "soundName": "cid:364",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "683463905a44"
+    },
+    {
+      "frame": 856,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 350,
+      "soundName": "cid:350",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "bad81a21fcfe"
+    },
+    {
+      "frame": 869,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 897,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 414,
+      "soundName": "cid:414",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "b40ab452accf"
+    },
+    {
+      "frame": 924,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 937,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 950,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 963,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 976,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 998,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 447,
+      "soundName": "cid:447",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "0ba4450e08b3"
+    },
+    {
+      "frame": 1002,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1023,
+      "label": "超必杀4",
+      "tag": "StartSound",
+      "soundId": 452,
+      "soundName": "cid:452",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "d58e87a32501"
+    },
+    {
+      "frame": 1148,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1154,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1172,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 489,
+      "soundName": "cid:489",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ff945d384a4"
+    },
+    {
+      "frame": 1261,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 494,
+      "soundName": "cid:494",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "5b59b0fa23b1"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 46,
+      "label": "起跳",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 77,
+      "label": "落地",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 79,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 84,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 98,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 121,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 140,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 164,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 167,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 197,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 114,
+      "soundName": "cid:114",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "b166e356e594"
+    },
+    {
+      "frame": 223,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 119,
+      "soundName": "cid:119",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "42927efac22a"
+    },
+    {
+      "frame": 264,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 284,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "7c6d84ea5c7e"
+    },
+    {
+      "frame": 285,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 314,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 322,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 365,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 187,
+      "soundName": "cid:187",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "74c0964369f0"
+    },
+    {
+      "frame": 375,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 188,
+      "soundName": "cid:188",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "212ab75f5dcb"
+    },
+    {
+      "frame": 378,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 214,
+      "soundName": "cid:214",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "3853890b982f"
+    },
+    {
+      "frame": 424,
+      "label": "招22",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 467,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "7c6d84ea5c7e"
+    },
+    {
+      "frame": 471,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 500,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 500,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 526,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "a91c3cc7f7b8"
+    },
+    {
+      "frame": 528,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 556,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 266,
+      "soundName": "cid:266",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "c223bb6c1f8a"
+    },
+    {
+      "frame": 594,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 603,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "juggo_fla.迪达拉全动作_XIN_1",
+      "sha1": "8613c38df7e0"
+    }
+  ]
+}

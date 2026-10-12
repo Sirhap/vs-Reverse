@@ -1,0 +1,29 @@
+{
+  "id": "yoruichi",
+  "mainTimeline": "decompiled/fighters/fz/yoruichi/scripts/yoruichi_fla/MainTimeline.as",
+  "rootFrames": 20,
+  "addFrameScriptCount": 2,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":0, \"hitType\":0, \"hitx\":0, \"hity\":0, \"hurtTime\":0, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 1,
+      "frameNumber": 2,
+      "function": "frame2",
+      "summary": "effect.shine(16776960); getOwner(); getOwner()",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(16776960); this.$assisterCtrler.getOwner().getCtrler().moveOnce(120,0); this.$assisterCtrler.getOwner().getBuffCtrl().speedUp(5,5);"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

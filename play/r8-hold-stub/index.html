@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>R8 LOCAL Hold Stub (not online)</title>
+  <style>
+    html,body { margin:0; background:#111; color:#ddd; font:13px/1.4 ui-monospace,monospace; }
+    #banner { background:#620; color:#fff; padding:8px 12px; }
+    #out { white-space:pre-wrap; padding:12px; max-height:40vh; overflow:auto; }
+    ruffle-player { width:800px; height:600px; display:block; margin:8px auto; background:#000; }
+  </style>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      preferredRenderer: "canvas",
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      splashScreen: false,
+      letterbox: "on",
+      allowScriptAccess: true
+    };
+  </script>
+  <script src="../vendor/ruffle/ruffle.js"></script>
+  <script src="hold-mock.js"></script>
+</head>
+<body>
+  <div id="banner">R8 LOCAL Hold Stub @ 127.0.0.1 — NOT online 4399 fingerprint</div>
+  <div id="out">booting…</div>
+  <script>
+    (async function () {
+      const out = document.getElementById("out");
+      const lines = [];
+      function say(s) { lines.push(s); out.textContent = lines.join("\n"); }
+
+      const mock = new R8HoldStub.MinimalHoldMock({ isLog: true });
+      const svc = new R8HoldStub.ServiceHoldReflector();
+
+      // Null path (offline default)
+      const nullReflect = R8HoldStub.reflectSurface(svc);
+      say("null-path isReady=" + nullReflect.isReady);
+
+      // Bind mock → isReady should flip
+      svc.bind(mock);
+      R8HoldStub.resetCallLog();
+      svc.showGameList();
+      svc.showSort();
+      svc.showRefer(12345);
+      svc.changeScore(1);
+      svc.showLogPanel();
+      svc.renderTime();
+      const boundReflect = R8HoldStub.reflectSurface(svc);
+      say("bound-path isReady=" + boundReflect.isReady + " methods=" + boundReflect.hold_methods.join(","));
+
+      // Probe Ruffle player for setHold / EI callbacks (may be absent)
+      let playerProbe = {
+        ruffle_loaded: false,
+        player_keys: [],
+        setHold_typeof: "undefined",
+        setHold_call_ok: false,
+        setHold_error: null,
+        note: "timeline.setHold is AS3 MC property; Ruffle only exposes ExternalInterface.addCallback names"
+      };
+
+      try {
+        const rp = window.RufflePlayer.newest().createPlayer();
+        document.body.appendChild(rp);
+        // Relative to this page: ../games/bvn-3.3/main.swf
+        await rp.load({
+          url: "../games/bvn-3.3/main.swf",
+          allowScriptAccess: true
+        });
+        playerProbe.ruffle_loaded = true;
+        // Enumerate own props that look like EI callbacks / Hold
+        const keys = [];
+        for (const k of Object.getOwnPropertyNames(rp)) {
+          if (/hold|Hold|setHold|callback|4399/i.test(k) || typeof rp[k] === "function") {
+            keys.push(k + ":" + typeof rp[k]);
+          }
+        }
+        // Also try common EI surface
+        playerProbe.setHold_typeof = typeof rp.setHold;
+        playerProbe.player_keys = keys.slice(0, 80);
+        if (typeof rp.setHold === "function") {
+          try {
+            rp.setHold(mock);
+            playerProbe.setHold_call_ok = true;
+          } catch (e) {
+            playerProbe.setHold_error = String(e && e.message || e);
+          }
+        } else {
+          // Try via ruffle() API if present
+          try {
+            const api = typeof rp.ruffle === "function" ? rp.ruffle() : null;
+            playerProbe.ruffle_api_keys = api ? Object.getOwnPropertyNames(api).slice(0, 40) : null;
+            if (api && typeof api.setHold === "function") {
+              api.setHold(mock);
+              playerProbe.setHold_call_ok = true;
+              playerProbe.setHold_via = "ruffle()";
+            }
+          } catch (e2) {
+            playerProbe.ruffle_api_error = String(e2 && e2.message || e2);
+          }
+        }
+        say("ruffle probe setHold=" + playerProbe.setHold_typeof + " call_ok=" + playerProbe.setHold_call_ok);
+      } catch (e) {
+        playerProbe.load_error = String(e && e.message || e);
+        say("ruffle load fail: " + playerProbe.load_error);
+      }
+
+      const fingerprint = {
+        result: "LOCAL_STUB_PASS",
+        online: false,
+        note: "LOCAL stub only — mirrors ServiceHold/Hold passthrough; NOT www.4399.com instance fingerprint",
+        captured_at: new Date().toISOString(),
+        host: location.host,
+        href: location.href,
+        null_path: nullReflect,
+        bound_path: boundReflect,
+        login_ret_sample_static: {
+          source: "com.sh.ȇ getters (static)",
+          fields: ["uid", "name", "nickName"],
+          example: { uid: mock._uid, name: mock._name, nickName: mock._nickName }
+        },
+        server_time_sample_static: {
+          source: "com.sh.Ȉ expects serverTimeEvent.data",
+          format: "YYYY-M-D H:i:s",
+          example: mock._serverTime
+        },
+        stage_events: ["logreturn", "userLoginOut", "MVC_CLOSE_PANEL", "serverTimeEvent"],
+        game_consumers: {
+          "GameInterfaceManager.moreGames": "hold.showGameList",
+          "GameInterfaceManager.showRank / Ctrler4399.showRank": "hold.showSort",
+          "GameInterfaceManager.submitScore / Ctrler4399.submitScore": "hold.showRefer(score)"
+        },
+        inject_chain: [
+          "page → timeline.setHold(hold) [ǵ.ȷ] → userData + Event(change)",
+          "FB.set_hold → ServiceHold.bind(userData, timeline) [Ǽ.§˜§]",
+          "ȑ.injectHold → bleachvsnaruto.setHold(serviceHold.hold)  // raw hold"
+        ],
+        ruffle_player_probe: playerProbe,
+        play_wrapper_has_setHold: false,
+        play_wrapper_note: "games/*/main.js has no setHold/Hold literals; stub lives under play/r8-hold-stub/"
+      };
+
+      window.__R8_HOLD_STUB_FINGERPRINT__ = fingerprint;
+      say("--- fingerprint ready on window.__R8_HOLD_STUB_FINGERPRINT__ ---");
+      say(JSON.stringify({ isReady: boundReflect.isReady, methods: boundReflect.hold_methods, setHold: playerProbe.setHold_typeof }, null, 2));
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,871 @@
+{
+  "id": "temari",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/temari.swf",
+  "defineSoundCount": 24,
+  "startSoundEventCount": 30,
+  "namedEventCount": 0,
+  "actionSpriteId": 505,
+  "actionExport": "temari_fla.佐助咒化_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "b195c3085f4b",
+      "size": 1874,
+      "sampleCount": 7518,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "50": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:50",
+      "nameSource": "unnamed"
+    },
+    "59": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:59",
+      "nameSource": "unnamed"
+    },
+    "64": {
+      "sha1": "c086b30dfd68",
+      "size": 1042,
+      "sampleCount": 2968,
+      "exportName": null,
+      "resolvedName": "cid:64",
+      "nameSource": "unnamed"
+    },
+    "88": {
+      "sha1": "34bff42ed701",
+      "size": 1354,
+      "sampleCount": 5645,
+      "exportName": null,
+      "resolvedName": "cid:88",
+      "nameSource": "unnamed"
+    },
+    "113": {
+      "sha1": "dde06b58906f",
+      "size": 938,
+      "sampleCount": 2548,
+      "exportName": null,
+      "resolvedName": "cid:113",
+      "nameSource": "unnamed"
+    },
+    "124": {
+      "sha1": "933cc2bdd95f",
+      "size": 1458,
+      "sampleCount": 5250,
+      "exportName": null,
+      "resolvedName": "cid:124",
+      "nameSource": "unnamed"
+    },
+    "131": {
+      "sha1": "7115306cd4b6",
+      "size": 14212,
+      "sampleCount": 39168,
+      "exportName": null,
+      "resolvedName": "cid:131",
+      "nameSource": "unnamed"
+    },
+    "152": {
+      "sha1": "72c354e748d4",
+      "size": 2082,
+      "sampleCount": 8932,
+      "exportName": null,
+      "resolvedName": "cid:152",
+      "nameSource": "unnamed"
+    },
+    "173": {
+      "sha1": "0bcad767af02",
+      "size": 938,
+      "sampleCount": 2436,
+      "exportName": null,
+      "resolvedName": "cid:173",
+      "nameSource": "unnamed"
+    },
+    "182": {
+      "sha1": "548de80d0e2b",
+      "size": 1354,
+      "sampleCount": 4788,
+      "exportName": null,
+      "resolvedName": "cid:182",
+      "nameSource": "unnamed"
+    },
+    "193": {
+      "sha1": "3a4edff03a6f",
+      "size": 2394,
+      "sampleCount": 10688,
+      "exportName": null,
+      "resolvedName": "cid:193",
+      "nameSource": "unnamed"
+    },
+    "210": {
+      "sha1": "177acd1b4454",
+      "size": 1146,
+      "sampleCount": 3458,
+      "exportName": null,
+      "resolvedName": "cid:210",
+      "nameSource": "unnamed"
+    },
+    "226": {
+      "sha1": "3b8d9a2264c5",
+      "size": 2602,
+      "sampleCount": 11816,
+      "exportName": null,
+      "resolvedName": "cid:226",
+      "nameSource": "unnamed"
+    },
+    "227": {
+      "sha1": "b2160dcaee57",
+      "size": 2914,
+      "sampleCount": 13632,
+      "exportName": null,
+      "resolvedName": "cid:227",
+      "nameSource": "unnamed"
+    },
+    "274": {
+      "sha1": "608f34d89342",
+      "size": 1978,
+      "sampleCount": 8106,
+      "exportName": null,
+      "resolvedName": "cid:274",
+      "nameSource": "unnamed"
+    },
+    "275": {
+      "sha1": "5569ee8dc757",
+      "size": 3226,
+      "sampleCount": 15144,
+      "exportName": null,
+      "resolvedName": "cid:275",
+      "nameSource": "unnamed"
+    },
+    "310": {
+      "sha1": "78cdb65ef88d",
+      "size": 2082,
+      "sampleCount": 8820,
+      "exportName": null,
+      "resolvedName": "cid:310",
+      "nameSource": "unnamed"
+    },
+    "327": {
+      "sha1": "550ee357026f",
+      "size": 2290,
+      "sampleCount": 10066,
+      "exportName": null,
+      "resolvedName": "cid:327",
+      "nameSource": "unnamed"
+    },
+    "417": {
+      "sha1": "7fd931cce071",
+      "size": 10402,
+      "sampleCount": 55125,
+      "exportName": null,
+      "resolvedName": "cid:417",
+      "nameSource": "unnamed"
+    },
+    "461": {
+      "sha1": "27d675068be9",
+      "size": 1978,
+      "sampleCount": 8442,
+      "exportName": null,
+      "resolvedName": "cid:461",
+      "nameSource": "unnamed"
+    },
+    "468": {
+      "sha1": "5a28f42d59b0",
+      "size": 834,
+      "sampleCount": 1693,
+      "exportName": null,
+      "resolvedName": "cid:468",
+      "nameSource": "unnamed"
+    },
+    "493": {
+      "sha1": "d87b5d068277",
+      "size": 1250,
+      "sampleCount": 4261,
+      "exportName": null,
+      "resolvedName": "cid:493",
+      "nameSource": "unnamed"
+    },
+    "498": {
+      "sha1": "8812a78e2344",
+      "size": 2706,
+      "sampleCount": 12068,
+      "exportName": null,
+      "resolvedName": "cid:498",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 80,
+      "label": "落地",
+      "tag": "StartSound",
+      "soundId": 50,
+      "soundName": "cid:50",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 91,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 114,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 64,
+      "soundName": "cid:64",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "c086b30dfd68"
+    },
+    {
+      "frame": 116,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "34bff42ed701"
+    },
+    {
+      "frame": 180,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 208,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 240,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "dde06b58906f"
+    },
+    {
+      "frame": 243,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 280,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "933cc2bdd95f"
+    },
+    {
+      "frame": 285,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "7115306cd4b6"
+    },
+    {
+      "frame": 330,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 152,
+      "soundName": "cid:152",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "72c354e748d4"
+    },
+    {
+      "frame": 334,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 391,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "34bff42ed701"
+    },
+    {
+      "frame": 391,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "0bcad767af02"
+    },
+    {
+      "frame": 429,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 182,
+      "soundName": "cid:182",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "548de80d0e2b"
+    },
+    {
+      "frame": 438,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 193,
+      "soundName": "cid:193",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "3a4edff03a6f"
+    },
+    {
+      "frame": 498,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "34bff42ed701"
+    },
+    {
+      "frame": 498,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 210,
+      "soundName": "cid:210",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "177acd1b4454"
+    },
+    {
+      "frame": 609,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 226,
+      "soundName": "cid:226",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "3b8d9a2264c5"
+    },
+    {
+      "frame": 609,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 227,
+      "soundName": "cid:227",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "b2160dcaee57"
+    },
+    {
+      "frame": 699,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 274,
+      "soundName": "cid:274",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "608f34d89342"
+    },
+    {
+      "frame": 699,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 275,
+      "soundName": "cid:275",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "5569ee8dc757"
+    },
+    {
+      "frame": 784,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "78cdb65ef88d"
+    },
+    {
+      "frame": 811,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 227,
+      "soundName": "cid:227",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "b2160dcaee57"
+    },
+    {
+      "frame": 811,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 327,
+      "soundName": "cid:327",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "550ee357026f"
+    },
+    {
+      "frame": 835,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 417,
+      "soundName": "cid:417",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "7fd931cce071"
+    },
+    {
+      "frame": 1054,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 461,
+      "soundName": "cid:461",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "27d675068be9"
+    },
+    {
+      "frame": 1078,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 468,
+      "soundName": "cid:468",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "5a28f42d59b0"
+    },
+    {
+      "frame": 1158,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 493,
+      "soundName": "cid:493",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "d87b5d068277"
+    },
+    {
+      "frame": 1172,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 498,
+      "soundName": "cid:498",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "8812a78e2344"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 80,
+      "label": "落地",
+      "tag": "StartSound",
+      "soundId": 50,
+      "soundName": "cid:50",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 91,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 114,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 64,
+      "soundName": "cid:64",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "c086b30dfd68"
+    },
+    {
+      "frame": 116,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "34bff42ed701"
+    },
+    {
+      "frame": 180,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 208,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 240,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "dde06b58906f"
+    },
+    {
+      "frame": 243,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 280,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "933cc2bdd95f"
+    },
+    {
+      "frame": 285,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "7115306cd4b6"
+    },
+    {
+      "frame": 330,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 152,
+      "soundName": "cid:152",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "72c354e748d4"
+    },
+    {
+      "frame": 334,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 391,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "34bff42ed701"
+    },
+    {
+      "frame": 391,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "0bcad767af02"
+    },
+    {
+      "frame": 429,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 182,
+      "soundName": "cid:182",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "548de80d0e2b"
+    },
+    {
+      "frame": 438,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 193,
+      "soundName": "cid:193",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "3a4edff03a6f"
+    },
+    {
+      "frame": 498,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "34bff42ed701"
+    },
+    {
+      "frame": 498,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 210,
+      "soundName": "cid:210",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "177acd1b4454"
+    },
+    {
+      "frame": 609,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 226,
+      "soundName": "cid:226",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "3b8d9a2264c5"
+    },
+    {
+      "frame": 609,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 227,
+      "soundName": "cid:227",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "b2160dcaee57"
+    },
+    {
+      "frame": 699,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 274,
+      "soundName": "cid:274",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "608f34d89342"
+    },
+    {
+      "frame": 699,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 275,
+      "soundName": "cid:275",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "5569ee8dc757"
+    },
+    {
+      "frame": 784,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "78cdb65ef88d"
+    },
+    {
+      "frame": 811,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 227,
+      "soundName": "cid:227",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "b2160dcaee57"
+    },
+    {
+      "frame": 811,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 327,
+      "soundName": "cid:327",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "550ee357026f"
+    },
+    {
+      "frame": 835,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 417,
+      "soundName": "cid:417",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "7fd931cce071"
+    },
+    {
+      "frame": 1054,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 461,
+      "soundName": "cid:461",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "27d675068be9"
+    },
+    {
+      "frame": 1078,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 468,
+      "soundName": "cid:468",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "5a28f42d59b0"
+    },
+    {
+      "frame": 1158,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 493,
+      "soundName": "cid:493",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "d87b5d068277"
+    },
+    {
+      "frame": 1172,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 498,
+      "soundName": "cid:498",
+      "nameSource": "unnamed",
+      "spriteId": 505,
+      "spriteExport": "temari_fla.佐助咒化_1",
+      "sha1": "8812a78e2344"
+    }
+  ]
+}

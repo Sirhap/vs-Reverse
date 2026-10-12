@@ -1,0 +1,837 @@
+{
+  "id": "konan",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/konan.swf",
+  "defineSoundCount": 17,
+  "startSoundEventCount": 34,
+  "namedEventCount": 1,
+  "actionSpriteId": 561,
+  "actionExport": "konan_fla.卡卡西_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "a866715ab3c8",
+      "size": 2810,
+      "sampleCount": 13717,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "46": {
+      "sha1": "7ab00a57e342",
+      "size": 3746,
+      "sampleCount": 17897,
+      "exportName": null,
+      "resolvedName": "cid:46",
+      "nameSource": "unnamed"
+    },
+    "89": {
+      "sha1": "24bb86554de1",
+      "size": 1770,
+      "sampleCount": 7267,
+      "exportName": null,
+      "resolvedName": "cid:89",
+      "nameSource": "unnamed"
+    },
+    "96": {
+      "sha1": "f2d3784ef549",
+      "size": 5722,
+      "sampleCount": 29144,
+      "exportName": null,
+      "resolvedName": "cid:96",
+      "nameSource": "unnamed"
+    },
+    "113": {
+      "sha1": "94db65435be1",
+      "size": 1354,
+      "sampleCount": 5088,
+      "exportName": null,
+      "resolvedName": "cid:113",
+      "nameSource": "unnamed"
+    },
+    "138": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:138",
+      "nameSource": "unnamed"
+    },
+    "163": {
+      "sha1": "20c81897202c",
+      "size": 1874,
+      "sampleCount": 7472,
+      "exportName": null,
+      "resolvedName": "cid:163",
+      "nameSource": "unnamed"
+    },
+    "166": {
+      "sha1": "f422a0c5de41",
+      "size": 5410,
+      "sampleCount": 27264,
+      "exportName": null,
+      "resolvedName": "cid:166",
+      "nameSource": "unnamed"
+    },
+    "197": {
+      "sha1": "43a087f8d480",
+      "size": 2498,
+      "sampleCount": 10939,
+      "exportName": null,
+      "resolvedName": "cid:197",
+      "nameSource": "unnamed"
+    },
+    "283": {
+      "sha1": "71127f640aae",
+      "size": 4474,
+      "sampleCount": 21946,
+      "exportName": null,
+      "resolvedName": "cid:283",
+      "nameSource": "unnamed"
+    },
+    "293": {
+      "sha1": "997a3c895ac3",
+      "size": 6242,
+      "sampleCount": 31936,
+      "exportName": null,
+      "resolvedName": "cid:293",
+      "nameSource": "unnamed"
+    },
+    "357": {
+      "sha1": "08d7fe620a6e",
+      "size": 5930,
+      "sampleCount": 30288,
+      "exportName": null,
+      "resolvedName": "cid:357",
+      "nameSource": "unnamed"
+    },
+    "410": {
+      "sha1": "f4bfbc3911b3",
+      "size": 3538,
+      "sampleCount": 16699,
+      "exportName": null,
+      "resolvedName": "cid:410",
+      "nameSource": "unnamed"
+    },
+    "476": {
+      "sha1": "a706336b0dd7",
+      "size": 6450,
+      "sampleCount": 33264,
+      "exportName": null,
+      "resolvedName": "cid:476",
+      "nameSource": "unnamed"
+    },
+    "526": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "529": {
+      "sha1": "2585e00ed99c",
+      "size": 4162,
+      "sampleCount": 20553,
+      "exportName": null,
+      "resolvedName": "cid:529",
+      "nameSource": "unnamed"
+    },
+    "536": {
+      "sha1": "9640c8793f57",
+      "size": 9778,
+      "sampleCount": 51260,
+      "exportName": null,
+      "resolvedName": "cid:536",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 27,
+      "label": "瞬步",
+      "tag": "StartSound",
+      "soundId": 46,
+      "soundName": "cid:46",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "7ab00a57e342"
+    },
+    {
+      "frame": 124,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 127,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 96,
+      "soundName": "cid:96",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f2d3784ef549"
+    },
+    {
+      "frame": 163,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "94db65435be1"
+    },
+    {
+      "frame": 191,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "94db65435be1"
+    },
+    {
+      "frame": 227,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 231,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 270,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 272,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 293,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "94db65435be1"
+    },
+    {
+      "frame": 331,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "20c81897202c"
+    },
+    {
+      "frame": 333,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 166,
+      "soundName": "cid:166",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f422a0c5de41"
+    },
+    {
+      "frame": 392,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 398,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 444,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 450,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 283,
+      "soundName": "cid:283",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 500,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 617,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 619,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "08d7fe620a6e"
+    },
+    {
+      "frame": 682,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "20c81897202c"
+    },
+    {
+      "frame": 684,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 96,
+      "soundName": "cid:96",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f2d3784ef549"
+    },
+    {
+      "frame": 750,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 750,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "08d7fe620a6e"
+    },
+    {
+      "frame": 768,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "20c81897202c"
+    },
+    {
+      "frame": 796,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 410,
+      "soundName": "cid:410",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f4bfbc3911b3"
+    },
+    {
+      "frame": 824,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "08d7fe620a6e"
+    },
+    {
+      "frame": 887,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 898,
+      "label": "超必杀3",
+      "tag": "StartSound",
+      "soundId": 476,
+      "soundName": "cid:476",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "a706336b0dd7"
+    },
+    {
+      "frame": 1012,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 526,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1041,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 46,
+      "soundName": "cid:46",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "7ab00a57e342"
+    },
+    {
+      "frame": 1060,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 529,
+      "soundName": "cid:529",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "2585e00ed99c"
+    },
+    {
+      "frame": 1120,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 536,
+      "soundName": "cid:536",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "9640c8793f57"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 27,
+      "label": "瞬步",
+      "tag": "StartSound",
+      "soundId": 46,
+      "soundName": "cid:46",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "7ab00a57e342"
+    },
+    {
+      "frame": 124,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 127,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 96,
+      "soundName": "cid:96",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f2d3784ef549"
+    },
+    {
+      "frame": 163,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "94db65435be1"
+    },
+    {
+      "frame": 191,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "94db65435be1"
+    },
+    {
+      "frame": 227,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 231,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 270,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 272,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 293,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "94db65435be1"
+    },
+    {
+      "frame": 331,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "20c81897202c"
+    },
+    {
+      "frame": 333,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 166,
+      "soundName": "cid:166",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f422a0c5de41"
+    },
+    {
+      "frame": 392,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 398,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 444,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 450,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 283,
+      "soundName": "cid:283",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 500,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 89,
+      "soundName": "cid:89",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "24bb86554de1"
+    },
+    {
+      "frame": 617,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 619,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "08d7fe620a6e"
+    },
+    {
+      "frame": 682,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "20c81897202c"
+    },
+    {
+      "frame": 684,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 96,
+      "soundName": "cid:96",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f2d3784ef549"
+    },
+    {
+      "frame": 750,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 750,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "08d7fe620a6e"
+    },
+    {
+      "frame": 768,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "20c81897202c"
+    },
+    {
+      "frame": 796,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 410,
+      "soundName": "cid:410",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "f4bfbc3911b3"
+    },
+    {
+      "frame": 824,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "08d7fe620a6e"
+    },
+    {
+      "frame": 887,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "43a087f8d480"
+    },
+    {
+      "frame": 898,
+      "label": "超必杀3",
+      "tag": "StartSound",
+      "soundId": 476,
+      "soundName": "cid:476",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "a706336b0dd7"
+    },
+    {
+      "frame": 1012,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 526,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1041,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 46,
+      "soundName": "cid:46",
+      "nameSource": "unnamed",
+      "spriteId": 561,
+      "spriteExport": "konan_fla.卡卡西_1",
+      "sha1": "7ab00a57e342"
+    }
+  ]
+}

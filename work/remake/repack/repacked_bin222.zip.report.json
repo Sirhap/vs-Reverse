@@ -1,0 +1,10 @@
+{
+  "path": "work/remake/repack/repacked_bin222.zip",
+  "bytes": 65699574,
+  "members": 407,
+  "store": 352,
+  "deflate": 55,
+  "sha256": "ed421440f20cbe3761758ed301fafb8c6f9c5103484bfb1be8e6a85c6c8f5d14",
+  "validate_ok": true,
+  "validate_bad": []
+}

@@ -1,0 +1,127 @@
+{
+  "id": "orihime",
+  "mainTimeline": "decompiled/fighters/fz/orihime/scripts/orihime_fla/MainTimeline.as",
+  "rootFrames": 78,
+  "addFrameScriptCount": 16,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":0, \"hitType\":0, \"hitx\":0, \"hity\":0, \"hurtTime\":0, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 10,
+      "frameNumber": 11,
+      "function": "frame11",
+      "summary": "move(6)",
+      "bodyPreview": "this.$assisterCtrler.move(6);"
+    },
+    {
+      "frameIndex0": 20,
+      "frameNumber": 21,
+      "function": "frame21",
+      "summary": "move(0)",
+      "bodyPreview": "this.$assisterCtrler.move(0);"
+    },
+    {
+      "frameIndex0": 24,
+      "frameNumber": 25,
+      "function": "frame25",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 47,
+      "frameNumber": 48,
+      "function": "frame48",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 49,
+      "frameNumber": 50,
+      "function": "frame50",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 51,
+      "frameNumber": 52,
+      "function": "frame52",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 53,
+      "frameNumber": 54,
+      "function": "frame54",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 55,
+      "frameNumber": 56,
+      "function": "frame56",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 57,
+      "frameNumber": 58,
+      "function": "frame58",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 59,
+      "frameNumber": 60,
+      "function": "frame60",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 61,
+      "frameNumber": 62,
+      "function": "frame62",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 63,
+      "frameNumber": 64,
+      "function": "frame64",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 65,
+      "frameNumber": 66,
+      "function": "frame66",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 67,
+      "frameNumber": 68,
+      "function": "frame68",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(10);"
+    },
+    {
+      "frameIndex0": 70,
+      "frameNumber": 71,
+      "function": "frame71",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

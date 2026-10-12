@@ -1,0 +1,43 @@
+{
+  "id": "rangiku",
+  "mainTimeline": "decompiled/fighters/fz/rangiku/scripts/rangiku_fla/MainTimeline.as",
+  "rootFrames": 110,
+  "addFrameScriptCount": 4,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":10, \"hitType\":4, \"hitx\":0, \"hity\":0, \"hurtTime\":500, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 11,
+      "frameNumber": 12,
+      "function": "frame12",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 36,
+      "frameNumber": 37,
+      "function": "frame37",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 44,
+      "frameNumber": 45,
+      "function": "frame45",
+      "summary": "effect.shine(9461816); addAttacker(atmmc)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(9461816); this.$assisterCtrler.addAttacker(\"atmmc\",{ \"x\":{ \"moveToTarget\":true, \"offset\":0"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

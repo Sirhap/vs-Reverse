@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>R8 EI Probe — HoldProbe.swf (not sample/main.swf)</title>
+  <style>
+    html,body { margin:0; background:#111; color:#ddd; font:13px/1.4 ui-monospace,monospace; }
+    #banner { background:#046; color:#fff; padding:8px 12px; }
+    #out { white-space:pre-wrap; padding:12px; max-height:45vh; overflow:auto; }
+    ruffle-player { width:800px; height:200px; display:block; margin:8px auto; background:#000; }
+  </style>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      preferredRenderer: "canvas",
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      splashScreen: false,
+      letterbox: "on",
+      allowScriptAccess: true
+    };
+  </script>
+  <script src="../vendor/ruffle/ruffle.js"></script>
+  <script src="hold-mock.js"></script>
+</head>
+<body>
+  <div id="banner">R8 EI Probe — HoldProbe.swf via ExternalInterface.addCallback("setHold") — NOT sample/main.swf · NOT online 4399</div>
+  <div id="out">booting…</div>
+  <pre id="json-out" style="display:none"></pre>
+  <script>
+    (async function () {
+      const out = document.getElementById("out");
+      const lines = [];
+      function say(s) {
+        lines.push(String(s));
+        out.textContent = lines.join("\n");
+      }
+
+      const result = {
+        result: "PENDING",
+        online: false,
+        probe_swf: "HoldProbe.swf",
+        sample_main_swf_touched: false,
+        note: "EI addCallback probe — proves Ruffle exposes setHold when registered via ExternalInterface (unlike MC property on main.swf)",
+        captured_at: null,
+        host: location.host,
+        href: location.href,
+        steps: [],
+        ei: {},
+        fail_reason: null
+      };
+
+      window.__R8_EI_PROBE_READY__ = function (v) {
+        result.steps.push({ t: Date.now(), ev: "as_ready_callback", v: !!v });
+      };
+      window.__R8_EI_ON_SETHOLD__ = function (ready) {
+        result.steps.push({ t: Date.now(), ev: "as_on_setHold", ready: !!ready });
+      };
+      window.__R8_EI_PASSTHRU__ = function (name, args) {
+        result.steps.push({ t: Date.now(), ev: "as_passthru", name: name, args: args || [] });
+      };
+
+      const mock = new R8HoldStub.MinimalHoldMock({ isLog: true });
+      say("mock ready type=" + (mock && mock.constructor && mock.constructor.name));
+
+      let player = null;
+      try {
+        const rp = window.RufflePlayer.newest().createPlayer();
+        document.body.appendChild(rp);
+        player = rp;
+        await rp.load({
+          url: "HoldProbe.swf",
+          allowScriptAccess: true
+        });
+        result.steps.push({ t: Date.now(), ev: "ruffle_load_ok" });
+        say("ruffle loaded HoldProbe.swf");
+      } catch (e) {
+        result.result = "FAIL";
+        result.fail_reason = "ruffle_load: " + String(e && e.message || e);
+        say(result.fail_reason);
+        window.__R8_EI_PROBE_RESULT__ = result;
+      var jo = document.getElementById("json-out");
+      if (jo) jo.textContent = JSON.stringify(result);
+        return;
+      }
+
+      // Wait for EI callbacks to appear on player (Ruffle registers after AS runs)
+      function waitFor(pred, ms, label) {
+        return new Promise(function (resolve) {
+          const t0 = Date.now();
+          (function tick() {
+            try {
+              if (pred()) return resolve(true);
+            } catch (e) {}
+            if (Date.now() - t0 > ms) return resolve(false);
+            setTimeout(tick, 50);
+          })();
+        });
+      }
+
+      const eiReady = await waitFor(function () {
+        return typeof player.setHold === "function" || typeof player.probePing === "function";
+      }, 8000, "ei");
+
+      result.ei.setHold_typeof = typeof player.setHold;
+      result.ei.isReady_typeof = typeof player.isReady;
+      result.ei.probePing_typeof = typeof player.probePing;
+      result.ei.showGameList_typeof = typeof player.showGameList;
+
+      // Enumerate interesting keys
+      const keys = [];
+      try {
+        for (const k of Object.getOwnPropertyNames(player)) {
+          if (/hold|Hold|Ready|show|change|probe|Ping|Log|Refer|Sort|render/i.test(k)) {
+            keys.push(k + ":" + typeof player[k]);
+          }
+        }
+      } catch (e) {}
+      result.ei.player_keys = keys;
+
+      say("EI surface setHold=" + result.ei.setHold_typeof + " isReady=" + result.ei.isReady_typeof + " probePing=" + result.ei.probePing_typeof);
+
+      if (!eiReady || typeof player.setHold !== "function") {
+        result.result = "FAIL";
+        result.fail_reason = "setHold not exposed as EI callback after load (typeof=" + result.ei.setHold_typeof + ")";
+        result.captured_at = new Date().toISOString();
+        window.__R8_EI_PROBE_RESULT__ = result;
+      var jo = document.getElementById("json-out");
+      if (jo) jo.textContent = JSON.stringify(result);
+        say("FAIL: " + result.fail_reason);
+        return;
+      }
+
+      // Null path
+      let isReadyBefore = null;
+      try {
+        isReadyBefore = player.isReady();
+      } catch (e) {
+        isReadyBefore = "err:" + e;
+      }
+      result.null_path = { isReady: isReadyBefore };
+      say("null-path isReady=" + isReadyBefore);
+
+      // Call setHold(mock)
+      let setHoldRet = null;
+      let setHoldErr = null;
+      try {
+        setHoldRet = player.setHold(mock);
+      } catch (e) {
+        setHoldErr = String(e && e.message || e);
+      }
+      result.setHold_call = { ok: !setHoldErr, ret: setHoldRet, err: setHoldErr };
+      say("setHold(mock) ret=" + setHoldRet + " err=" + setHoldErr);
+
+      await waitFor(function () { return true; }, 200);
+
+      let isReadyAfter = null;
+      try {
+        isReadyAfter = player.isReady();
+      } catch (e) {
+        isReadyAfter = "err:" + e;
+      }
+      let holdType = null;
+      let holdMethods = null;
+      try { holdType = player.getHoldType(); } catch (e) { holdType = "err:" + e; }
+      try { holdMethods = player.getHoldMethods(); } catch (e) { holdMethods = "err:" + e; }
+
+      result.bound_path = {
+        isReady: isReadyAfter,
+        hold_type: holdType,
+        hold_methods_or_keys: holdMethods
+      };
+      say("bound-path isReady=" + isReadyAfter + " type=" + holdType);
+
+      // Passthrough probes
+      const passthru = [];
+      const names = [
+        ["showGameList", []],
+        ["showSort", []],
+        ["showRefer", [12345]],
+        ["changeScore", [1]],
+        ["showLogPanel", []],
+        ["renderTime", []]
+      ];
+      for (const [n, args] of names) {
+        const entry = { name: n, ok: false, err: null };
+        try {
+          if (typeof player[n] === "function") {
+            player[n].apply(player, args);
+            entry.ok = true;
+          } else {
+            entry.err = "not_a_function";
+          }
+        } catch (e) {
+          entry.err = String(e && e.message || e);
+        }
+        passthru.push(entry);
+      }
+      result.passthru = passthru;
+
+      let ping = null;
+      try { ping = player.probePing(); } catch (e) { ping = "err:" + e; }
+      result.probePing = ping;
+
+      let callLog = null;
+      try { callLog = player.getCallLog(); } catch (e) { callLog = "err:" + e; }
+      result.as_call_log = callLog;
+
+      const readyOk = isReadyAfter === true;
+      const setOk = !setHoldErr && (setHoldRet === true || readyOk);
+      const passthruOk = passthru.filter(function (p) { return p.ok; }).length >= 4;
+      const pingOk = ping === "R8-EI-PROBE-OK";
+
+      if (setOk && readyOk && pingOk) {
+        result.result = passthruOk ? "PASS" : "PASS_PARTIAL";
+        if (!passthruOk) result.fail_reason = "setHold/isReady OK but passthru incomplete";
+      } else {
+        result.result = "FAIL";
+        result.fail_reason = "setOk=" + setOk + " readyOk=" + readyOk + " pingOk=" + pingOk;
+      }
+
+      result.captured_at = new Date().toISOString();
+      window.__R8_EI_PROBE_RESULT__ = result;
+      var jo = document.getElementById("json-out");
+      if (jo) jo.textContent = JSON.stringify(result);
+      say("--- result=" + result.result + " ---");
+      say(JSON.stringify({
+        result: result.result,
+        setHold: result.ei.setHold_typeof,
+        isReady_before: isReadyBefore,
+        isReady_after: isReadyAfter,
+        probePing: ping,
+        passthru_ok: passthru.filter(function (p) { return p.ok; }).length
+      }, null, 2));
+    })();
+  </script>
+</body>
+</html>

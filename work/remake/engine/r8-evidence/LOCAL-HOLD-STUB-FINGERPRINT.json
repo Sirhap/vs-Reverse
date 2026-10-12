@@ -1,0 +1,146 @@
+{
+  "result": "LOCAL_STUB_PASS",
+  "online": false,
+  "note": "LOCAL stub only — mirrors ServiceHold/Hold passthrough; NOT www.4399.com instance fingerprint",
+  "captured_at": "2026-10-11T17:27:55.757Z",
+  "host": "127.0.0.1:8765",
+  "href": "http://127.0.0.1:8765/r8-hold-stub/index.html",
+  "null_path": {
+    "isReady": false,
+    "isLog": false,
+    "hold_present": false,
+    "hold_typeName": null,
+    "hold_methods": [],
+    "hold_own_props": [],
+    "service_passthru": [
+      "showGameList",
+      "showSort",
+      "showRefer",
+      "changeScore",
+      "showLogPanel",
+      "userLogOut",
+      "renderTime",
+      "isReady",
+      "isLog",
+      "hold"
+    ],
+    "call_log_after_probe": []
+  },
+  "bound_path": {
+    "isReady": true,
+    "isLog": true,
+    "hold_present": true,
+    "hold_typeName": "MinimalHoldMock",
+    "hold_methods": [
+      "changeScore",
+      "getServerTime",
+      "showGameList",
+      "showLogPanel",
+      "showRefer",
+      "showSort",
+      "userLogOut"
+    ],
+    "hold_own_props": [
+      "_name",
+      "_nickName",
+      "_serverTime",
+      "_uid",
+      "isLog"
+    ],
+    "service_passthru": [
+      "showGameList",
+      "showSort",
+      "showRefer",
+      "changeScore",
+      "showLogPanel",
+      "userLogOut",
+      "renderTime",
+      "isReady",
+      "isLog",
+      "hold"
+    ],
+    "call_log_after_probe": [
+      {
+        "t": 1791739675231,
+        "method": "showGameList",
+        "args": []
+      },
+      {
+        "t": 1791739675231,
+        "method": "showSort",
+        "args": []
+      },
+      {
+        "t": 1791739675231,
+        "method": "showRefer",
+        "args": [
+          12345
+        ]
+      },
+      {
+        "t": 1791739675231,
+        "method": "changeScore",
+        "args": [
+          1
+        ]
+      },
+      {
+        "t": 1791739675231,
+        "method": "showLogPanel",
+        "args": []
+      },
+      {
+        "t": 1791739675231,
+        "method": "getServerTime",
+        "args": []
+      }
+    ]
+  },
+  "login_ret_sample_static": {
+    "source": "com.sh.ȇ getters (static)",
+    "fields": [
+      "uid",
+      "name",
+      "nickName"
+    ],
+    "example": {
+      "uid": "local-stub-uid",
+      "name": "LocalStub",
+      "nickName": "本地Stub"
+    }
+  },
+  "server_time_sample_static": {
+    "source": "com.sh.Ȉ expects serverTimeEvent.data",
+    "format": "YYYY-M-D H:i:s",
+    "example": "2026-10-12 01:25:00"
+  },
+  "stage_events": [
+    "logreturn",
+    "userLoginOut",
+    "MVC_CLOSE_PANEL",
+    "serverTimeEvent"
+  ],
+  "game_consumers": {
+    "GameInterfaceManager.moreGames": "hold.showGameList",
+    "GameInterfaceManager.showRank / Ctrler4399.showRank": "hold.showSort",
+    "GameInterfaceManager.submitScore / Ctrler4399.submitScore": "hold.showRefer(score)"
+  },
+  "inject_chain": [
+    "page → timeline.setHold(hold) [ǵ.ȷ] → userData + Event(change)",
+    "FB.set_hold → ServiceHold.bind(userData, timeline) [Ǽ.§˜§]",
+    "ȑ.injectHold → bleachvsnaruto.setHold(serviceHold.hold)  // raw hold"
+  ],
+  "ruffle_player_probe": {
+    "ruffle_loaded": true,
+    "player_keys": [],
+    "setHold_typeof": "undefined",
+    "setHold_call_ok": false,
+    "setHold_error": null,
+    "note": "timeline.setHold is AS3 MC property; Ruffle only exposes ExternalInterface.addCallback names",
+    "ruffle_api_keys": []
+  },
+  "play_wrapper_has_setHold": false,
+  "play_wrapper_note": "games/*/main.js has no setHold/Hold literals; stub lives under play/r8-hold-stub/",
+  "captured_via": "Chrome headless CDP @127.0.0.1:9222",
+  "captured_at_cst": "2026-10-12 ~01:28 CST"
+}

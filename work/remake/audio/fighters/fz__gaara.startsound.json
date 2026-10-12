@@ -1,0 +1,52 @@
+{
+  "id": "fz/gaara",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/gaara.swf",
+  "defineSoundCount": 2,
+  "startSoundEventCount": 2,
+  "namedEventCount": 0,
+  "actionSpriteId": 50,
+  "defineSounds": {
+    "27": {
+      "sha1": "91a68f7d45c0",
+      "size": 2092,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:27",
+      "nameSource": "unnamed"
+    },
+    "53": {
+      "sha1": "2b5c70ef3ad8",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:53",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 43,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 27,
+      "soundName": "cid:27",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "gaara_fla.MainTimeline",
+      "sha1": "91a68f7d45c0"
+    },
+    {
+      "frame": 47,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 53,
+      "soundName": "cid:53",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "gaara_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    }
+  ],
+  "actionEvents": []
+}

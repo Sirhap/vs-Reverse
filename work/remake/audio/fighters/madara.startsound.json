@@ -1,0 +1,1305 @@
+{
+  "path": "extracted/full/zips/bin_222/assets/fighter/madara.swf",
+  "fps": 30.0,
+  "rootFrames": 2,
+  "defineSoundCount": 32,
+  "symbolClassCount": 8,
+  "startSoundEventCount": 47,
+  "namedEventCount": 0,
+  "unnamedEventCount": 47,
+  "actionSpriteId": 906,
+  "actionExport": "madara_fla.鸣人全动作_1",
+  "actionStartSoundCount": 46,
+  "defineSounds": {
+    "1": {
+      "sha1": "020af22e1270",
+      "size": 1354,
+      "sampleCount": 4788,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "59a5deecd276",
+      "size": 1354,
+      "sampleCount": 5027,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "fbf7474aef76",
+      "size": 1666,
+      "sampleCount": 6350,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "54": {
+      "sha1": "48cb372a53de",
+      "size": 1042,
+      "sampleCount": 2910,
+      "exportName": null,
+      "resolvedName": "cid:54",
+      "nameSource": "unnamed"
+    },
+    "55": {
+      "sha1": "d6ff8ce459b3",
+      "size": 1250,
+      "sampleCount": 4396,
+      "exportName": null,
+      "resolvedName": "cid:55",
+      "nameSource": "unnamed"
+    },
+    "66": {
+      "sha1": "ac0cb0f3f21e",
+      "size": 1458,
+      "sampleCount": 5556,
+      "exportName": null,
+      "resolvedName": "cid:66",
+      "nameSource": "unnamed"
+    },
+    "110": {
+      "sha1": "570b6f8a60d9",
+      "size": 2186,
+      "sampleCount": 10276,
+      "exportName": null,
+      "resolvedName": "cid:110",
+      "nameSource": "unnamed"
+    },
+    "113": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:113",
+      "nameSource": "unnamed"
+    },
+    "140": {
+      "sha1": "433964babd41",
+      "size": 1042,
+      "sampleCount": 3175,
+      "exportName": null,
+      "resolvedName": "cid:140",
+      "nameSource": "unnamed"
+    },
+    "143": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:143",
+      "nameSource": "unnamed"
+    },
+    "172": {
+      "sha1": "9d711c8590ff",
+      "size": 1666,
+      "sampleCount": 7409,
+      "exportName": null,
+      "resolvedName": "cid:172",
+      "nameSource": "unnamed"
+    },
+    "173": {
+      "sha1": "6a5d4cdb9c32",
+      "size": 2394,
+      "sampleCount": 10430,
+      "exportName": null,
+      "resolvedName": "cid:173",
+      "nameSource": "unnamed"
+    },
+    "232": {
+      "sha1": "6a4658152625",
+      "size": 2602,
+      "sampleCount": 11642,
+      "exportName": null,
+      "resolvedName": "cid:232",
+      "nameSource": "unnamed"
+    },
+    "233": {
+      "sha1": "01e4c5bab88a",
+      "size": 3746,
+      "sampleCount": 17824,
+      "exportName": null,
+      "resolvedName": "cid:233",
+      "nameSource": "unnamed"
+    },
+    "247": {
+      "sha1": "6ba1d117c437",
+      "size": 1458,
+      "sampleCount": 6328,
+      "exportName": null,
+      "resolvedName": "cid:247",
+      "nameSource": "unnamed"
+    },
+    "270": {
+      "sha1": "d546ef8edc6d",
+      "size": 1250,
+      "sampleCount": 4302,
+      "exportName": null,
+      "resolvedName": "cid:270",
+      "nameSource": "unnamed"
+    },
+    "299": {
+      "sha1": "be6d6db13956",
+      "size": 2082,
+      "sampleCount": 8732,
+      "exportName": null,
+      "resolvedName": "cid:299",
+      "nameSource": "unnamed"
+    },
+    "320": {
+      "sha1": "799f61863176",
+      "size": 2810,
+      "sampleCount": 12965,
+      "exportName": null,
+      "resolvedName": "cid:320",
+      "nameSource": "unnamed"
+    },
+    "346": {
+      "sha1": "4d7fc74f59d0",
+      "size": 3434,
+      "sampleCount": 16380,
+      "exportName": null,
+      "resolvedName": "cid:346",
+      "nameSource": "unnamed"
+    },
+    "396": {
+      "sha1": "441cf38b5911",
+      "size": 2394,
+      "sampleCount": 10319,
+      "exportName": null,
+      "resolvedName": "cid:396",
+      "nameSource": "unnamed"
+    },
+    "435": {
+      "sha1": "e5fd5451716d",
+      "size": 3330,
+      "sampleCount": 15730,
+      "exportName": null,
+      "resolvedName": "cid:435",
+      "nameSource": "unnamed"
+    },
+    "454": {
+      "sha1": "11045dd98ac9",
+      "size": 6866,
+      "sampleCount": 35192,
+      "exportName": null,
+      "resolvedName": "cid:454",
+      "nameSource": "unnamed"
+    },
+    "586": {
+      "sha1": "a9d3a4cb018a",
+      "size": 4578,
+      "sampleCount": 22560,
+      "exportName": null,
+      "resolvedName": "cid:586",
+      "nameSource": "unnamed"
+    },
+    "719": {
+      "sha1": "ba029a5327ab",
+      "size": 2498,
+      "sampleCount": 11378,
+      "exportName": null,
+      "resolvedName": "cid:719",
+      "nameSource": "unnamed"
+    },
+    "725": {
+      "sha1": "36d429d08c1b",
+      "size": 1666,
+      "sampleCount": 6701,
+      "exportName": null,
+      "resolvedName": "cid:725",
+      "nameSource": "unnamed"
+    },
+    "729": {
+      "sha1": "474a783341ec",
+      "size": 7490,
+      "sampleCount": 38587,
+      "exportName": null,
+      "resolvedName": "cid:729",
+      "nameSource": "unnamed"
+    },
+    "735": {
+      "sha1": "d3cad1c62a64",
+      "size": 3642,
+      "sampleCount": 18334,
+      "exportName": null,
+      "resolvedName": "cid:735",
+      "nameSource": "unnamed"
+    },
+    "798": {
+      "sha1": "d7b332c46959",
+      "size": 4058,
+      "sampleCount": 19580,
+      "exportName": null,
+      "resolvedName": "cid:798",
+      "nameSource": "unnamed"
+    },
+    "800": {
+      "sha1": "d8c388a2299b",
+      "size": 5306,
+      "sampleCount": 26724,
+      "exportName": null,
+      "resolvedName": "cid:800",
+      "nameSource": "unnamed"
+    },
+    "808": {
+      "sha1": "63b86ea351f1",
+      "size": 3226,
+      "sampleCount": 15082,
+      "exportName": null,
+      "resolvedName": "cid:808",
+      "nameSource": "unnamed"
+    },
+    "902": {
+      "sha1": "0b09e18f4ace",
+      "size": 2914,
+      "sampleCount": 13230,
+      "exportName": null,
+      "resolvedName": "cid:902",
+      "nameSource": "unnamed"
+    },
+    "903": {
+      "sha1": "91ef75f17d2f",
+      "size": 4474,
+      "sampleCount": 22053,
+      "exportName": null,
+      "resolvedName": "cid:903",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "3": "snd_die",
+    "2": "snd_hurt2",
+    "1": "snd_hurt1"
+  },
+  "events": [
+    {
+      "frame": 73,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "48cb372a53de"
+    },
+    {
+      "frame": 73,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d6ff8ce459b3"
+    },
+    {
+      "frame": 93,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ac0cb0f3f21e"
+    },
+    {
+      "frame": 96,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 116,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 134,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 154,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 179,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 140,
+      "soundName": "cid:140",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "433964babd41"
+    },
+    {
+      "frame": 181,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 216,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "9d711c8590ff"
+    },
+    {
+      "frame": 223,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 247,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 232,
+      "soundName": "cid:232",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a4658152625"
+    },
+    {
+      "frame": 257,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 233,
+      "soundName": "cid:233",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "01e4c5bab88a"
+    },
+    {
+      "frame": 300,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "9d711c8590ff"
+    },
+    {
+      "frame": 307,
+      "label": "砍技11",
+      "tag": "StartSound",
+      "soundId": 247,
+      "soundName": "cid:247",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6ba1d117c437"
+    },
+    {
+      "frame": 330,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 140,
+      "soundName": "cid:140",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "433964babd41"
+    },
+    {
+      "frame": 331,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 270,
+      "soundName": "cid:270",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d546ef8edc6d"
+    },
+    {
+      "frame": 361,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 299,
+      "soundName": "cid:299",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "be6d6db13956"
+    },
+    {
+      "frame": 369,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 377,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 401,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 320,
+      "soundName": "cid:320",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "799f61863176"
+    },
+    {
+      "frame": 405,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 409,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 419,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 450,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ac0cb0f3f21e"
+    },
+    {
+      "frame": 451,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 346,
+      "soundName": "cid:346",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "4d7fc74f59d0"
+    },
+    {
+      "frame": 493,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "9d711c8590ff"
+    },
+    {
+      "frame": 513,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 546,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 396,
+      "soundName": "cid:396",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "441cf38b5911"
+    },
+    {
+      "frame": 568,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 578,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 590,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 435,
+      "soundName": "cid:435",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "e5fd5451716d"
+    },
+    {
+      "frame": 642,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "48cb372a53de"
+    },
+    {
+      "frame": 672,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 140,
+      "soundName": "cid:140",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "433964babd41"
+    },
+    {
+      "frame": 673,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 270,
+      "soundName": "cid:270",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d546ef8edc6d"
+    },
+    {
+      "frame": 717,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 454,
+      "soundName": "cid:454",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "11045dd98ac9"
+    },
+    {
+      "frame": 740,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 586,
+      "soundName": "cid:586",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "a9d3a4cb018a"
+    },
+    {
+      "frame": 843,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 719,
+      "soundName": "cid:719",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ba029a5327ab"
+    },
+    {
+      "frame": 851,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 725,
+      "soundName": "cid:725",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "36d429d08c1b"
+    },
+    {
+      "frame": 877,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ac0cb0f3f21e"
+    },
+    {
+      "frame": 877,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 729,
+      "soundName": "cid:729",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "474a783341ec"
+    },
+    {
+      "frame": 1022,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 798,
+      "soundName": "cid:798",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d7b332c46959"
+    },
+    {
+      "frame": 1116,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 800,
+      "soundName": "cid:800",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d8c388a2299b"
+    },
+    {
+      "frame": 1202,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 808,
+      "soundName": "cid:808",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "63b86ea351f1"
+    },
+    {
+      "frame": 1245,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 902,
+      "soundName": "cid:902",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "0b09e18f4ace"
+    },
+    {
+      "frame": 1257,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 903,
+      "soundName": "cid:903",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "91ef75f17d2f"
+    },
+    {
+      "frame": 5,
+      "label": "hit",
+      "tag": "StartSound",
+      "soundId": 735,
+      "soundName": "cid:735",
+      "nameSource": "unnamed",
+      "spriteId": 752,
+      "spriteExport": "",
+      "sha1": "d3cad1c62a64"
+    }
+  ],
+  "actionEvents": [
+    {
+      "frame": 73,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "48cb372a53de"
+    },
+    {
+      "frame": 73,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d6ff8ce459b3"
+    },
+    {
+      "frame": 93,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ac0cb0f3f21e"
+    },
+    {
+      "frame": 96,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 116,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 134,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 154,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 179,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 140,
+      "soundName": "cid:140",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "433964babd41"
+    },
+    {
+      "frame": 181,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 216,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "9d711c8590ff"
+    },
+    {
+      "frame": 223,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 247,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 232,
+      "soundName": "cid:232",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a4658152625"
+    },
+    {
+      "frame": 257,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 233,
+      "soundName": "cid:233",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "01e4c5bab88a"
+    },
+    {
+      "frame": 300,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "9d711c8590ff"
+    },
+    {
+      "frame": 307,
+      "label": "砍技11",
+      "tag": "StartSound",
+      "soundId": 247,
+      "soundName": "cid:247",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6ba1d117c437"
+    },
+    {
+      "frame": 330,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 140,
+      "soundName": "cid:140",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "433964babd41"
+    },
+    {
+      "frame": 331,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 270,
+      "soundName": "cid:270",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d546ef8edc6d"
+    },
+    {
+      "frame": 361,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 299,
+      "soundName": "cid:299",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "be6d6db13956"
+    },
+    {
+      "frame": 369,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 377,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 401,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 320,
+      "soundName": "cid:320",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "799f61863176"
+    },
+    {
+      "frame": 405,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 409,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 419,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "570b6f8a60d9"
+    },
+    {
+      "frame": 450,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ac0cb0f3f21e"
+    },
+    {
+      "frame": 451,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 346,
+      "soundName": "cid:346",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "4d7fc74f59d0"
+    },
+    {
+      "frame": 493,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "9d711c8590ff"
+    },
+    {
+      "frame": 513,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 546,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 396,
+      "soundName": "cid:396",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "441cf38b5911"
+    },
+    {
+      "frame": 568,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 578,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 173,
+      "soundName": "cid:173",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "6a5d4cdb9c32"
+    },
+    {
+      "frame": 590,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 435,
+      "soundName": "cid:435",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "e5fd5451716d"
+    },
+    {
+      "frame": 642,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 54,
+      "soundName": "cid:54",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "48cb372a53de"
+    },
+    {
+      "frame": 672,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 140,
+      "soundName": "cid:140",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "433964babd41"
+    },
+    {
+      "frame": 673,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 270,
+      "soundName": "cid:270",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d546ef8edc6d"
+    },
+    {
+      "frame": 717,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 454,
+      "soundName": "cid:454",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "11045dd98ac9"
+    },
+    {
+      "frame": 740,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 586,
+      "soundName": "cid:586",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "a9d3a4cb018a"
+    },
+    {
+      "frame": 843,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 719,
+      "soundName": "cid:719",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ba029a5327ab"
+    },
+    {
+      "frame": 851,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 725,
+      "soundName": "cid:725",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "36d429d08c1b"
+    },
+    {
+      "frame": 877,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "ac0cb0f3f21e"
+    },
+    {
+      "frame": 877,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 729,
+      "soundName": "cid:729",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "474a783341ec"
+    },
+    {
+      "frame": 1022,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 798,
+      "soundName": "cid:798",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d7b332c46959"
+    },
+    {
+      "frame": 1116,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 800,
+      "soundName": "cid:800",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "d8c388a2299b"
+    },
+    {
+      "frame": 1202,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 808,
+      "soundName": "cid:808",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "63b86ea351f1"
+    },
+    {
+      "frame": 1245,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 902,
+      "soundName": "cid:902",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "0b09e18f4ace"
+    },
+    {
+      "frame": 1257,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 903,
+      "soundName": "cid:903",
+      "nameSource": "unnamed",
+      "spriteId": 906,
+      "spriteExport": "madara_fla.鸣人全动作_1",
+      "sha1": "91ef75f17d2f"
+    }
+  ],
+  "id": "madara",
+  "kind": "playable"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "fz/temari",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/temari.swf",
+  "defineSoundCount": 2,
+  "startSoundEventCount": 2,
+  "namedEventCount": 0,
+  "actionSpriteId": 83,
+  "defineSounds": {
+    "84": {
+      "sha1": "3a209f01f183",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:84",
+      "nameSource": "unnamed"
+    },
+    "85": {
+      "sha1": "ce5b165bab7c",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:85",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 38,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 84,
+      "soundName": "cid:84",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "temari_fla.MainTimeline",
+      "sha1": "3a209f01f183"
+    },
+    {
+      "frame": 38,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "temari_fla.MainTimeline",
+      "sha1": "ce5b165bab7c"
+    }
+  ],
+  "actionEvents": []
+}

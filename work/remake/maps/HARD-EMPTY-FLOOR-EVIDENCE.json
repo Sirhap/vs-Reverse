@@ -1,0 +1,32 @@
+{
+  "captured_at_cst": "2026-10-11 21:53 CST",
+  "policy": "fidelity SAME-HOLE (HARD-SOFT-POLICY.md)",
+  "maps": {
+    "shihunjietongdao": {
+      "hard": "missing floor root",
+      "floor_vos": 0,
+      "evidence": "export/_meta/map/shihunjietongdao/geometry.json holes.hard=[\"floor\"]"
+    },
+    "jianchang": {
+      "hard": "floor present empty sprite 0 children / FloorVO=0",
+      "floor_instance": {
+        "chid": 21,
+        "char_bounds_px": "0x0 empty sprite"
+      },
+      "floor_vos": 0,
+      "note": "geometry holes.hard=[] but runtime SAME-HOLE per INDEX floor kids=0"
+    },
+    "zoulang": {
+      "hard": "floor present empty sprite 0 children / FloorVO=0",
+      "floor_instance": {
+        "chid": 24,
+        "char_bounds_px": "0x0 empty sprite"
+      },
+      "floor_vos": 0,
+      "note": "same as jianchang"
+    }
+  },
+  "desktop_enter_smoke": "OPTIONAL visual — 不挡 G5 Documented-gap；步骤见 HARD-ENTRANCE-SMOKE.md",
+  "static_gate": "CLOSED SAME-HOLE fidelity 2026-10-11 22:09 CST",
+  "policy_note": "保真不增强；增强非 F"
+}

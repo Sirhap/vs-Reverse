@@ -1,0 +1,859 @@
+{
+  "id": "renji",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/renji.swf",
+  "defineSoundCount": 17,
+  "startSoundEventCount": 34,
+  "namedEventCount": 1,
+  "actionSpriteId": 696,
+  "actionExport": "renji_fla.一护全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "3f40c993d348",
+      "size": 6689,
+      "sampleCount": 18432,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "57": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:57",
+      "nameSource": "unnamed"
+    },
+    "66": {
+      "sha1": "90468ee928b3",
+      "size": 14213,
+      "sampleCount": 39168,
+      "exportName": null,
+      "resolvedName": "cid:66",
+      "nameSource": "unnamed"
+    },
+    "73": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:73",
+      "nameSource": "unnamed"
+    },
+    "112": {
+      "sha1": "dd4a203dc886",
+      "size": 13377,
+      "sampleCount": 36864,
+      "exportName": null,
+      "resolvedName": "cid:112",
+      "nameSource": "unnamed"
+    },
+    "137": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:137",
+      "nameSource": "unnamed"
+    },
+    "184": {
+      "sha1": "30dd1684c968",
+      "size": 12541,
+      "sampleCount": 34560,
+      "exportName": null,
+      "resolvedName": "cid:184",
+      "nameSource": "unnamed"
+    },
+    "187": {
+      "sha1": "193dc7abfac9",
+      "size": 4682,
+      "sampleCount": 23040,
+      "exportName": null,
+      "resolvedName": "cid:187",
+      "nameSource": "unnamed"
+    },
+    "248": {
+      "sha1": "15110b2c81ba",
+      "size": 25915,
+      "sampleCount": 71424,
+      "exportName": null,
+      "resolvedName": "cid:248",
+      "nameSource": "unnamed"
+    },
+    "296": {
+      "sha1": "472780638474",
+      "size": 21736,
+      "sampleCount": 59904,
+      "exportName": null,
+      "resolvedName": "cid:296",
+      "nameSource": "unnamed"
+    },
+    "331": {
+      "sha1": "6cbbe4dc8199",
+      "size": 28423,
+      "sampleCount": 78336,
+      "exportName": null,
+      "resolvedName": "cid:331",
+      "nameSource": "unnamed"
+    },
+    "396": {
+      "sha1": "8329d15e8028",
+      "size": 2810,
+      "sampleCount": 12691,
+      "exportName": null,
+      "resolvedName": "cid:396",
+      "nameSource": "unnamed"
+    },
+    "445": {
+      "sha1": "14850feb8396",
+      "size": 79832,
+      "sampleCount": 220032,
+      "exportName": null,
+      "resolvedName": "cid:445",
+      "nameSource": "unnamed"
+    },
+    "498": {
+      "sha1": "b236a09cb370",
+      "size": 40126,
+      "sampleCount": 110592,
+      "exportName": null,
+      "resolvedName": "cid:498",
+      "nameSource": "unnamed"
+    },
+    "635": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "645": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:645",
+      "nameSource": "unnamed"
+    },
+    "664": {
+      "sha1": "2f51ee69a72b",
+      "size": 62278,
+      "sampleCount": 171648,
+      "exportName": null,
+      "resolvedName": "cid:664",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 87,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 101,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "90468ee928b3"
+    },
+    {
+      "frame": 107,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 135,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 154,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 175,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 176,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 182,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 208,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 216,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 252,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 184,
+      "soundName": "cid:184",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "30dd1684c968"
+    },
+    {
+      "frame": 254,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 187,
+      "soundName": "cid:187",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "193dc7abfac9"
+    },
+    {
+      "frame": 297,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 299,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 333,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 248,
+      "soundName": "cid:248",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "15110b2c81ba"
+    },
+    {
+      "frame": 336,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 381,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 296,
+      "soundName": "cid:296",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "472780638474"
+    },
+    {
+      "frame": 383,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 391,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 397,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 405,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 428,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 428,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 456,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 457,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 481,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "6cbbe4dc8199"
+    },
+    {
+      "frame": 613,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "6cbbe4dc8199"
+    },
+    {
+      "frame": 727,
+      "label": "上必杀old",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "6cbbe4dc8199"
+    },
+    {
+      "frame": 745,
+      "label": "上必杀old",
+      "tag": "StartSound",
+      "soundId": 396,
+      "soundName": "cid:396",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 810,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 445,
+      "soundName": "cid:445",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "14850feb8396"
+    },
+    {
+      "frame": 953,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 498,
+      "soundName": "cid:498",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "b236a09cb370"
+    },
+    {
+      "frame": 1105,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 635,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1115,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 645,
+      "soundName": "cid:645",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1208,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 664,
+      "soundName": "cid:664",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "2f51ee69a72b"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 87,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 101,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 66,
+      "soundName": "cid:66",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "90468ee928b3"
+    },
+    {
+      "frame": 107,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 135,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 154,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 175,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 176,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 182,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 208,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 216,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 137,
+      "soundName": "cid:137",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 252,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 184,
+      "soundName": "cid:184",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "30dd1684c968"
+    },
+    {
+      "frame": 254,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 187,
+      "soundName": "cid:187",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "193dc7abfac9"
+    },
+    {
+      "frame": 297,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 299,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 333,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 248,
+      "soundName": "cid:248",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "15110b2c81ba"
+    },
+    {
+      "frame": 336,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 381,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 296,
+      "soundName": "cid:296",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "472780638474"
+    },
+    {
+      "frame": 383,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 391,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 397,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 405,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 428,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 428,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 456,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "dd4a203dc886"
+    },
+    {
+      "frame": 457,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 73,
+      "soundName": "cid:73",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 481,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "6cbbe4dc8199"
+    },
+    {
+      "frame": 613,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "6cbbe4dc8199"
+    },
+    {
+      "frame": 727,
+      "label": "上必杀old",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "6cbbe4dc8199"
+    },
+    {
+      "frame": 745,
+      "label": "上必杀old",
+      "tag": "StartSound",
+      "soundId": 396,
+      "soundName": "cid:396",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 810,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 445,
+      "soundName": "cid:445",
+      "nameSource": "unnamed",
+      "spriteId": 696,
+      "spriteExport": "renji_fla.一护全动作_1",
+      "sha1": "14850feb8396"
+    }
+  ]
+}

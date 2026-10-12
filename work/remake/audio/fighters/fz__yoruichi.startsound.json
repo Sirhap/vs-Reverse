@@ -1,0 +1,33 @@
+{
+  "id": "fz/yoruichi",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/yoruichi.swf",
+  "defineSoundCount": 1,
+  "startSoundEventCount": 1,
+  "namedEventCount": 0,
+  "actionSpriteId": null,
+  "defineSounds": {
+    "1": {
+      "sha1": "1c8fab2f6a46",
+      "size": 12541,
+      "sampleCount": 23040,
+      "exportName": null,
+      "resolvedName": "cid:1",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 2,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 1,
+      "soundName": "cid:1",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "yoruichi_fla.MainTimeline",
+      "sha1": "1c8fab2f6a46"
+    }
+  ],
+  "actionEvents": []
+}
