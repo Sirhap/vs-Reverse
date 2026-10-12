@@ -1,0 +1,50 @@
+{
+  "id": "kon",
+  "mainTimeline": "decompiled/fighters/fz/kon/scripts/kon_fla/MainTimeline.as",
+  "rootFrames": 102,
+  "addFrameScriptCount": 5,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":10, \"hitType\":2, \"hitx\":1, \"hity\":0, \"hurtTime\":300, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 14,
+      "frameNumber": 15,
+      "function": "frame15",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 29,
+      "frameNumber": 30,
+      "function": "frame30",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 66,
+      "frameNumber": 67,
+      "function": "frame67",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    },
+    {
+      "frameIndex0": 68,
+      "frameNumber": 69,
+      "function": "frame69",
+      "summary": "getOwner()",
+      "bodyPreview": "this.$assisterCtrler.getOwner().getBuffCtrl().attackUp(0.3,5);"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

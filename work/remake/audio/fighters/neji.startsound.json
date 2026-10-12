@@ -1,0 +1,1055 @@
+{
+  "id": "neji",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/neji.swf",
+  "defineSoundCount": 27,
+  "startSoundEventCount": 44,
+  "namedEventCount": 1,
+  "actionSpriteId": 539,
+  "actionExport": "neji_fla.一护全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "ffcb64edf3ea",
+      "size": 2186,
+      "sampleCount": 9408,
+      "exportName": "snd_hurtfly1",
+      "resolvedName": "snd_hurtfly1",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "5cb1c28e7321",
+      "size": 1666,
+      "sampleCount": 6384,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "92da4f650e74",
+      "size": 1874,
+      "sampleCount": 7924,
+      "exportName": "snd_hurt3",
+      "resolvedName": "snd_hurt3",
+      "nameSource": "SymbolClass"
+    },
+    "4": {
+      "sha1": "d8d639b43245",
+      "size": 1354,
+      "sampleCount": 4732,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "5": {
+      "sha1": "be48ae56a2e8",
+      "size": 3330,
+      "sampleCount": 16632,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "6": {
+      "sha1": "1cff1de3f774",
+      "size": 3122,
+      "sampleCount": 14868,
+      "exportName": "snd_die2",
+      "resolvedName": "snd_die2",
+      "nameSource": "SymbolClass"
+    },
+    "7": {
+      "sha1": "486c9b94e33d",
+      "size": 2290,
+      "sampleCount": 10892,
+      "exportName": "snd_hurtfly2",
+      "resolvedName": "snd_hurtfly2",
+      "nameSource": "SymbolClass"
+    },
+    "60": {
+      "sha1": "0708928d4320",
+      "size": 1042,
+      "sampleCount": 3304,
+      "exportName": null,
+      "resolvedName": "cid:60",
+      "nameSource": "unnamed"
+    },
+    "61": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:61",
+      "nameSource": "unnamed"
+    },
+    "80": {
+      "sha1": "f83bb0c1b883",
+      "size": 1770,
+      "sampleCount": 7224,
+      "exportName": null,
+      "resolvedName": "cid:80",
+      "nameSource": "unnamed"
+    },
+    "85": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:85",
+      "nameSource": "unnamed"
+    },
+    "131": {
+      "sha1": "a8848f9cf535",
+      "size": 1666,
+      "sampleCount": 6440,
+      "exportName": null,
+      "resolvedName": "cid:131",
+      "nameSource": "unnamed"
+    },
+    "146": {
+      "sha1": "30fcc79d29fc",
+      "size": 2082,
+      "sampleCount": 8904,
+      "exportName": null,
+      "resolvedName": "cid:146",
+      "nameSource": "unnamed"
+    },
+    "155": {
+      "sha1": "721b52452cdd",
+      "size": 5599,
+      "sampleCount": 24768,
+      "exportName": null,
+      "resolvedName": "cid:155",
+      "nameSource": "unnamed"
+    },
+    "188": {
+      "sha1": "18e02ea87004",
+      "size": 1770,
+      "sampleCount": 7000,
+      "exportName": null,
+      "resolvedName": "cid:188",
+      "nameSource": "unnamed"
+    },
+    "217": {
+      "sha1": "8329d15e8028",
+      "size": 2810,
+      "sampleCount": 12691,
+      "exportName": null,
+      "resolvedName": "cid:217",
+      "nameSource": "unnamed"
+    },
+    "279": {
+      "sha1": "b05093960e68",
+      "size": 3850,
+      "sampleCount": 18564,
+      "exportName": null,
+      "resolvedName": "cid:279",
+      "nameSource": "unnamed"
+    },
+    "306": {
+      "sha1": "40dda67b9f38",
+      "size": 5098,
+      "sampleCount": 25816,
+      "exportName": null,
+      "resolvedName": "cid:306",
+      "nameSource": "unnamed"
+    },
+    "311": {
+      "sha1": "0e64db0a62f4",
+      "size": 4266,
+      "sampleCount": 20832,
+      "exportName": null,
+      "resolvedName": "cid:311",
+      "nameSource": "unnamed"
+    },
+    "353": {
+      "sha1": "c208fea6363a",
+      "size": 2498,
+      "sampleCount": 11228,
+      "exportName": null,
+      "resolvedName": "cid:353",
+      "nameSource": "unnamed"
+    },
+    "354": {
+      "sha1": "a40ec5dcddb6",
+      "size": 4266,
+      "sampleCount": 20832,
+      "exportName": null,
+      "resolvedName": "cid:354",
+      "nameSource": "unnamed"
+    },
+    "398": {
+      "sha1": "47d0285da78f",
+      "size": 4890,
+      "sampleCount": 25256,
+      "exportName": null,
+      "resolvedName": "cid:398",
+      "nameSource": "unnamed"
+    },
+    "401": {
+      "sha1": "996bae8f3ee0",
+      "size": 2498,
+      "sampleCount": 11032,
+      "exportName": null,
+      "resolvedName": "cid:401",
+      "nameSource": "unnamed"
+    },
+    "508": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "513": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:513",
+      "nameSource": "unnamed"
+    },
+    "516": {
+      "sha1": "5325523042c3",
+      "size": 12066,
+      "sampleCount": 64204,
+      "exportName": null,
+      "resolvedName": "cid:516",
+      "nameSource": "unnamed"
+    },
+    "525": {
+      "sha1": "283dbbce9c3a",
+      "size": 3434,
+      "sampleCount": 16212,
+      "exportName": null,
+      "resolvedName": "cid:525",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "7": "snd_hurtfly2",
+    "6": "snd_die2",
+    "5": "snd_die",
+    "4": "snd_hurt2",
+    "3": "snd_hurt3",
+    "2": "snd_hurt1",
+    "1": "snd_hurtfly1"
+  },
+  "actionEvents": [
+    {
+      "frame": 80,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0708928d4320"
+    },
+    {
+      "frame": 80,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f83bb0c1b883"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 124,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0708928d4320"
+    },
+    {
+      "frame": 124,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 144,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0708928d4320"
+    },
+    {
+      "frame": 144,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 167,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f83bb0c1b883"
+    },
+    {
+      "frame": 168,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 192,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 193,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 216,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "30fcc79d29fc"
+    },
+    {
+      "frame": 221,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 155,
+      "soundName": "cid:155",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "721b52452cdd"
+    },
+    {
+      "frame": 240,
+      "label": "砍技11",
+      "tag": "StartSound",
+      "soundId": 188,
+      "soundName": "cid:188",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "18e02ea87004"
+    },
+    {
+      "frame": 281,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 282,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 310,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 310,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 346,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "30fcc79d29fc"
+    },
+    {
+      "frame": 346,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 386,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 386,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 415,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 279,
+      "soundName": "cid:279",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "b05093960e68"
+    },
+    {
+      "frame": 419,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 430,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 435,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 456,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f83bb0c1b883"
+    },
+    {
+      "frame": 456,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 500,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 502,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 544,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 306,
+      "soundName": "cid:306",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "40dda67b9f38"
+    },
+    {
+      "frame": 546,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 311,
+      "soundName": "cid:311",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0e64db0a62f4"
+    },
+    {
+      "frame": 623,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 353,
+      "soundName": "cid:353",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "c208fea6363a"
+    },
+    {
+      "frame": 623,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 354,
+      "soundName": "cid:354",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a40ec5dcddb6"
+    },
+    {
+      "frame": 675,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 398,
+      "soundName": "cid:398",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "47d0285da78f"
+    },
+    {
+      "frame": 711,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 401,
+      "soundName": "cid:401",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "996bae8f3ee0"
+    },
+    {
+      "frame": 844,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 306,
+      "soundName": "cid:306",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "40dda67b9f38"
+    },
+    {
+      "frame": 914,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 920,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 1031,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 508,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1040,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 513,
+      "soundName": "cid:513",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1052,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 516,
+      "soundName": "cid:516",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "5325523042c3"
+    },
+    {
+      "frame": 1161,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 525,
+      "soundName": "cid:525",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "283dbbce9c3a"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 80,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0708928d4320"
+    },
+    {
+      "frame": 80,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f83bb0c1b883"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 124,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0708928d4320"
+    },
+    {
+      "frame": 124,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 144,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "0708928d4320"
+    },
+    {
+      "frame": 144,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 167,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f83bb0c1b883"
+    },
+    {
+      "frame": 168,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 192,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 193,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 216,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "30fcc79d29fc"
+    },
+    {
+      "frame": 221,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 155,
+      "soundName": "cid:155",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "721b52452cdd"
+    },
+    {
+      "frame": 240,
+      "label": "砍技11",
+      "tag": "StartSound",
+      "soundId": 188,
+      "soundName": "cid:188",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "18e02ea87004"
+    },
+    {
+      "frame": 281,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 282,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 310,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 310,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 346,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 146,
+      "soundName": "cid:146",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "30fcc79d29fc"
+    },
+    {
+      "frame": 346,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 386,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    },
+    {
+      "frame": 386,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 415,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 279,
+      "soundName": "cid:279",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "b05093960e68"
+    },
+    {
+      "frame": 419,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 430,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 435,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 61,
+      "soundName": "cid:61",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 456,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 80,
+      "soundName": "cid:80",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "f83bb0c1b883"
+    },
+    {
+      "frame": 456,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 85,
+      "soundName": "cid:85",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 500,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 131,
+      "soundName": "cid:131",
+      "nameSource": "unnamed",
+      "spriteId": 539,
+      "spriteExport": "neji_fla.一护全动作_1",
+      "sha1": "a8848f9cf535"
+    }
+  ]
+}

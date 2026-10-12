@@ -1,0 +1,50 @@
+{
+  "id": "hinata",
+  "mainTimeline": "decompiled/fighters/fz/hinata/scripts/hinata_fla/MainTimeline.as",
+  "rootFrames": 66,
+  "addFrameScriptCount": 5,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":20, \"hitType\":4, \"hitx\":5, \"hity\":0, \"hurtTime\":1000, \"hurtType\":0, \"isBreakDef\":true"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 12,
+      "frameNumber": 13,
+      "function": "frame13",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 27,
+      "frameNumber": 28,
+      "function": "frame28",
+      "summary": "effect.endBisha(); move(5,0); damping(0.5,0)",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha(); this.$assisterCtrler.move(5,0); this.$assisterCtrler.damping(0.5,0);"
+    },
+    {
+      "frameIndex0": 29,
+      "frameNumber": 30,
+      "function": "frame30",
+      "summary": "effect.shine()",
+      "bodyPreview": "this.$assisterCtrler.effect.shine();"
+    },
+    {
+      "frameIndex0": 48,
+      "frameNumber": 49,
+      "function": "frame49",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

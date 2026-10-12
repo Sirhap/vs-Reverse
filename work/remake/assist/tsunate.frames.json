@@ -1,0 +1,99 @@
+{
+  "id": "tsunate",
+  "mainTimeline": "decompiled/fighters/fz/tsunate/scripts/tsunate_fla/MainTimeline.as",
+  "rootFrames": 79,
+  "addFrameScriptCount": 12,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":50, \"hitType\":5, \"hitx\":15, \"hity\":0, \"hurtTime\":500, \"hurtType\":1, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 6,
+      "frameNumber": 7,
+      "function": "frame7",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 9,
+      "frameNumber": 10,
+      "function": "frame10",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 12,
+      "frameNumber": 13,
+      "function": "frame13",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 15,
+      "frameNumber": 16,
+      "function": "frame16",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 18,
+      "frameNumber": 19,
+      "function": "frame19",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 21,
+      "frameNumber": 22,
+      "function": "frame22",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 24,
+      "frameNumber": 25,
+      "function": "frame25",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 27,
+      "frameNumber": 28,
+      "function": "frame28",
+      "summary": "checkHitOwner(\"main\"); getOwner()",
+      "bodyPreview": "if(this.$assisterCtrler.checkHitOwner(\"main\")) { this.$assisterCtrler.getOwner().addHp(5);"
+    },
+    {
+      "frameIndex0": 38,
+      "frameNumber": 39,
+      "function": "frame39",
+      "summary": "moveToTarget(-50,null,false)",
+      "bodyPreview": "this.$assisterCtrler.moveToTarget(-50,null,false);"
+    },
+    {
+      "frameIndex0": 44,
+      "frameNumber": 45,
+      "function": "frame45",
+      "summary": "move(10,0); damping(1,0)",
+      "bodyPreview": "this.$assisterCtrler.move(10,0); this.$assisterCtrler.damping(1,0);"
+    },
+    {
+      "frameIndex0": 59,
+      "frameNumber": 60,
+      "function": "frame60",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

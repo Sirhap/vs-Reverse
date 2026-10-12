@@ -1,0 +1,1141 @@
+{
+  "id": "grimmjow",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/grimmjow.swf",
+  "defineSoundCount": 38,
+  "startSoundEventCount": 44,
+  "namedEventCount": 1,
+  "actionSpriteId": 515,
+  "actionExport": "grimmjow_fla.一护全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "0a24a2415c35",
+      "size": 2498,
+      "sampleCount": 10944,
+      "exportName": "snd_hurt4",
+      "resolvedName": "snd_hurt4",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "77d75aa65c3b",
+      "size": 2602,
+      "sampleCount": 11520,
+      "exportName": "snd_hurt3",
+      "resolvedName": "snd_hurt3",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "72e9b9c50495",
+      "size": 15706,
+      "sampleCount": 84096,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "4": {
+      "sha1": "53984293b0fa",
+      "size": 6450,
+      "sampleCount": 32832,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "5": {
+      "sha1": "f337888fbc82",
+      "size": 5306,
+      "sampleCount": 26496,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "57": {
+      "sha1": "556ba672a3a5",
+      "size": 2602,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:57",
+      "nameSource": "unnamed"
+    },
+    "60": {
+      "sha1": "32671cf03c93",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:60",
+      "nameSource": "unnamed"
+    },
+    "71": {
+      "sha1": "b970baf15576",
+      "size": 4058,
+      "sampleCount": 19586,
+      "exportName": null,
+      "resolvedName": "cid:71",
+      "nameSource": "unnamed"
+    },
+    "86": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:86",
+      "nameSource": "unnamed"
+    },
+    "93": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:93",
+      "nameSource": "unnamed"
+    },
+    "102": {
+      "sha1": "004b94fb188d",
+      "size": 2810,
+      "sampleCount": 12672,
+      "exportName": null,
+      "resolvedName": "cid:102",
+      "nameSource": "unnamed"
+    },
+    "105": {
+      "sha1": "32671cf03c93",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:105",
+      "nameSource": "unnamed"
+    },
+    "112": {
+      "sha1": "2adaf117ec8c",
+      "size": 3122,
+      "sampleCount": 14402,
+      "exportName": null,
+      "resolvedName": "cid:112",
+      "nameSource": "unnamed"
+    },
+    "121": {
+      "sha1": "2f95b14bfc92",
+      "size": 6138,
+      "sampleCount": 31104,
+      "exportName": null,
+      "resolvedName": "cid:121",
+      "nameSource": "unnamed"
+    },
+    "124": {
+      "sha1": "eb9eca1f5e52",
+      "size": 1562,
+      "sampleCount": 6115,
+      "exportName": null,
+      "resolvedName": "cid:124",
+      "nameSource": "unnamed"
+    },
+    "143": {
+      "sha1": "11dee502e4ec",
+      "size": 3954,
+      "sampleCount": 19008,
+      "exportName": null,
+      "resolvedName": "cid:143",
+      "nameSource": "unnamed"
+    },
+    "162": {
+      "sha1": "ef8864f1e0c5",
+      "size": 4682,
+      "sampleCount": 24108,
+      "exportName": null,
+      "resolvedName": "cid:162",
+      "nameSource": "unnamed"
+    },
+    "175": {
+      "sha1": "85b48d21e9ca",
+      "size": 4266,
+      "sampleCount": 20736,
+      "exportName": null,
+      "resolvedName": "cid:175",
+      "nameSource": "unnamed"
+    },
+    "178": {
+      "sha1": "71127f640aae",
+      "size": 4474,
+      "sampleCount": 21946,
+      "exportName": null,
+      "resolvedName": "cid:178",
+      "nameSource": "unnamed"
+    },
+    "193": {
+      "sha1": "0e8e4e401ed4",
+      "size": 6242,
+      "sampleCount": 31680,
+      "exportName": null,
+      "resolvedName": "cid:193",
+      "nameSource": "unnamed"
+    },
+    "196": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:196",
+      "nameSource": "unnamed"
+    },
+    "245": {
+      "sha1": "b154e3ad2f3d",
+      "size": 3642,
+      "sampleCount": 17280,
+      "exportName": null,
+      "resolvedName": "cid:245",
+      "nameSource": "unnamed"
+    },
+    "266": {
+      "sha1": "5c1caa7e2ae0",
+      "size": 2186,
+      "sampleCount": 10259,
+      "exportName": null,
+      "resolvedName": "cid:266",
+      "nameSource": "unnamed"
+    },
+    "271": {
+      "sha1": "94aab5cf2d72",
+      "size": 4058,
+      "sampleCount": 20008,
+      "exportName": null,
+      "resolvedName": "cid:271",
+      "nameSource": "unnamed"
+    },
+    "272": {
+      "sha1": "32671cf03c93",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:272",
+      "nameSource": "unnamed"
+    },
+    "277": {
+      "sha1": "fe75e6c53d16",
+      "size": 4994,
+      "sampleCount": 24768,
+      "exportName": null,
+      "resolvedName": "cid:277",
+      "nameSource": "unnamed"
+    },
+    "295": {
+      "sha1": "9ccad81e90a5",
+      "size": 6138,
+      "sampleCount": 31186,
+      "exportName": null,
+      "resolvedName": "cid:295",
+      "nameSource": "unnamed"
+    },
+    "304": {
+      "sha1": "5f2c72bb2e5c",
+      "size": 5306,
+      "sampleCount": 26496,
+      "exportName": null,
+      "resolvedName": "cid:304",
+      "nameSource": "unnamed"
+    },
+    "310": {
+      "sha1": "2592c36590f1",
+      "size": 5930,
+      "sampleCount": 29952,
+      "exportName": null,
+      "resolvedName": "cid:310",
+      "nameSource": "unnamed"
+    },
+    "341": {
+      "sha1": "8635d851dc50",
+      "size": 4890,
+      "sampleCount": 24192,
+      "exportName": null,
+      "resolvedName": "cid:341",
+      "nameSource": "unnamed"
+    },
+    "342": {
+      "sha1": "8cab72619bb6",
+      "size": 10922,
+      "sampleCount": 57600,
+      "exportName": null,
+      "resolvedName": "cid:342",
+      "nameSource": "unnamed"
+    },
+    "389": {
+      "sha1": "cfa9eef7e3d0",
+      "size": 7282,
+      "sampleCount": 37440,
+      "exportName": null,
+      "resolvedName": "cid:389",
+      "nameSource": "unnamed"
+    },
+    "413": {
+      "sha1": "0fcfea83bb33",
+      "size": 6346,
+      "sampleCount": 32576,
+      "exportName": null,
+      "resolvedName": "cid:413",
+      "nameSource": "unnamed"
+    },
+    "501": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "502": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:502",
+      "nameSource": "unnamed"
+    },
+    "503": {
+      "sha1": "fc4cab6dd4a9",
+      "size": 13106,
+      "sampleCount": 69696,
+      "exportName": null,
+      "resolvedName": "cid:503",
+      "nameSource": "unnamed"
+    },
+    "513": {
+      "sha1": "020b1f219cda",
+      "size": 12898,
+      "sampleCount": 68544,
+      "exportName": null,
+      "resolvedName": "cid:513",
+      "nameSource": "unnamed"
+    },
+    "514": {
+      "sha1": "72eac166eb10",
+      "size": 6866,
+      "sampleCount": 36256,
+      "exportName": null,
+      "resolvedName": "cid:514",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "5": "snd_hurt2",
+    "4": "snd_hurt1",
+    "3": "snd_die",
+    "2": "snd_hurt3",
+    "1": "snd_hurt4"
+  },
+  "actionEvents": [
+    {
+      "frame": 86,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "556ba672a3a5"
+    },
+    {
+      "frame": 87,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 106,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "b970baf15576"
+    },
+    {
+      "frame": 107,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 138,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 152,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 171,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "004b94fb188d"
+    },
+    {
+      "frame": 173,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 205,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "2adaf117ec8c"
+    },
+    {
+      "frame": 206,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 236,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 121,
+      "soundName": "cid:121",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "2f95b14bfc92"
+    },
+    {
+      "frame": 237,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 241,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 245,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 249,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 253,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 257,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 296,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "11dee502e4ec"
+    },
+    {
+      "frame": 304,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 162,
+      "soundName": "cid:162",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "ef8864f1e0c5"
+    },
+    {
+      "frame": 328,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 175,
+      "soundName": "cid:175",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "85b48d21e9ca"
+    },
+    {
+      "frame": 332,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 178,
+      "soundName": "cid:178",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 363,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 193,
+      "soundName": "cid:193",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "0e8e4e401ed4"
+    },
+    {
+      "frame": 366,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 196,
+      "soundName": "cid:196",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 400,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 245,
+      "soundName": "cid:245",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "b154e3ad2f3d"
+    },
+    {
+      "frame": 417,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 178,
+      "soundName": "cid:178",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 472,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "556ba672a3a5"
+    },
+    {
+      "frame": 476,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 266,
+      "soundName": "cid:266",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "5c1caa7e2ae0"
+    },
+    {
+      "frame": 511,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 271,
+      "soundName": "cid:271",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "94aab5cf2d72"
+    },
+    {
+      "frame": 514,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 272,
+      "soundName": "cid:272",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 547,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "fe75e6c53d16"
+    },
+    {
+      "frame": 570,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 295,
+      "soundName": "cid:295",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "9ccad81e90a5"
+    },
+    {
+      "frame": 612,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 304,
+      "soundName": "cid:304",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "5f2c72bb2e5c"
+    },
+    {
+      "frame": 636,
+      "label": "空中必杀loop",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 644,
+      "label": "空中必杀2",
+      "tag": "StartSound",
+      "soundId": 295,
+      "soundName": "cid:295",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "9ccad81e90a5"
+    },
+    {
+      "frame": 644,
+      "label": "空中必杀2",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "2592c36590f1"
+    },
+    {
+      "frame": 691,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 341,
+      "soundName": "cid:341",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "8635d851dc50"
+    },
+    {
+      "frame": 691,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 342,
+      "soundName": "cid:342",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "8cab72619bb6"
+    },
+    {
+      "frame": 728,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 389,
+      "soundName": "cid:389",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "cfa9eef7e3d0"
+    },
+    {
+      "frame": 744,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 413,
+      "soundName": "cid:413",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "0fcfea83bb33"
+    },
+    {
+      "frame": 901,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 501,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 911,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 502,
+      "soundName": "cid:502",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 922,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 503,
+      "soundName": "cid:503",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "fc4cab6dd4a9"
+    },
+    {
+      "frame": 1002,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 513,
+      "soundName": "cid:513",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "020b1f219cda"
+    },
+    {
+      "frame": 1002,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 514,
+      "soundName": "cid:514",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "72eac166eb10"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 86,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "556ba672a3a5"
+    },
+    {
+      "frame": 87,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 106,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "b970baf15576"
+    },
+    {
+      "frame": 107,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 60,
+      "soundName": "cid:60",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 138,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 152,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 171,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "004b94fb188d"
+    },
+    {
+      "frame": 173,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 205,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "2adaf117ec8c"
+    },
+    {
+      "frame": 206,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 105,
+      "soundName": "cid:105",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 236,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 121,
+      "soundName": "cid:121",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "2f95b14bfc92"
+    },
+    {
+      "frame": 237,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 241,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 245,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 249,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 253,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 257,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 124,
+      "soundName": "cid:124",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "eb9eca1f5e52"
+    },
+    {
+      "frame": 296,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 143,
+      "soundName": "cid:143",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "11dee502e4ec"
+    },
+    {
+      "frame": 304,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 162,
+      "soundName": "cid:162",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "ef8864f1e0c5"
+    },
+    {
+      "frame": 328,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 175,
+      "soundName": "cid:175",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "85b48d21e9ca"
+    },
+    {
+      "frame": 332,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 178,
+      "soundName": "cid:178",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 363,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 193,
+      "soundName": "cid:193",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "0e8e4e401ed4"
+    },
+    {
+      "frame": 366,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 196,
+      "soundName": "cid:196",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 400,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 245,
+      "soundName": "cid:245",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "b154e3ad2f3d"
+    },
+    {
+      "frame": 417,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 178,
+      "soundName": "cid:178",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 472,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "556ba672a3a5"
+    },
+    {
+      "frame": 476,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 266,
+      "soundName": "cid:266",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "5c1caa7e2ae0"
+    },
+    {
+      "frame": 511,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 271,
+      "soundName": "cid:271",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "94aab5cf2d72"
+    },
+    {
+      "frame": 514,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 272,
+      "soundName": "cid:272",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "32671cf03c93"
+    },
+    {
+      "frame": 547,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 515,
+      "spriteExport": "grimmjow_fla.一护全动作_1",
+      "sha1": "fe75e6c53d16"
+    }
+  ]
+}

@@ -1,0 +1,1096 @@
+{
+  "id": "mayuri",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/mayuri.swf",
+  "defineSoundCount": 30,
+  "startSoundEventCount": 48,
+  "namedEventCount": 2,
+  "actionSpriteId": 474,
+  "actionExport": "mayuri_fla.Timeline_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "352c2047b984",
+      "size": 1770,
+      "sampleCount": 7200,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "0df6000ee5d0",
+      "size": 2082,
+      "sampleCount": 8928,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "35": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "43": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:43",
+      "nameSource": "unnamed"
+    },
+    "49": {
+      "sha1": "fe3477beaf23",
+      "size": 1354,
+      "sampleCount": 4608,
+      "exportName": null,
+      "resolvedName": "cid:49",
+      "nameSource": "unnamed"
+    },
+    "52": {
+      "sha1": "7bf8fd603208",
+      "size": 1562,
+      "sampleCount": 5873,
+      "exportName": null,
+      "resolvedName": "cid:52",
+      "nameSource": "unnamed"
+    },
+    "65": {
+      "sha1": "ce5b165bab7c",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:65",
+      "nameSource": "unnamed"
+    },
+    "74": {
+      "sha1": "9375cdbef787",
+      "size": 938,
+      "sampleCount": 2398,
+      "exportName": null,
+      "resolvedName": "cid:74",
+      "nameSource": "unnamed"
+    },
+    "83": {
+      "sha1": "83f454729c67",
+      "size": 938,
+      "sampleCount": 2723,
+      "exportName": null,
+      "resolvedName": "cid:83",
+      "nameSource": "unnamed"
+    },
+    "90": {
+      "sha1": "7a069e39c283",
+      "size": 834,
+      "sampleCount": 2795,
+      "exportName": null,
+      "resolvedName": "cid:90",
+      "nameSource": "unnamed"
+    },
+    "93": {
+      "sha1": "d5c56cde4ee6",
+      "size": 14631,
+      "sampleCount": 40320,
+      "exportName": null,
+      "resolvedName": "cid:93",
+      "nameSource": "unnamed"
+    },
+    "122": {
+      "sha1": "675089017a2a",
+      "size": 730,
+      "sampleCount": 2205,
+      "exportName": null,
+      "resolvedName": "cid:122",
+      "nameSource": "unnamed"
+    },
+    "127": {
+      "sha1": "65120c23191f",
+      "size": 2602,
+      "sampleCount": 11466,
+      "exportName": null,
+      "resolvedName": "cid:127",
+      "nameSource": "unnamed"
+    },
+    "215": {
+      "sha1": "cf366cab77ac",
+      "size": 2089,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:215",
+      "nameSource": "unnamed"
+    },
+    "231": {
+      "sha1": "a7c4bb815e0a",
+      "size": 1042,
+      "sampleCount": 3158,
+      "exportName": null,
+      "resolvedName": "cid:231",
+      "nameSource": "unnamed"
+    },
+    "240": {
+      "sha1": "b6d316685545",
+      "size": 2706,
+      "sampleCount": 12384,
+      "exportName": null,
+      "resolvedName": "cid:240",
+      "nameSource": "unnamed"
+    },
+    "309": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:309",
+      "nameSource": "unnamed"
+    },
+    "310": {
+      "sha1": "aceba96b9f6f",
+      "size": 1874,
+      "sampleCount": 7488,
+      "exportName": null,
+      "resolvedName": "cid:310",
+      "nameSource": "unnamed"
+    },
+    "315": {
+      "sha1": "2bea80098548",
+      "size": 1250,
+      "sampleCount": 3985,
+      "exportName": null,
+      "resolvedName": "cid:315",
+      "nameSource": "unnamed"
+    },
+    "316": {
+      "sha1": "685bd2238b4d",
+      "size": 1354,
+      "sampleCount": 5645,
+      "exportName": null,
+      "resolvedName": "cid:316",
+      "nameSource": "unnamed"
+    },
+    "331": {
+      "sha1": "8a7b7af23787",
+      "size": 938,
+      "sampleCount": 2679,
+      "exportName": null,
+      "resolvedName": "cid:331",
+      "nameSource": "unnamed"
+    },
+    "344": {
+      "sha1": "d6a45366a80f",
+      "size": 2082,
+      "sampleCount": 8924,
+      "exportName": null,
+      "resolvedName": "cid:344",
+      "nameSource": "unnamed"
+    },
+    "345": {
+      "sha1": "2c3fda119500",
+      "size": 2394,
+      "sampleCount": 10814,
+      "exportName": null,
+      "resolvedName": "cid:345",
+      "nameSource": "unnamed"
+    },
+    "352": {
+      "sha1": "e82771042bb9",
+      "size": 2914,
+      "sampleCount": 13536,
+      "exportName": null,
+      "resolvedName": "cid:352",
+      "nameSource": "unnamed"
+    },
+    "355": {
+      "sha1": "d332a4a7350a",
+      "size": 9154,
+      "sampleCount": 48104,
+      "exportName": null,
+      "resolvedName": "cid:355",
+      "nameSource": "unnamed"
+    },
+    "394": {
+      "sha1": "6e20eaed8500",
+      "size": 5514,
+      "sampleCount": 27936,
+      "exportName": null,
+      "resolvedName": "cid:394",
+      "nameSource": "unnamed"
+    },
+    "411": {
+      "sha1": "852d6b017b86",
+      "size": 8738,
+      "sampleCount": 45598,
+      "exportName": null,
+      "resolvedName": "cid:411",
+      "nameSource": "unnamed"
+    },
+    "453": {
+      "sha1": "acc035b963f7",
+      "size": 3330,
+      "sampleCount": 15752,
+      "exportName": null,
+      "resolvedName": "cid:453",
+      "nameSource": "unnamed"
+    },
+    "467": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:467",
+      "nameSource": "unnamed"
+    },
+    "472": {
+      "sha1": "d20d041dafc7",
+      "size": 3538,
+      "sampleCount": 16992,
+      "exportName": null,
+      "resolvedName": "cid:472",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "2": "snd_hurt2",
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 55,
+      "label": "起跳",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 92,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 111,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 124,
+      "label": "跳招21",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 147,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 169,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 195,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 195,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 74,
+      "soundName": "cid:74",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "9375cdbef787"
+    },
+    {
+      "frame": 202,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 202,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 83,
+      "soundName": "cid:83",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "83f454729c67"
+    },
+    {
+      "frame": 236,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7a069e39c283"
+    },
+    {
+      "frame": 238,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "d5c56cde4ee6"
+    },
+    {
+      "frame": 268,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 271,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 301,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 122,
+      "soundName": "cid:122",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "675089017a2a"
+    },
+    {
+      "frame": 303,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 127,
+      "soundName": "cid:127",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "65120c23191f"
+    },
+    {
+      "frame": 347,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 347,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 122,
+      "soundName": "cid:122",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "675089017a2a"
+    },
+    {
+      "frame": 402,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 402,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7a069e39c283"
+    },
+    {
+      "frame": 411,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 231,
+      "soundName": "cid:231",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "a7c4bb815e0a"
+    },
+    {
+      "frame": 412,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 441,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7a069e39c283"
+    },
+    {
+      "frame": 469,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 471,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 501,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 240,
+      "soundName": "cid:240",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "b6d316685545"
+    },
+    {
+      "frame": 537,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 127,
+      "soundName": "cid:127",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "65120c23191f"
+    },
+    {
+      "frame": 582,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 309,
+      "soundName": "cid:309",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 604,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "aceba96b9f6f"
+    },
+    {
+      "frame": 605,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 613,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 315,
+      "soundName": "cid:315",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "2bea80098548"
+    },
+    {
+      "frame": 613,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 316,
+      "soundName": "cid:316",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "685bd2238b4d"
+    },
+    {
+      "frame": 652,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 331,
+      "soundName": "cid:331",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "8a7b7af23787"
+    },
+    {
+      "frame": 656,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 672,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 672,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 686,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 231,
+      "soundName": "cid:231",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "a7c4bb815e0a"
+    },
+    {
+      "frame": 703,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 344,
+      "soundName": "cid:344",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "d6a45366a80f"
+    },
+    {
+      "frame": 703,
+      "label": "必杀2",
+      "tag": "StartSound",
+      "soundId": 345,
+      "soundName": "cid:345",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "2c3fda119500"
+    },
+    {
+      "frame": 751,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 352,
+      "soundName": "cid:352",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "e82771042bb9"
+    },
+    {
+      "frame": 793,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 355,
+      "soundName": "cid:355",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "d332a4a7350a"
+    },
+    {
+      "frame": 838,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 394,
+      "soundName": "cid:394",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "6e20eaed8500"
+    },
+    {
+      "frame": 875,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 453,
+      "soundName": "cid:453",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "acc035b963f7"
+    },
+    {
+      "frame": 1081,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 467,
+      "soundName": "cid:467",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1105,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 472,
+      "soundName": "cid:472",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "d20d041dafc7"
+    },
+    {
+      "frame": 1161,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 472,
+      "soundName": "cid:472",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "d20d041dafc7"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 55,
+      "label": "起跳",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 92,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 111,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 124,
+      "label": "跳招21",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 147,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 169,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 195,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 195,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 74,
+      "soundName": "cid:74",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "9375cdbef787"
+    },
+    {
+      "frame": 202,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 202,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 83,
+      "soundName": "cid:83",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "83f454729c67"
+    },
+    {
+      "frame": 236,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7a069e39c283"
+    },
+    {
+      "frame": 238,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "d5c56cde4ee6"
+    },
+    {
+      "frame": 268,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 271,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 301,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 122,
+      "soundName": "cid:122",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "675089017a2a"
+    },
+    {
+      "frame": 303,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 127,
+      "soundName": "cid:127",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "65120c23191f"
+    },
+    {
+      "frame": 347,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 347,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 122,
+      "soundName": "cid:122",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "675089017a2a"
+    },
+    {
+      "frame": 402,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 35,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 402,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7a069e39c283"
+    },
+    {
+      "frame": 411,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 231,
+      "soundName": "cid:231",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "a7c4bb815e0a"
+    },
+    {
+      "frame": 412,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 65,
+      "soundName": "cid:65",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 441,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7a069e39c283"
+    },
+    {
+      "frame": 469,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "fe3477beaf23"
+    },
+    {
+      "frame": 471,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 52,
+      "soundName": "cid:52",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "7bf8fd603208"
+    },
+    {
+      "frame": 501,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 240,
+      "soundName": "cid:240",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "b6d316685545"
+    },
+    {
+      "frame": 537,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 127,
+      "soundName": "cid:127",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "65120c23191f"
+    },
+    {
+      "frame": 582,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 309,
+      "soundName": "cid:309",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 604,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "aceba96b9f6f"
+    },
+    {
+      "frame": 605,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 474,
+      "spriteExport": "mayuri_fla.Timeline_1",
+      "sha1": "1ba2f0b7cb95"
+    }
+  ]
+}

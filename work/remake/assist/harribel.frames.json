@@ -1,0 +1,64 @@
+{
+  "id": "harribel",
+  "mainTimeline": "decompiled/fighters/fz/harribel/scripts/harribel_fla/MainTimeline.as",
+  "rootFrames": 61,
+  "addFrameScriptCount": 7,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":110, \"hitType\":5, \"hitx\":10, \"hity\":0, \"hurtTime\":500, \"hurtType\":1, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 15,
+      "frameNumber": 16,
+      "function": "frame16",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 29,
+      "frameNumber": 30,
+      "function": "frame30",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 31,
+      "frameNumber": 32,
+      "function": "frame32",
+      "summary": "move(30,0)",
+      "bodyPreview": "this.$assisterCtrler.move(30,0);"
+    },
+    {
+      "frameIndex0": 32,
+      "frameNumber": 33,
+      "function": "frame33",
+      "summary": "effect.shine(9461864)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(9461864);"
+    },
+    {
+      "frameIndex0": 42,
+      "frameNumber": 43,
+      "function": "frame43",
+      "summary": "damping(3,0)",
+      "bodyPreview": "this.$assisterCtrler.damping(3,0);"
+    },
+    {
+      "frameIndex0": 54,
+      "frameNumber": 55,
+      "function": "frame55",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

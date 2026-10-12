@@ -1,0 +1,50 @@
+{
+  "id": "yamamoto",
+  "mainTimeline": "decompiled/fighters/fz/yamamoto/scripts/yamamoto_fla/MainTimeline.as",
+  "rootFrames": 76,
+  "addFrameScriptCount": 5,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":200, \"hitType\":7, \"hitx\":5, \"hity\":-10, \"hurtTime\":0, \"hurtType\":1, \"isBreakDef\":true"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 15,
+      "frameNumber": 16,
+      "function": "frame16",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 28,
+      "frameNumber": 29,
+      "function": "frame29",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 32,
+      "frameNumber": 33,
+      "function": "frame33",
+      "summary": "effect.shine(9461864)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(9461864);"
+    },
+    {
+      "frameIndex0": 69,
+      "frameNumber": 70,
+      "function": "frame70",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

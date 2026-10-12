@@ -1,0 +1,101 @@
+{
+  "id": "fz/grimmjow",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/grimmjow.swf",
+  "defineSoundCount": 4,
+  "startSoundEventCount": 5,
+  "namedEventCount": 0,
+  "actionSpriteId": 13,
+  "defineSounds": {
+    "5": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:5",
+      "nameSource": "unnamed"
+    },
+    "14": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:14",
+      "nameSource": "unnamed"
+    },
+    "21": {
+      "sha1": "f8394f3f5437",
+      "size": 4058,
+      "sampleCount": 19872,
+      "exportName": null,
+      "resolvedName": "cid:21",
+      "nameSource": "unnamed"
+    },
+    "32": {
+      "sha1": "7a2fbb1e5572",
+      "size": 2498,
+      "sampleCount": 10973,
+      "exportName": null,
+      "resolvedName": "cid:32",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 37,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 5,
+      "soundName": "cid:5",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "grimmjow_fla.MainTimeline",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 45,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 14,
+      "soundName": "cid:14",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "grimmjow_fla.MainTimeline",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 50,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 14,
+      "soundName": "cid:14",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "grimmjow_fla.MainTimeline",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 55,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 21,
+      "soundName": "cid:21",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "grimmjow_fla.MainTimeline",
+      "sha1": "f8394f3f5437"
+    },
+    {
+      "frame": 96,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 32,
+      "soundName": "cid:32",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "grimmjow_fla.MainTimeline",
+      "sha1": "7a2fbb1e5572"
+    }
+  ],
+  "actionEvents": []
+}

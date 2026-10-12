@@ -1,0 +1,176 @@
+{
+  "captured_at_cst": "2026-10-11 22:49 CST",
+  "main_swf_sha_prefix": "5ddf9410",
+  "main_swf_sha_suffix": "ba3e",
+  "define_sound_x8": [
+    {
+      "id": 223,
+      "symbol": "snd_menu1",
+      "extract_bytes": 1664,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "5886ff27bf7d1a36",
+      "sha16_export": "5886ff27bf7d1a36",
+      "same_bytes": true
+    },
+    {
+      "id": 224,
+      "symbol": "snd_menu2",
+      "extract_bytes": 3016,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "198ba5abb4a05f25",
+      "sha16_export": "198ba5abb4a05f25",
+      "same_bytes": true
+    },
+    {
+      "id": 2212,
+      "symbol": "snd_gameover",
+      "extract_bytes": 157569,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "a75f98e8f49e976d",
+      "sha16_export": "a75f98e8f49e976d",
+      "same_bytes": true
+    },
+    {
+      "id": 2213,
+      "symbol": "snd_ghost_jump",
+      "extract_bytes": 4056,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "e46f71f59af96471",
+      "sha16_export": "e46f71f59af96471",
+      "same_bytes": true
+    },
+    {
+      "id": 2214,
+      "symbol": "snd_menu5",
+      "extract_bytes": 7176,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "5d5fbbd3e6a5ae61",
+      "sha16_export": "5d5fbbd3e6a5ae61",
+      "same_bytes": true
+    },
+    {
+      "id": 2216,
+      "symbol": "snd_ko",
+      "extract_bytes": 3952,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "c126d0a796f155e7",
+      "sha16_export": "c126d0a796f155e7",
+      "same_bytes": true
+    },
+    {
+      "id": 2217,
+      "symbol": "snd_ko_bs",
+      "extract_bytes": 6448,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "32e423292f99bc98",
+      "sha16_export": "32e423292f99bc98",
+      "same_bytes": true
+    },
+    {
+      "id": 2218,
+      "symbol": "snd_over_hit",
+      "extract_bytes": 10816,
+      "export_link_exists": true,
+      "export_resolves": true,
+      "sha16_extract": "de799dc75cda95e5",
+      "sha16_export": "de799dc75cda95e5",
+      "same_bytes": true
+    }
+  ],
+  "define_sound_all_match": true,
+  "effect_snd_count": 31,
+  "effect_snd_names": [
+    "snd_baoqi.mp3",
+    "snd_baoqi1.mp3",
+    "snd_bs.mp3",
+    "snd_cbs.mp3",
+    "snd_dash.mp3",
+    "snd_dash_air.mp3",
+    "snd_def.mp3",
+    "snd_defx.mp3",
+    "snd_fykan.mp3",
+    "snd_fykanx.mp3",
+    "snd_fz.mp3",
+    "snd_fzbs.mp3",
+    "snd_ghost_step.mp3",
+    "snd_hit1.mp3",
+    "snd_hit10.mp3",
+    "snd_hit11.mp3",
+    "snd_hit2.mp3",
+    "snd_hit_cache.mp3",
+    "snd_hit_dian.mp3",
+    "snd_hit_fire.mp3",
+    "snd_hit_heavy.mp3",
+    "snd_hit_ice.mp3",
+    "snd_hitfloor.mp3",
+    "snd_hitfloor_heavy.mp3",
+    "snd_hitfloor_low.mp3",
+    "snd_jump.mp3",
+    "snd_kan1.mp3",
+    "snd_kan2.mp3",
+    "snd_luodi.mp3",
+    "snd_mfdjx.mp3",
+    "snd_xdash.mp3"
+  ],
+  "bgm_mp3_count": 21,
+  "bgm_names": [
+    "back.mp3",
+    "bleach.mp3",
+    "bleachboss.mp3",
+    "city.mp3",
+    "congratulation.mp3",
+    "continue.mp3",
+    "ichigo.mp3",
+    "loading.mp3",
+    "minren.mp3",
+    "naruto.mp3",
+    "narutoboss.mp3",
+    "op.mp3",
+    "pubu.mp3",
+    "sasuke.mp3",
+    "select.mp3",
+    "shandong.mp3",
+    "village.mp3",
+    "water.mp3",
+    "win.mp3",
+    "wind.mp3",
+    "winloop.mp3"
+  ],
+  "step_sfx": [
+    "step1.mp3",
+    "step2.mp3",
+    "step3.mp3"
+  ],
+  "ko_callsite": "FightUI playSwcSound(bsKO ? snd_ko_bs : snd_ko); over_hit L350; gameover GameOverState",
+  "listen_parity": "PENDING — needs desktop/computerUse ear check",
+  "training_shots": [
+    "01-menu.png",
+    "02-select.png",
+    "03-training-start.png",
+    "04-idle-no-cpu.png",
+    "05-p1-move-D.png",
+    "06-p1-attack-J.png",
+    "07-p1-jump-K.png",
+    "08-skill-UIO.png"
+  ],
+  "ko_ui": {
+    "status": "PASS",
+    "evidence": [
+      "play/games/bvn-rev2/parity/ko/04-ko.png",
+      "play/games/bvn-rev2/parity/ko/05-after-ko.png",
+      "play/games/bvn-rev2/parity/ko.png"
+    ],
+    "notes": "True K.O. banner; timer frozen 49; P1 KO'd (Ichigo vs Sakura CPU); assists kon/gaara; non-training VS CPU"
+  },
+  "listening": {
+    "status": "Documented UNKNOWN",
+    "reason": "No audio sink/sound card on executor machine; cannot ear-verify snd_ko/snd_ko_bs"
+  }
+}

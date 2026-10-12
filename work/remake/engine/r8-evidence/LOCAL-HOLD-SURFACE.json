@@ -1,0 +1,130 @@
+{
+  "source": "decompiled/main/scripts/com/sh/Ǽ.as",
+  "sha256_prefix": "7ee8f5de3c9d0b64",
+  "updated_at_cst": "2026-10-12 ~01:28 CST",
+  "public_surface_scanned": [
+    "Ǽ",
+    "getServerTime",
+    "get",
+    "get isReady",
+    "showGameList",
+    "get isLog",
+    "get ˡ",
+    "showLogPanel",
+    "userLogOut",
+    "renderTime",
+    "showRefer",
+    "changeScore",
+    "showSort",
+    "get hold",
+    "get ˢ",
+    "§˜§ bind",
+    "§˝§ attachStageListeners",
+    "ˠ onStageEvent"
+  ],
+  "hold_passthru_methods": [
+    "showGameList",
+    "showLogPanel",
+    "userLogOut",
+    "renderTime",
+    "showRefer",
+    "changeScore",
+    "showSort",
+    "isLog",
+    "isReady",
+    "hold"
+  ],
+  "raw_hold_methods_expected": [
+    "showGameList",
+    "showSort",
+    "showRefer",
+    "changeScore",
+    "showLogPanel",
+    "userLogOut",
+    "getServerTime",
+    "isLog"
+  ],
+  "stage_events_listened": [
+    "logreturn",
+    "userLoginOut",
+    "MVC_CLOSE_PANEL",
+    "serverTimeEvent"
+  ],
+  "stage_event_field_samples_static": {
+    "logreturn.ret": {
+      "consumed_by": "Ǽ.ˠ → §˚§; dispatch ȇ('login', ret)",
+      "known_getters_on_ȇ": [
+        "uid",
+        "name",
+        "nickName"
+      ],
+      "display_fallback": "name || nickName (§̺§)",
+      "note": "extra fields on ret are runtime-only; ȇ only exposes these three"
+    },
+    "userLoginOut": {
+      "consumed_by": "Ǽ.ˠ → dispatch ȇ('logout', previous_ret); clear §˚§"
+    },
+    "serverTimeEvent.data": {
+      "consumed_by": "Ǽ.ˠ → dispatch Ȉ('render_time', data)",
+      "format": "YYYY-M-D H:i:s string (space-separated date/time)",
+      "example_static": "2026-10-12 01:25:00",
+      "Ȉ_flags": "§̼§=parsed_ok, §̽§=!parsed_ok, date=Date"
+    },
+    "MVC_CLOSE_PANEL": {
+      "consumed_by": "Ǽ.§˞§ one-shot callback; ˠ switch empty body",
+      "trace": "面板被关闭"
+    }
+  },
+  "login_ret_slot": "param1[\"ret\"] stored to §˚§ on logreturn",
+  "isReady_semantics": "!!_hold (§˙§)",
+  "offline_bind_arg": "ǵ.ɐ.Ʉ (userData); local=null → isReady=false",
+  "forceSH_offline": false,
+  "forceSHCheck": true,
+  "inject_chain": [
+    "4399 container → timeline.setHold(hold) [ǵ.ȷ / installTimelineHooks]",
+    "ǵ fires Event('change') → FB.set_hold → Ǽ.bind(userData, timeline)",
+    "ȑ.ʹ injectHold → bleachvsnaruto.setHold(serviceHold.hold) // RAW hold"
+  ],
+  "game_side_consumers": {
+    "source": [
+      "net/play5d/game/bvn/web/GameInterfaceManager.as",
+      "net/play5d/game/bvn/web/Ctrler4399.as",
+      "bleachvsnaruto_2.as setHold"
+    ],
+    "note": "Game receives RAW hold via bleachvsnaruto.serviceHold, not ServiceHold wrapper",
+    "calls": {
+      "moreGames": "hold.showGameList()",
+      "showRank": "hold.showSort()",
+      "submitScore(score)": "hold.showRefer(score)"
+    },
+    "unused_by_game_but_shell_passthru": [
+      "showLogPanel",
+      "userLogOut",
+      "changeScore",
+      "getServerTime/isLog"
+    ]
+  },
+  "anti_shell_guard": {
+    "locus": "ɕ/ȑ.as §ͣ§",
+    "condition": "ǵ.ɐ.Ʌ (inLoader) && !serviceHold.ˢ && serviceHold.isReady",
+    "effect": "FB.showError(getLabel('shell')); abort app init",
+    "local_implication": "Injecting Hold on non-4399 while loaded-as-child trips shell error; direct Ruffle load (no parent loader) may skip Ʌ"
+  },
+  "domain_glob_ˢ": [
+    "*.4399.com",
+    "*.4399api.com",
+    "*.4399pk.com",
+    "*.5054399.com",
+    "*.4399dmw.com",
+    "*.4399er.com",
+    "*.edu4399.com",
+    "*.3387.com",
+    "*.4399.cn",
+    "*.4399.net",
+    "*.4399en.com",
+    "*.4399wanju.com",
+    "*.3304399.com"
+  ],
+  "play_wrapper_setHold": false,
+  "play_wrapper_note": "games/*/main.js has zero setHold/Hold literals; local stub under play/r8-hold-stub/"
+}

@@ -1,0 +1,384 @@
+{
+  "source": "decompiled/main/scripts/net/play5d/game/bvn/data/EffectModel.as",
+  "count": 52,
+  "with_sound": 39,
+  "unique_sounds": [
+    "snd_baoqi",
+    "snd_baoqi1",
+    "snd_bs",
+    "snd_cbs",
+    "snd_dash",
+    "snd_dash_air",
+    "snd_def",
+    "snd_defx",
+    "snd_fykan",
+    "snd_fykanx",
+    "snd_fz",
+    "snd_ghost_step",
+    "snd_hit11",
+    "snd_hit2",
+    "snd_hit_cache",
+    "snd_hit_dian",
+    "snd_hit_fire",
+    "snd_hit_heavy",
+    "snd_hit_ice",
+    "snd_hitfloor",
+    "snd_hitfloor_heavy",
+    "snd_hitfloor_low",
+    "snd_jump",
+    "snd_kan1",
+    "snd_kan2",
+    "snd_luodi",
+    "snd_mfdjx"
+  ],
+  "silent": [
+    "hit_floor_yan",
+    "hit_end",
+    "replaceSp2",
+    "kobg",
+    "fire_ing",
+    "ice_ing",
+    "shock_ing",
+    "buff_effect_speed",
+    "buff_effect_power",
+    "buff_effect_defense",
+    "buff_speed",
+    "buff_power",
+    "buff_defense"
+  ],
+  "rows": [
+    {
+      "kind": "named",
+      "effectKey": "bisha",
+      "className": "XG_bs",
+      "sound": "snd_bs"
+    },
+    {
+      "kind": "named",
+      "effectKey": "bisha_super",
+      "className": "XG_cbs",
+      "sound": "snd_cbs"
+    },
+    {
+      "kind": "named",
+      "effectKey": "dash",
+      "className": "XG_rush",
+      "sound": "snd_dash_air"
+    },
+    {
+      "kind": "named",
+      "effectKey": "dash_air",
+      "className": "XG_rush_air",
+      "sound": "snd_dash_air"
+    },
+    {
+      "kind": "named",
+      "effectKey": "jump",
+      "className": "XG_jump",
+      "sound": "snd_jump"
+    },
+    {
+      "kind": "named",
+      "effectKey": "jump_air",
+      "className": "XG_jump_air",
+      "sound": "snd_jump"
+    },
+    {
+      "kind": "named",
+      "effectKey": "touch_floor",
+      "className": "XG_luodi",
+      "sound": "snd_luodi"
+    },
+    {
+      "kind": "named",
+      "effectKey": "hit_floor",
+      "className": "XG_hitfloor",
+      "sound": "snd_hitfloor"
+    },
+    {
+      "kind": "named",
+      "effectKey": "hit_floor_low",
+      "className": "xg_hitfloor_low",
+      "sound": "snd_hitfloor_low"
+    },
+    {
+      "kind": "named",
+      "effectKey": "hit_floor_heavy",
+      "className": "xg_hitfllor_heavy",
+      "sound": "snd_hitfloor_heavy"
+    },
+    {
+      "kind": "named",
+      "effectKey": "hit_floor_yan",
+      "className": "xg_hitfloor_yan",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "hit_end",
+      "className": "xg_hitover",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "break_def",
+      "className": "XG_mfdjx",
+      "sound": "snd_mfdjx"
+    },
+    {
+      "kind": "named",
+      "effectKey": "fz_bleach",
+      "className": "XG_fz_bleach_mc",
+      "sound": "snd_dash"
+    },
+    {
+      "kind": "named",
+      "effectKey": "fz_naruto",
+      "className": "XG_fz_naruto_mc",
+      "sound": "snd_fz"
+    },
+    {
+      "kind": "named",
+      "effectKey": "replaceSp",
+      "className": "XG_tishen",
+      "sound": "snd_fz"
+    },
+    {
+      "kind": "named",
+      "effectKey": "replaceSp2",
+      "className": "XG_tishen2",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "explodeSp",
+      "className": "XG_bsq",
+      "sound": "snd_baoqi1"
+    },
+    {
+      "kind": "named",
+      "effectKey": "explodeSp2",
+      "className": "XG_baoqi",
+      "sound": "snd_baoqi"
+    },
+    {
+      "kind": "named",
+      "effectKey": "ghost_step",
+      "className": "XG_ghost_step",
+      "sound": "snd_ghost_step"
+    },
+    {
+      "kind": "named",
+      "effectKey": "kobg",
+      "className": "kobg_effect_mc",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "fire_ing",
+      "className": "xg_fire_ing",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "ice_ing",
+      "className": "xg_ice_ing",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "shock_ing",
+      "className": "xg_dian_ing",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "buff_effect_speed",
+      "className": "xg_buff_effect_speed",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "buff_effect_power",
+      "className": "xg_buff_effect_power",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "buff_effect_defense",
+      "className": "xg_buff_effect_defense",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "buff_speed",
+      "className": "xg_buff_speed",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "buff_power",
+      "className": "xg_buff_power",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "buff_defense",
+      "className": "xg_buff_defense",
+      "sound": null
+    },
+    {
+      "kind": "named",
+      "effectKey": "steel_hit_kan",
+      "className": "XG_kan2",
+      "sound": "snd_hit11"
+    },
+    {
+      "kind": "named",
+      "effectKey": "steel_hit_qdj",
+      "className": "XG_qdj",
+      "sound": "snd_hit11"
+    },
+    {
+      "kind": "named",
+      "effectKey": "steel_hit_mfdj",
+      "className": "XG_mfdj",
+      "sound": "snd_hit11"
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_11",
+      "className": "xg_catch_hit",
+      "sound": "snd_hit_cache",
+      "hitId": 11
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_1",
+      "className": "XG_kan2",
+      "sound": "snd_kan1",
+      "hitId": 1
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_6",
+      "className": "XG_kanx2",
+      "sound": "snd_kan2",
+      "hitId": 6
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_2",
+      "className": "XG_qdj",
+      "sound": "snd_hit2",
+      "hitId": 2
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_3",
+      "className": "XG_qdjx",
+      "sound": "snd_hit_heavy",
+      "hitId": 3
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_4",
+      "className": "XG_mfdj",
+      "sound": "snd_hit2",
+      "hitId": 4
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_5",
+      "className": "XG_mfdjx",
+      "sound": "snd_mfdjx",
+      "hitId": 5
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_7",
+      "className": "XG_fire",
+      "sound": "snd_hit_fire",
+      "hitId": 7
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_8",
+      "className": "XG_ice",
+      "sound": "snd_hit_ice",
+      "hitId": 8
+    },
+    {
+      "kind": "hit",
+      "effectKey": "hit_9",
+      "className": "XG_leidian",
+      "sound": "snd_hit_dian",
+      "hitId": 9
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_1",
+      "className": "XG_fykan",
+      "sound": "snd_fykan",
+      "defenseId": 1
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_6",
+      "className": "XG_fykanx",
+      "sound": "snd_fykanx",
+      "defenseId": 6
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_2",
+      "className": "XG_fyq",
+      "sound": "snd_def",
+      "defenseId": 2
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_3",
+      "className": "XG_fyqx",
+      "sound": "snd_defx",
+      "defenseId": 3
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_4",
+      "className": "XG_mffy",
+      "sound": "snd_def",
+      "defenseId": 4
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_5",
+      "className": "XG_mffyx",
+      "sound": "snd_defx",
+      "defenseId": 5
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_7",
+      "className": "XG_fire_fy",
+      "sound": "snd_defx",
+      "defenseId": 7
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_8",
+      "className": "XG_ice_fy",
+      "sound": "snd_defx",
+      "defenseId": 8
+    },
+    {
+      "kind": "defense",
+      "effectKey": "defense_9",
+      "className": "XG_dian_fy",
+      "sound": "snd_defx",
+      "defenseId": 9
+    }
+  ],
+  "play_path": "SoundCtrl.playEffectSound → AssetManager.getEffect(snd) → Sound.play (effect.swf SymbolClass)",
+  "note": "Legacy export-only snd_* (snd_fzbs/snd_hit1/snd_hit10/snd_xdash) are NOT in EffectModel; see LEGACY-12.md Keep."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "uryuu",
+  "mainTimeline": "decompiled/fighters/fz/uryuu/scripts/uryuu_fla/MainTimeline.as",
+  "rootFrames": 63,
+  "addFrameScriptCount": 6,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":80, \"hitType\":5, \"hitx\":3, \"hity\":10, \"hurtTime\":500, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 16,
+      "frameNumber": 17,
+      "function": "frame17",
+      "summary": "moveToTarget(0,-100); setApplyG(false); setApplyG(...)",
+      "bodyPreview": "this.$assisterCtrler.moveToTarget(0,-100); this.$assisterCtrler.setApplyG(false);"
+    },
+    {
+      "frameIndex0": 19,
+      "frameNumber": 20,
+      "function": "frame20",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 38,
+      "frameNumber": 39,
+      "function": "frame39",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 40,
+      "frameNumber": 41,
+      "function": "frame41",
+      "summary": "effect.shine(); effect.shine(7329791); move(0,-5); damping(0,0.5)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(); this.$assisterCtrler.effect.shine(7329791); this.$assisterCtrler.move(0,-5); this.$assisterCtrler.damping(0,0.5);"
+    },
+    {
+      "frameIndex0": 46,
+      "frameNumber": 47,
+      "function": "frame47",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

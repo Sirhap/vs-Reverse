@@ -1,0 +1,94 @@
+{
+  "id": "fz/madara",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/madara.swf",
+  "defineSoundCount": 3,
+  "startSoundEventCount": 3,
+  "namedEventCount": 0,
+  "actionSpriteId": 45,
+  "defineSounds": {
+    "12": {
+      "sha1": "240ca2dde179",
+      "size": 2706,
+      "sampleCount": 12096,
+      "exportName": null,
+      "resolvedName": "cid:12",
+      "nameSource": "unnamed"
+    },
+    "19": {
+      "sha1": "ce5b165bab7c",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:19",
+      "nameSource": "unnamed"
+    },
+    "28": {
+      "sha1": "acc035b963f7",
+      "size": 3330,
+      "sampleCount": 15752,
+      "exportName": null,
+      "resolvedName": "cid:28",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 5,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 19,
+      "soundName": "cid:19",
+      "nameSource": "unnamed",
+      "spriteId": 45,
+      "spriteExport": "madara_fla.Timeline_2",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 15,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 28,
+      "soundName": "cid:28",
+      "nameSource": "unnamed",
+      "spriteId": 45,
+      "spriteExport": "madara_fla.Timeline_2",
+      "sha1": "acc035b963f7"
+    },
+    {
+      "frame": 20,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 12,
+      "soundName": "cid:12",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "madara_fla.MainTimeline",
+      "sha1": "240ca2dde179"
+    }
+  ],
+  "actionEvents": [
+    {
+      "frame": 5,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 19,
+      "soundName": "cid:19",
+      "nameSource": "unnamed",
+      "spriteId": 45,
+      "spriteExport": "madara_fla.Timeline_2",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 15,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 28,
+      "soundName": "cid:28",
+      "nameSource": "unnamed",
+      "spriteId": 45,
+      "spriteExport": "madara_fla.Timeline_2",
+      "sha1": "acc035b963f7"
+    }
+  ]
+}

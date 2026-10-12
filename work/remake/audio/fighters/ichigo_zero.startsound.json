@@ -1,0 +1,1319 @@
+{
+  "id": "ichigo_zero",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/ichigo_zero.swf",
+  "defineSoundCount": 51,
+  "startSoundEventCount": 119,
+  "namedEventCount": 5,
+  "actionSpriteId": 729,
+  "actionExport": "ichigo_zero_fla.白一护全动作_11",
+  "defineSounds": {
+    "1": {
+      "sha1": "2271159acc39",
+      "size": 2498,
+      "sampleCount": 11008,
+      "exportName": "snd_hurt_ogihci_1",
+      "resolvedName": "snd_hurt_ogihci_1",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "2488228d4883",
+      "size": 8010,
+      "sampleCount": 41766,
+      "exportName": "kcsound",
+      "resolvedName": "kcsound",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "45ca176009fd",
+      "size": 13314,
+      "sampleCount": 70905,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "4": {
+      "sha1": "6f2fc3fbddb3",
+      "size": 2602,
+      "sampleCount": 11635,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "5": {
+      "sha1": "6a3c4255cd25",
+      "size": 3330,
+      "sampleCount": 15868,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "6": {
+      "sha1": "5eea8657558a",
+      "size": 4704,
+      "sampleCount": 17280,
+      "exportName": "wksound",
+      "resolvedName": "wksound",
+      "nameSource": "SymbolClass"
+    },
+    "48": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:48",
+      "nameSource": "unnamed"
+    },
+    "75": {
+      "sha1": "9791bc1e9916",
+      "size": 1978,
+      "sampleCount": 8257,
+      "exportName": null,
+      "resolvedName": "cid:75",
+      "nameSource": "unnamed"
+    },
+    "76": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:76",
+      "nameSource": "unnamed"
+    },
+    "81": {
+      "sha1": "dd68436d8ff6",
+      "size": 2602,
+      "sampleCount": 11742,
+      "exportName": null,
+      "resolvedName": "cid:81",
+      "nameSource": "unnamed"
+    },
+    "82": {
+      "sha1": "ad779d5a3f73",
+      "size": 3122,
+      "sampleCount": 14390,
+      "exportName": null,
+      "resolvedName": "cid:82",
+      "nameSource": "unnamed"
+    },
+    "92": {
+      "sha1": "cb6c5de5f67f",
+      "size": 3538,
+      "sampleCount": 17050,
+      "exportName": null,
+      "resolvedName": "cid:92",
+      "nameSource": "unnamed"
+    },
+    "93": {
+      "sha1": "8329d15e8028",
+      "size": 2810,
+      "sampleCount": 12691,
+      "exportName": null,
+      "resolvedName": "cid:93",
+      "nameSource": "unnamed"
+    },
+    "109": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:109",
+      "nameSource": "unnamed"
+    },
+    "130": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:130",
+      "nameSource": "unnamed"
+    },
+    "133": {
+      "sha1": "2c47f2b94d43",
+      "size": 3642,
+      "sampleCount": 17518,
+      "exportName": null,
+      "resolvedName": "cid:133",
+      "nameSource": "unnamed"
+    },
+    "134": {
+      "sha1": "fea3cefb5b89",
+      "size": 6138,
+      "sampleCount": 31505,
+      "exportName": null,
+      "resolvedName": "cid:134",
+      "nameSource": "unnamed"
+    },
+    "167": {
+      "sha1": "ad2ad74b916a",
+      "size": 3642,
+      "sampleCount": 17268,
+      "exportName": null,
+      "resolvedName": "cid:167",
+      "nameSource": "unnamed"
+    },
+    "168": {
+      "sha1": "6f0d2089469f",
+      "size": 5514,
+      "sampleCount": 27703,
+      "exportName": null,
+      "resolvedName": "cid:168",
+      "nameSource": "unnamed"
+    },
+    "239": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "249": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:249",
+      "nameSource": "unnamed"
+    },
+    "250": {
+      "sha1": "129a2a51241c",
+      "size": 6242,
+      "sampleCount": 32003,
+      "exportName": null,
+      "resolvedName": "cid:250",
+      "nameSource": "unnamed"
+    },
+    "251": {
+      "sha1": "bf9d1740ed15",
+      "size": 4266,
+      "sampleCount": 20736,
+      "exportName": null,
+      "resolvedName": "cid:251",
+      "nameSource": "unnamed"
+    },
+    "252": {
+      "sha1": "90134b365aba",
+      "size": 3434,
+      "sampleCount": 16189,
+      "exportName": null,
+      "resolvedName": "cid:252",
+      "nameSource": "unnamed"
+    },
+    "255": {
+      "sha1": "4a8dd4499d8c",
+      "size": 5202,
+      "sampleCount": 26262,
+      "exportName": null,
+      "resolvedName": "cid:255",
+      "nameSource": "unnamed"
+    },
+    "311": {
+      "sha1": "7c781d5397be",
+      "size": 2353,
+      "sampleCount": 8640,
+      "exportName": null,
+      "resolvedName": "cid:311",
+      "nameSource": "unnamed"
+    },
+    "363": {
+      "sha1": "2e6402cea7ec",
+      "size": 2666,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:363",
+      "nameSource": "unnamed"
+    },
+    "376": {
+      "sha1": "b16dbf3802ba",
+      "size": 3434,
+      "sampleCount": 16482,
+      "exportName": null,
+      "resolvedName": "cid:376",
+      "nameSource": "unnamed"
+    },
+    "420": {
+      "sha1": "944177626f7d",
+      "size": 4077,
+      "sampleCount": 14976,
+      "exportName": null,
+      "resolvedName": "cid:420",
+      "nameSource": "unnamed"
+    },
+    "429": {
+      "sha1": "3d1f8d2a7052",
+      "size": 4266,
+      "sampleCount": 21785,
+      "exportName": null,
+      "resolvedName": "cid:429",
+      "nameSource": "unnamed"
+    },
+    "484": {
+      "sha1": "0102a4cb069f",
+      "size": 6742,
+      "sampleCount": 24768,
+      "exportName": null,
+      "resolvedName": "cid:484",
+      "nameSource": "unnamed"
+    },
+    "524": {
+      "sha1": "f4c8e57c8203",
+      "size": 5514,
+      "sampleCount": 28701,
+      "exportName": null,
+      "resolvedName": "cid:524",
+      "nameSource": "unnamed"
+    },
+    "525": {
+      "sha1": "e1dffc9fe2c4",
+      "size": 4704,
+      "sampleCount": 17280,
+      "exportName": null,
+      "resolvedName": "cid:525",
+      "nameSource": "unnamed"
+    },
+    "531": {
+      "sha1": "59b3854ab61b",
+      "size": 2666,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:531",
+      "nameSource": "unnamed"
+    },
+    "710": {
+      "sha1": "c42faccc89e6",
+      "size": 5618,
+      "sampleCount": 29372,
+      "exportName": null,
+      "resolvedName": "cid:710",
+      "nameSource": "unnamed"
+    },
+    "719": {
+      "sha1": "6d890a6aed45",
+      "size": 8842,
+      "sampleCount": 46250,
+      "exportName": null,
+      "resolvedName": "cid:719",
+      "nameSource": "unnamed"
+    },
+    "725": {
+      "sha1": "9c71c8b89ccc",
+      "size": 6346,
+      "sampleCount": 32512,
+      "exportName": null,
+      "resolvedName": "cid:725",
+      "nameSource": "unnamed"
+    },
+    "728": {
+      "sha1": "fbf5cf2ee190",
+      "size": 12898,
+      "sampleCount": 68497,
+      "exportName": null,
+      "resolvedName": "cid:728",
+      "nameSource": "unnamed"
+    },
+    "782": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:782",
+      "nameSource": "unnamed"
+    },
+    "801": {
+      "sha1": "71127f640aae",
+      "size": 4474,
+      "sampleCount": 21946,
+      "exportName": null,
+      "resolvedName": "cid:801",
+      "nameSource": "unnamed"
+    },
+    "802": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:802",
+      "nameSource": "unnamed"
+    },
+    "808": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:808",
+      "nameSource": "unnamed"
+    },
+    "853": {
+      "sha1": "1af1484664e2",
+      "size": 2823,
+      "sampleCount": 10368,
+      "exportName": null,
+      "resolvedName": "cid:853",
+      "nameSource": "unnamed"
+    },
+    "873": {
+      "sha1": "d96fff8dd9c8",
+      "size": 2823,
+      "sampleCount": 10368,
+      "exportName": null,
+      "resolvedName": "cid:873",
+      "nameSource": "unnamed"
+    },
+    "915": {
+      "sha1": "57fe81f8c1a8",
+      "size": 4058,
+      "sampleCount": 19584,
+      "exportName": null,
+      "resolvedName": "cid:915",
+      "nameSource": "unnamed"
+    },
+    "924": {
+      "sha1": "9552a79a76f7",
+      "size": 3607,
+      "sampleCount": 13248,
+      "exportName": null,
+      "resolvedName": "cid:924",
+      "nameSource": "unnamed"
+    },
+    "941": {
+      "sha1": "fea3cefb5b89",
+      "size": 6138,
+      "sampleCount": 31505,
+      "exportName": null,
+      "resolvedName": "cid:941",
+      "nameSource": "unnamed"
+    },
+    "952": {
+      "sha1": "50a8e24ac6aa",
+      "size": 5202,
+      "sampleCount": 20160,
+      "exportName": null,
+      "resolvedName": "cid:952",
+      "nameSource": "unnamed"
+    },
+    "966": {
+      "sha1": "8770c89b673b",
+      "size": 5801,
+      "sampleCount": 21312,
+      "exportName": null,
+      "resolvedName": "cid:966",
+      "nameSource": "unnamed"
+    },
+    "982": {
+      "sha1": "8a3b1012c87f",
+      "size": 4474,
+      "sampleCount": 22070,
+      "exportName": null,
+      "resolvedName": "cid:982",
+      "nameSource": "unnamed"
+    },
+    "1054": {
+      "sha1": "5885ea02b6ca",
+      "size": 5018,
+      "sampleCount": 18432,
+      "exportName": null,
+      "resolvedName": "cid:1054",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "6": "wksound",
+    "5": "snd_hurt2",
+    "4": "snd_hurt1",
+    "3": "snd_die",
+    "2": "kcsound",
+    "1": "snd_hurt_ogihci_1"
+  },
+  "actionEvents": [
+    {
+      "frame": 90,
+      "label": "跳招3",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 90,
+      "label": "跳招3",
+      "tag": "StartSound",
+      "soundId": 311,
+      "soundName": "cid:311",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "7c781d5397be"
+    },
+    {
+      "frame": 119,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 178,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 203,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 221,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 363,
+      "soundName": "cid:363",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "2e6402cea7ec"
+    },
+    {
+      "frame": 222,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 255,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 376,
+      "soundName": "cid:376",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "b16dbf3802ba"
+    },
+    {
+      "frame": 257,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 264,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 343,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 363,
+      "soundName": "cid:363",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "2e6402cea7ec"
+    },
+    {
+      "frame": 349,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 374,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 6,
+      "soundName": "wksound",
+      "nameSource": "SymbolClass",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11"
+    },
+    {
+      "frame": 447,
+      "label": "招12",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 466,
+      "label": "招13",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 466,
+      "label": "招13",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "944177626f7d"
+    },
+    {
+      "frame": 517,
+      "label": "招14",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 517,
+      "label": "招14",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "944177626f7d"
+    },
+    {
+      "frame": 557,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 429,
+      "soundName": "cid:429",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "3d1f8d2a7052"
+    },
+    {
+      "frame": 558,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 594,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "944177626f7d"
+    },
+    {
+      "frame": 597,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 629,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 658,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 311,
+      "soundName": "cid:311",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "7c781d5397be"
+    },
+    {
+      "frame": 713,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 484,
+      "soundName": "cid:484",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "0102a4cb069f"
+    },
+    {
+      "frame": 716,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 168,
+      "soundName": "cid:168",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "6f0d2089469f"
+    },
+    {
+      "frame": 796,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 484,
+      "soundName": "cid:484",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "0102a4cb069f"
+    },
+    {
+      "frame": 799,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 168,
+      "soundName": "cid:168",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "6f0d2089469f"
+    },
+    {
+      "frame": 840,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 524,
+      "soundName": "cid:524",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "f4c8e57c8203"
+    },
+    {
+      "frame": 873,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 6,
+      "soundName": "wksound",
+      "nameSource": "SymbolClass",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11"
+    },
+    {
+      "frame": 874,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 881,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 888,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 895,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 902,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 909,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 916,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 923,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 930,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 937,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 943,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 525,
+      "soundName": "cid:525",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "e1dffc9fe2c4"
+    },
+    {
+      "frame": 985,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 168,
+      "soundName": "cid:168",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "6f0d2089469f"
+    },
+    {
+      "frame": 985,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 531,
+      "soundName": "cid:531",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "59b3854ab61b"
+    },
+    {
+      "frame": 1101,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 239,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1111,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 249,
+      "soundName": "cid:249",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1130,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 1132,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 710,
+      "soundName": "cid:710",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "c42faccc89e6"
+    },
+    {
+      "frame": 1207,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 719,
+      "soundName": "cid:719",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "6d890a6aed45"
+    },
+    {
+      "frame": 1263,
+      "label": "万解",
+      "tag": "StartSound",
+      "soundId": 725,
+      "soundName": "cid:725",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "9c71c8b89ccc"
+    },
+    {
+      "frame": 1305,
+      "label": "万解",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 1309,
+      "label": "万解",
+      "tag": "StartSound",
+      "soundId": 728,
+      "soundName": "cid:728",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "fbf5cf2ee190"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 90,
+      "label": "跳招3",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 90,
+      "label": "跳招3",
+      "tag": "StartSound",
+      "soundId": 311,
+      "soundName": "cid:311",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "7c781d5397be"
+    },
+    {
+      "frame": 119,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 178,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 203,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 221,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 363,
+      "soundName": "cid:363",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "2e6402cea7ec"
+    },
+    {
+      "frame": 222,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 255,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 376,
+      "soundName": "cid:376",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "b16dbf3802ba"
+    },
+    {
+      "frame": 257,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 264,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 343,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 363,
+      "soundName": "cid:363",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "2e6402cea7ec"
+    },
+    {
+      "frame": 349,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 374,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 6,
+      "soundName": "wksound",
+      "nameSource": "SymbolClass",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11"
+    },
+    {
+      "frame": 447,
+      "label": "招12",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 466,
+      "label": "招13",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 466,
+      "label": "招13",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "944177626f7d"
+    },
+    {
+      "frame": 517,
+      "label": "招14",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 517,
+      "label": "招14",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "944177626f7d"
+    },
+    {
+      "frame": 557,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 429,
+      "soundName": "cid:429",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "3d1f8d2a7052"
+    },
+    {
+      "frame": 558,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 594,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "944177626f7d"
+    },
+    {
+      "frame": 597,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "8329d15e8028"
+    },
+    {
+      "frame": 629,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 658,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 311,
+      "soundName": "cid:311",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "7c781d5397be"
+    },
+    {
+      "frame": 713,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 484,
+      "soundName": "cid:484",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "0102a4cb069f"
+    },
+    {
+      "frame": 716,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 168,
+      "soundName": "cid:168",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "6f0d2089469f"
+    },
+    {
+      "frame": 796,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 484,
+      "soundName": "cid:484",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "0102a4cb069f"
+    },
+    {
+      "frame": 799,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 168,
+      "soundName": "cid:168",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "6f0d2089469f"
+    },
+    {
+      "frame": 840,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 524,
+      "soundName": "cid:524",
+      "nameSource": "unnamed",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11",
+      "sha1": "f4c8e57c8203"
+    },
+    {
+      "frame": 873,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 6,
+      "soundName": "wksound",
+      "nameSource": "SymbolClass",
+      "spriteId": 729,
+      "spriteExport": "ichigo_zero_fla.白一护全动作_11"
+    }
+  ]
+}

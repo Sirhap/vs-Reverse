@@ -1,0 +1,1099 @@
+{
+  "id": "orochimaru",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/orochimaru.swf",
+  "defineSoundCount": 26,
+  "startSoundEventCount": 49,
+  "namedEventCount": 1,
+  "actionSpriteId": 559,
+  "actionExport": "orochimaru_fla.一护全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "091173d874bd",
+      "size": 1458,
+      "sampleCount": 5621,
+      "exportName": "snd_hurt3",
+      "resolvedName": "snd_hurt3",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "a4a8ab4cb551",
+      "size": 1354,
+      "sampleCount": 4813,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "ab3a54ed0653",
+      "size": 1042,
+      "sampleCount": 3037,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "4": {
+      "sha1": "8511f41db39b",
+      "size": 3330,
+      "sampleCount": 15784,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "55": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:55",
+      "nameSource": "unnamed"
+    },
+    "72": {
+      "sha1": "f3b521c4db91",
+      "size": 1562,
+      "sampleCount": 6041,
+      "exportName": null,
+      "resolvedName": "cid:72",
+      "nameSource": "unnamed"
+    },
+    "75": {
+      "sha1": "4e3694cbc717",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:75",
+      "nameSource": "unnamed"
+    },
+    "86": {
+      "sha1": "4a3f6e47f4a1",
+      "size": 2290,
+      "sampleCount": 10132,
+      "exportName": null,
+      "resolvedName": "cid:86",
+      "nameSource": "unnamed"
+    },
+    "117": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:117",
+      "nameSource": "unnamed"
+    },
+    "138": {
+      "sha1": "e939bcd08688",
+      "size": 1354,
+      "sampleCount": 5685,
+      "exportName": null,
+      "resolvedName": "cid:138",
+      "nameSource": "unnamed"
+    },
+    "161": {
+      "sha1": "7dbb7cb4dbb5",
+      "size": 1770,
+      "sampleCount": 7236,
+      "exportName": null,
+      "resolvedName": "cid:161",
+      "nameSource": "unnamed"
+    },
+    "239": {
+      "sha1": "b61607684fd4",
+      "size": 3226,
+      "sampleCount": 15435,
+      "exportName": null,
+      "resolvedName": "cid:239",
+      "nameSource": "unnamed"
+    },
+    "246": {
+      "sha1": "2935bcabe840",
+      "size": 4890,
+      "sampleCount": 24406,
+      "exportName": null,
+      "resolvedName": "cid:246",
+      "nameSource": "unnamed"
+    },
+    "271": {
+      "sha1": "716e2fe6ab20",
+      "size": 3122,
+      "sampleCount": 14837,
+      "exportName": null,
+      "resolvedName": "cid:271",
+      "nameSource": "unnamed"
+    },
+    "285": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:285",
+      "nameSource": "unnamed"
+    },
+    "292": {
+      "sha1": "472618771353",
+      "size": 3330,
+      "sampleCount": 15924,
+      "exportName": null,
+      "resolvedName": "cid:292",
+      "nameSource": "unnamed"
+    },
+    "310": {
+      "sha1": "28dc25ec81e4",
+      "size": 3902,
+      "sampleCount": 14672,
+      "exportName": null,
+      "resolvedName": "cid:310",
+      "nameSource": "unnamed"
+    },
+    "335": {
+      "sha1": "8c850aeceee0",
+      "size": 4994,
+      "sampleCount": 24813,
+      "exportName": null,
+      "resolvedName": "cid:335",
+      "nameSource": "unnamed"
+    },
+    "340": {
+      "sha1": "71127f640aae",
+      "size": 4474,
+      "sampleCount": 21946,
+      "exportName": null,
+      "resolvedName": "cid:340",
+      "nameSource": "unnamed"
+    },
+    "357": {
+      "sha1": "ae18ae3fdda8",
+      "size": 4682,
+      "sampleCount": 23432,
+      "exportName": null,
+      "resolvedName": "cid:357",
+      "nameSource": "unnamed"
+    },
+    "405": {
+      "sha1": "7ee42aa9e629",
+      "size": 6034,
+      "sampleCount": 30761,
+      "exportName": null,
+      "resolvedName": "cid:405",
+      "nameSource": "unnamed"
+    },
+    "471": {
+      "sha1": "e4cdd5ab0656",
+      "size": 7594,
+      "sampleCount": 39191,
+      "exportName": null,
+      "resolvedName": "cid:471",
+      "nameSource": "unnamed"
+    },
+    "485": {
+      "sha1": "2b51a53469a2",
+      "size": 1978,
+      "sampleCount": 8194,
+      "exportName": null,
+      "resolvedName": "cid:485",
+      "nameSource": "unnamed"
+    },
+    "516": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "525": {
+      "sha1": "152345bf4325",
+      "size": 7074,
+      "sampleCount": 36682,
+      "exportName": null,
+      "resolvedName": "cid:525",
+      "nameSource": "unnamed"
+    },
+    "534": {
+      "sha1": "acaa1433dd4f",
+      "size": 7074,
+      "sampleCount": 36521,
+      "exportName": null,
+      "resolvedName": "cid:534",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "4": "snd_die",
+    "3": "snd_hurt1",
+    "2": "snd_hurt2",
+    "1": "snd_hurt3"
+  },
+  "actionEvents": [
+    {
+      "frame": 82,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 87,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 100,
+      "label": "跳砍2",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3b521c4db91"
+    },
+    {
+      "frame": 103,
+      "label": "跳砍2",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 121,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4a3f6e47f4a1"
+    },
+    {
+      "frame": 127,
+      "label": "跳招11",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 149,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 117,
+      "soundName": "cid:117",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 166,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 185,
+      "label": "砍11",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 209,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "e939bcd08688"
+    },
+    {
+      "frame": 212,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 237,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3b521c4db91"
+    },
+    {
+      "frame": 240,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 266,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 161,
+      "soundName": "cid:161",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "7dbb7cb4dbb5"
+    },
+    {
+      "frame": 269,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 292,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 321,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4a3f6e47f4a1"
+    },
+    {
+      "frame": 323,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 353,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 161,
+      "soundName": "cid:161",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "7dbb7cb4dbb5"
+    },
+    {
+      "frame": 357,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 390,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 239,
+      "soundName": "cid:239",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "b61607684fd4"
+    },
+    {
+      "frame": 400,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 246,
+      "soundName": "cid:246",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "2935bcabe840"
+    },
+    {
+      "frame": 434,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 271,
+      "soundName": "cid:271",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "716e2fe6ab20"
+    },
+    {
+      "frame": 438,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 285,
+      "soundName": "cid:285",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 443,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 481,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 503,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 503,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4a3f6e47f4a1"
+    },
+    {
+      "frame": 532,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 292,
+      "soundName": "cid:292",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "472618771353"
+    },
+    {
+      "frame": 561,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "28dc25ec81e4"
+    },
+    {
+      "frame": 586,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 335,
+      "soundName": "cid:335",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "8c850aeceee0"
+    },
+    {
+      "frame": 605,
+      "label": "必杀1",
+      "tag": "StartSound",
+      "soundId": 340,
+      "soundName": "cid:340",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 629,
+      "label": "必杀MISS",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "28dc25ec81e4"
+    },
+    {
+      "frame": 667,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "ae18ae3fdda8"
+    },
+    {
+      "frame": 706,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "28dc25ec81e4"
+    },
+    {
+      "frame": 710,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 335,
+      "soundName": "cid:335",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "8c850aeceee0"
+    },
+    {
+      "frame": 796,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 405,
+      "soundName": "cid:405",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "7ee42aa9e629"
+    },
+    {
+      "frame": 847,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 847,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "e939bcd08688"
+    },
+    {
+      "frame": 859,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 868,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 878,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 878,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 471,
+      "soundName": "cid:471",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "e4cdd5ab0656"
+    },
+    {
+      "frame": 940,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 485,
+      "soundName": "cid:485",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "2b51a53469a2"
+    },
+    {
+      "frame": 949,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 340,
+      "soundName": "cid:340",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "71127f640aae"
+    },
+    {
+      "frame": 1093,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 516,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1102,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 117,
+      "soundName": "cid:117",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1115,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 525,
+      "soundName": "cid:525",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "152345bf4325"
+    },
+    {
+      "frame": 1223,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 534,
+      "soundName": "cid:534",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "acaa1433dd4f"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 82,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 87,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 100,
+      "label": "跳砍2",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3b521c4db91"
+    },
+    {
+      "frame": 103,
+      "label": "跳砍2",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 121,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4a3f6e47f4a1"
+    },
+    {
+      "frame": 127,
+      "label": "跳招11",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 149,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 117,
+      "soundName": "cid:117",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 166,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 185,
+      "label": "砍11",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 209,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 138,
+      "soundName": "cid:138",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "e939bcd08688"
+    },
+    {
+      "frame": 212,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 55,
+      "soundName": "cid:55",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 237,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "f3b521c4db91"
+    },
+    {
+      "frame": 240,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 266,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 161,
+      "soundName": "cid:161",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "7dbb7cb4dbb5"
+    },
+    {
+      "frame": 269,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 292,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 321,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4a3f6e47f4a1"
+    },
+    {
+      "frame": 323,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 353,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 161,
+      "soundName": "cid:161",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "7dbb7cb4dbb5"
+    },
+    {
+      "frame": 357,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 390,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 239,
+      "soundName": "cid:239",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "b61607684fd4"
+    },
+    {
+      "frame": 400,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 246,
+      "soundName": "cid:246",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "2935bcabe840"
+    },
+    {
+      "frame": 434,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 271,
+      "soundName": "cid:271",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "716e2fe6ab20"
+    },
+    {
+      "frame": 438,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 285,
+      "soundName": "cid:285",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 443,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 481,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 503,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 75,
+      "soundName": "cid:75",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4e3694cbc717"
+    },
+    {
+      "frame": 503,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "4a3f6e47f4a1"
+    },
+    {
+      "frame": 532,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 292,
+      "soundName": "cid:292",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "472618771353"
+    },
+    {
+      "frame": 561,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 310,
+      "soundName": "cid:310",
+      "nameSource": "unnamed",
+      "spriteId": 559,
+      "spriteExport": "orochimaru_fla.一护全动作_1",
+      "sha1": "28dc25ec81e4"
+    }
+  ]
+}

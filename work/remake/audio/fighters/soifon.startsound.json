@@ -1,0 +1,1126 @@
+{
+  "id": "soifon",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/soifon.swf",
+  "defineSoundCount": 24,
+  "startSoundEventCount": 55,
+  "namedEventCount": 1,
+  "actionSpriteId": 492,
+  "actionExport": "soifon_fla.碎蜂全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "09c21c16ea76",
+      "size": 24576,
+      "sampleCount": 6144,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "16b63b804784",
+      "size": 28400,
+      "sampleCount": 7100,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "6adaf89ddf00",
+      "size": 30240,
+      "sampleCount": 7563,
+      "exportName": "snd_hurt3",
+      "resolvedName": "snd_hurt3",
+      "nameSource": "SymbolClass"
+    },
+    "58": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "59": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:59",
+      "nameSource": "unnamed"
+    },
+    "62": {
+      "sha1": "d817e25015d5",
+      "size": 182896,
+      "sampleCount": 45726,
+      "exportName": null,
+      "resolvedName": "cid:62",
+      "nameSource": "unnamed"
+    },
+    "77": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:77",
+      "nameSource": "unnamed"
+    },
+    "86": {
+      "sha1": "8d97fdc76c1c",
+      "size": 34304,
+      "sampleCount": 8576,
+      "exportName": null,
+      "resolvedName": "cid:86",
+      "nameSource": "unnamed"
+    },
+    "93": {
+      "sha1": "9ea8b2f2d4db",
+      "size": 20832,
+      "sampleCount": 5209,
+      "exportName": null,
+      "resolvedName": "cid:93",
+      "nameSource": "unnamed"
+    },
+    "94": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:94",
+      "nameSource": "unnamed"
+    },
+    "101": {
+      "sha1": "4573ee065eed",
+      "size": 28800,
+      "sampleCount": 7200,
+      "exportName": null,
+      "resolvedName": "cid:101",
+      "nameSource": "unnamed"
+    },
+    "102": {
+      "sha1": "ebf7970d5be8",
+      "size": 8261,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:102",
+      "nameSource": "unnamed"
+    },
+    "151": {
+      "sha1": "12ea29b1dd73",
+      "size": 37888,
+      "sampleCount": 9472,
+      "exportName": null,
+      "resolvedName": "cid:151",
+      "nameSource": "unnamed"
+    },
+    "152": {
+      "sha1": "80842b35858b",
+      "size": 50764,
+      "sampleCount": 12691,
+      "exportName": null,
+      "resolvedName": "cid:152",
+      "nameSource": "unnamed"
+    },
+    "172": {
+      "sha1": "dbc8d84bca07",
+      "size": 62464,
+      "sampleCount": 15616,
+      "exportName": null,
+      "resolvedName": "cid:172",
+      "nameSource": "unnamed"
+    },
+    "190": {
+      "sha1": "f723554457c9",
+      "size": 63010,
+      "sampleCount": 31505,
+      "exportName": null,
+      "resolvedName": "cid:190",
+      "nameSource": "unnamed"
+    },
+    "217": {
+      "sha1": "be47f9467eec",
+      "size": 43892,
+      "sampleCount": 21946,
+      "exportName": null,
+      "resolvedName": "cid:217",
+      "nameSource": "unnamed"
+    },
+    "240": {
+      "sha1": "1b7d86e652d5",
+      "size": 33792,
+      "sampleCount": 8448,
+      "exportName": null,
+      "resolvedName": "cid:240",
+      "nameSource": "unnamed"
+    },
+    "273": {
+      "sha1": "b7199a1ea6ae",
+      "size": 162288,
+      "sampleCount": 40572,
+      "exportName": null,
+      "resolvedName": "cid:273",
+      "nameSource": "unnamed"
+    },
+    "285": {
+      "sha1": "63ed8789ec81",
+      "size": 126976,
+      "sampleCount": 31744,
+      "exportName": null,
+      "resolvedName": "cid:285",
+      "nameSource": "unnamed"
+    },
+    "346": {
+      "sha1": "7d1d2bfa3b5b",
+      "size": 135296,
+      "sampleCount": 33824,
+      "exportName": null,
+      "resolvedName": "cid:346",
+      "nameSource": "unnamed"
+    },
+    "372": {
+      "sha1": "32d4efe19c90",
+      "size": 163296,
+      "sampleCount": 40824,
+      "exportName": null,
+      "resolvedName": "cid:372",
+      "nameSource": "unnamed"
+    },
+    "375": {
+      "sha1": "656ef2401050",
+      "size": 139264,
+      "sampleCount": 34816,
+      "exportName": null,
+      "resolvedName": "cid:375",
+      "nameSource": "unnamed"
+    },
+    "453": {
+      "sha1": "17b8c6b87502",
+      "size": 46080,
+      "sampleCount": 23040,
+      "exportName": null,
+      "resolvedName": "cid:453",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "3": "snd_hurt3",
+    "2": "snd_hurt2",
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 166,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 173,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 190,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 62,
+      "soundName": "cid:62",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "d817e25015d5"
+    },
+    {
+      "frame": 276,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 300,
+      "label": "失败",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "8d97fdc76c1c"
+    },
+    {
+      "frame": 332,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 332,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 347,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 101,
+      "soundName": "cid:101",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "4573ee065eed"
+    },
+    {
+      "frame": 347,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 376,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 403,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 421,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 424,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 450,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 151,
+      "soundName": "cid:151",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "12ea29b1dd73"
+    },
+    {
+      "frame": 454,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 485,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 486,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 152,
+      "soundName": "cid:152",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 522,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "dbc8d84bca07"
+    },
+    {
+      "frame": 538,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "f723554457c9"
+    },
+    {
+      "frame": 608,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 101,
+      "soundName": "cid:101",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "4573ee065eed"
+    },
+    {
+      "frame": 611,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "be47f9467eec"
+    },
+    {
+      "frame": 654,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 663,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 240,
+      "soundName": "cid:240",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1b7d86e652d5"
+    },
+    {
+      "frame": 665,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 668,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 670,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 672,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 674,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 676,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 678,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 680,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 732,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 151,
+      "soundName": "cid:151",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "12ea29b1dd73"
+    },
+    {
+      "frame": 733,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 778,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 799,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 151,
+      "soundName": "cid:151",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "12ea29b1dd73"
+    },
+    {
+      "frame": 800,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 834,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 273,
+      "soundName": "cid:273",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "b7199a1ea6ae"
+    },
+    {
+      "frame": 879,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "be47f9467eec"
+    },
+    {
+      "frame": 942,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 942,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 240,
+      "soundName": "cid:240",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1b7d86e652d5"
+    },
+    {
+      "frame": 944,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 954,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 962,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 101,
+      "soundName": "cid:101",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "4573ee065eed"
+    },
+    {
+      "frame": 962,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 976,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 346,
+      "soundName": "cid:346",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "7d1d2bfa3b5b"
+    },
+    {
+      "frame": 1014,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 151,
+      "soundName": "cid:151",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "12ea29b1dd73"
+    },
+    {
+      "frame": 1018,
+      "label": "上必杀2",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 1047,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 372,
+      "soundName": "cid:372",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "32d4efe19c90"
+    },
+    {
+      "frame": 1096,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 375,
+      "soundName": "cid:375",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "656ef2401050"
+    },
+    {
+      "frame": 1128,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "f723554457c9"
+    },
+    {
+      "frame": 1226,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "dbc8d84bca07"
+    },
+    {
+      "frame": 1250,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 346,
+      "soundName": "cid:346",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "7d1d2bfa3b5b"
+    },
+    {
+      "frame": 1250,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 453,
+      "soundName": "cid:453",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "17b8c6b87502"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 166,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 173,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 190,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 62,
+      "soundName": "cid:62",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "d817e25015d5"
+    },
+    {
+      "frame": 276,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 77,
+      "soundName": "cid:77",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 300,
+      "label": "失败",
+      "tag": "StartSound",
+      "soundId": 86,
+      "soundName": "cid:86",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "8d97fdc76c1c"
+    },
+    {
+      "frame": 332,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 332,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 347,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 101,
+      "soundName": "cid:101",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "4573ee065eed"
+    },
+    {
+      "frame": 347,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 376,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 403,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 421,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 424,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 450,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 151,
+      "soundName": "cid:151",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "12ea29b1dd73"
+    },
+    {
+      "frame": 454,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 102,
+      "soundName": "cid:102",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 485,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 486,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 152,
+      "soundName": "cid:152",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 522,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 172,
+      "soundName": "cid:172",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "dbc8d84bca07"
+    },
+    {
+      "frame": 538,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "f723554457c9"
+    },
+    {
+      "frame": 608,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 101,
+      "soundName": "cid:101",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "4573ee065eed"
+    },
+    {
+      "frame": 611,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 217,
+      "soundName": "cid:217",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "be47f9467eec"
+    },
+    {
+      "frame": 654,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "9ea8b2f2d4db"
+    },
+    {
+      "frame": 663,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 240,
+      "soundName": "cid:240",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1b7d86e652d5"
+    },
+    {
+      "frame": 665,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 668,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 670,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 672,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 674,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 676,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 678,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 492,
+      "spriteExport": "soifon_fla.碎蜂全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    }
+  ]
+}

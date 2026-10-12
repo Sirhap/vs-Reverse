@@ -11,9 +11,15 @@ decompiled/          # 反编译出的 AS3（894 个 .as）— 逆向后的代�
 reverse/             # 研究报告 + 分卷
 reverse/line-by-line/# 逐行注解（壳/引擎/角色/UI/特效，836+ 篇）
 play/                # 本地 HTTP 启动脚本与守卫（无 SWF）
+play/games/bvn-rev2/ # REV2b 入口（main.js 按 SIZE-GATE 重建，不含 SWF）
+play/r8-hold-stub/   # R8 本地 Hold stub
+tools/               # size-gate、repack、帧导出脚本
 tools-notes/         # Grok Build 分批提示词与 runner 脚本
+work/                # 复刻验收与全量可读性状态（与 decompiled、reverse 并列）
 *.md                 # 顶层分析报告
 ```
+
+2026-10-12 复刻包与既有逆向树并列，不覆盖 `decompiled/` 与 `reverse/`。R8 线上仍是 Documented-gap；听感仍是 Documented UNKNOWN。`play/games/bvn-rev2/main.js` 由 `play/games/bvn-3.3/main.js` 重建，`app.size["main.swf"]` 为 REV2b `69550436`，`app.flashframe` 仍为 `2`。
 
 总入口（注解）：[`reverse/line-by-line/00-MASTER.md`](reverse/line-by-line/00-MASTER.md)
 

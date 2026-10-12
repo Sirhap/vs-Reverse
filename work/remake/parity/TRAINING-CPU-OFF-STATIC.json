@@ -1,0 +1,23 @@
+{
+  "captured_at_cst": "2026-10-11 21:53 CST",
+  "mode": "TRAINING=40",
+  "menu_path": "练习模式 → GameMode.currentMode=40 → goSelect()",
+  "isVsCPU_default_includes_training": true,
+  "isVsCPU_false_excludes_training": true,
+  "addFighter_P2_AI_condition": "GameMode.isVsCPU(false) || GameMode.isAcrade()",
+  "training_P2_controller": "FighterKeyCtrl inputType=P2（非 FighterAICtrl）→ CPU 关",
+  "training_P1_controller": "FighterKeyCtrl inputType=P1",
+  "training_extras": {
+    "TrainingCtrler": "双方回血/气/辅助气；gameTimeMax=-1；无 Round 开场倒计时直接 actionEnable",
+    "no_death_judge": "挂 G4/练习模式不判死（待桌面验）"
+  },
+  "why_prior_parity_key_FAIL": "先前 midfight/fight-deep 走单人/对战（含 CPU）；伤害偏 CPU 无法隔离 P1 键贡献",
+  "code_anchors": {
+    "GameMode.isVsCPU": "decompiled/.../GameMode.as L55-58",
+    "GameCtrl.addFighter": "decompiled/.../GameCtrl.as L312-337",
+    "GameCtrl.buildGame TRAINING": "decompiled/.../GameCtrl.as L269-302",
+    "MenuBtnGroup TRAINING": "decompiled/.../MenuBtnGroup.as L352-357",
+    "ConfigVO P1 keys": "WASD JKL UIO (87,83,65,68,74,75,76,85,73,79)"
+  },
+  "desktop_smoke_status": "PENDING — 需父代理 computerUse；见 P1-KEY-ISOLATION.md"
+}

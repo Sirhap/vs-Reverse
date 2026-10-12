@@ -1,0 +1,979 @@
+{
+  "id": "ikkaku",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/ikkaku.swf",
+  "defineSoundCount": 21,
+  "startSoundEventCount": 42,
+  "namedEventCount": 1,
+  "actionSpriteId": 437,
+  "actionExport": "ikkaku_fla.鸣人全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "fadcf08bb15f",
+      "size": 1874,
+      "sampleCount": 7565,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "48": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:48",
+      "nameSource": "unnamed"
+    },
+    "62": {
+      "sha1": "b3981ddcdbc9",
+      "size": 5202,
+      "sampleCount": 25980,
+      "exportName": null,
+      "resolvedName": "cid:62",
+      "nameSource": "unnamed"
+    },
+    "103": {
+      "sha1": "6ad9395b5521",
+      "size": 1250,
+      "sampleCount": 4428,
+      "exportName": null,
+      "resolvedName": "cid:103",
+      "nameSource": "unnamed"
+    },
+    "108": {
+      "sha1": "f4856d9ad426",
+      "size": 1978,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:108",
+      "nameSource": "unnamed"
+    },
+    "167": {
+      "sha1": "335880d764bc",
+      "size": 3538,
+      "sampleCount": 16717,
+      "exportName": null,
+      "resolvedName": "cid:167",
+      "nameSource": "unnamed"
+    },
+    "181": {
+      "sha1": "bd5cae972b67",
+      "size": 3434,
+      "sampleCount": 16232,
+      "exportName": null,
+      "resolvedName": "cid:181",
+      "nameSource": "unnamed"
+    },
+    "188": {
+      "sha1": "a1f8869cfd72",
+      "size": 3850,
+      "sampleCount": 18673,
+      "exportName": null,
+      "resolvedName": "cid:188",
+      "nameSource": "unnamed"
+    },
+    "193": {
+      "sha1": "0c072a9b5164",
+      "size": 4474,
+      "sampleCount": 22932,
+      "exportName": null,
+      "resolvedName": "cid:193",
+      "nameSource": "unnamed"
+    },
+    "258": {
+      "sha1": "7bf3ef2bbf80",
+      "size": 3434,
+      "sampleCount": 16238,
+      "exportName": null,
+      "resolvedName": "cid:258",
+      "nameSource": "unnamed"
+    },
+    "289": {
+      "sha1": "11a63b578c47",
+      "size": 5618,
+      "sampleCount": 28158,
+      "exportName": null,
+      "resolvedName": "cid:289",
+      "nameSource": "unnamed"
+    },
+    "290": {
+      "sha1": "4027016c80ef",
+      "size": 4058,
+      "sampleCount": 19584,
+      "exportName": null,
+      "resolvedName": "cid:290",
+      "nameSource": "unnamed"
+    },
+    "296": {
+      "sha1": "2244f1bb18eb",
+      "size": 4786,
+      "sampleCount": 23545,
+      "exportName": null,
+      "resolvedName": "cid:296",
+      "nameSource": "unnamed"
+    },
+    "307": {
+      "sha1": "605e670f5178",
+      "size": 5514,
+      "sampleCount": 28047,
+      "exportName": null,
+      "resolvedName": "cid:307",
+      "nameSource": "unnamed"
+    },
+    "359": {
+      "sha1": "d11e193527d9",
+      "size": 4370,
+      "sampleCount": 22364,
+      "exportName": null,
+      "resolvedName": "cid:359",
+      "nameSource": "unnamed"
+    },
+    "360": {
+      "sha1": "ef1694a9237b",
+      "size": 3538,
+      "sampleCount": 17086,
+      "exportName": null,
+      "resolvedName": "cid:360",
+      "nameSource": "unnamed"
+    },
+    "365": {
+      "sha1": "6eb157ae2409",
+      "size": 9154,
+      "sampleCount": 48196,
+      "exportName": null,
+      "resolvedName": "cid:365",
+      "nameSource": "unnamed"
+    },
+    "401": {
+      "sha1": "fadcf08bb15f",
+      "size": 1874,
+      "sampleCount": 7565,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "sha1-cross"
+    },
+    "420": {
+      "sha1": "cdd2a5d4c7c7",
+      "size": 1770,
+      "sampleCount": 7270,
+      "exportName": null,
+      "resolvedName": "cid:420",
+      "nameSource": "unnamed"
+    },
+    "425": {
+      "sha1": "d26b9d95178b",
+      "size": 2186,
+      "sampleCount": 10259,
+      "exportName": null,
+      "resolvedName": "cid:425",
+      "nameSource": "unnamed"
+    },
+    "430": {
+      "sha1": "395e8e374977",
+      "size": 6034,
+      "sampleCount": 31552,
+      "exportName": null,
+      "resolvedName": "cid:430",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 93,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 112,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 120,
+      "label": "跳招0",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 129,
+      "label": "跳招1",
+      "tag": "StartSound",
+      "soundId": 62,
+      "soundName": "cid:62",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "b3981ddcdbc9"
+    },
+    {
+      "frame": 155,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 175,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 194,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6ad9395b5521"
+    },
+    {
+      "frame": 198,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 108,
+      "soundName": "cid:108",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "f4856d9ad426"
+    },
+    {
+      "frame": 237,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6ad9395b5521"
+    },
+    {
+      "frame": 250,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 108,
+      "soundName": "cid:108",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "f4856d9ad426"
+    },
+    {
+      "frame": 273,
+      "label": "砍技22",
+      "tag": "StartSound",
+      "soundId": 108,
+      "soundName": "cid:108",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "f4856d9ad426"
+    },
+    {
+      "frame": 303,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6ad9395b5521"
+    },
+    {
+      "frame": 305,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 308,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 311,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 314,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 317,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 320,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 323,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 326,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 329,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 332,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 335,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 338,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 367,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "335880d764bc"
+    },
+    {
+      "frame": 372,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 181,
+      "soundName": "cid:181",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "bd5cae972b67"
+    },
+    {
+      "frame": 410,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 188,
+      "soundName": "cid:188",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "a1f8869cfd72"
+    },
+    {
+      "frame": 420,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 193,
+      "soundName": "cid:193",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "0c072a9b5164"
+    },
+    {
+      "frame": 480,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "335880d764bc"
+    },
+    {
+      "frame": 482,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 258,
+      "soundName": "cid:258",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "7bf3ef2bbf80"
+    },
+    {
+      "frame": 598,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 289,
+      "soundName": "cid:289",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "11a63b578c47"
+    },
+    {
+      "frame": 599,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 290,
+      "soundName": "cid:290",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "4027016c80ef"
+    },
+    {
+      "frame": 660,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 296,
+      "soundName": "cid:296",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "2244f1bb18eb"
+    },
+    {
+      "frame": 662,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 307,
+      "soundName": "cid:307",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "605e670f5178"
+    },
+    {
+      "frame": 738,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 359,
+      "soundName": "cid:359",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "d11e193527d9"
+    },
+    {
+      "frame": 741,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 360,
+      "soundName": "cid:360",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "ef1694a9237b"
+    },
+    {
+      "frame": 775,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 289,
+      "soundName": "cid:289",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "11a63b578c47"
+    },
+    {
+      "frame": 775,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 365,
+      "soundName": "cid:365",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6eb157ae2409"
+    },
+    {
+      "frame": 874,
+      "label": "击飞",
+      "tag": "StartSound",
+      "soundId": 401,
+      "soundName": "snd_hurt1",
+      "nameSource": "sha1-cross",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "fadcf08bb15f"
+    },
+    {
+      "frame": 954,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 420,
+      "soundName": "cid:420",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "cdd2a5d4c7c7"
+    },
+    {
+      "frame": 965,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 425,
+      "soundName": "cid:425",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "d26b9d95178b"
+    },
+    {
+      "frame": 1011,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 430,
+      "soundName": "cid:430",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "395e8e374977"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 93,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 112,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 120,
+      "label": "跳招0",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 129,
+      "label": "跳招1",
+      "tag": "StartSound",
+      "soundId": 62,
+      "soundName": "cid:62",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "b3981ddcdbc9"
+    },
+    {
+      "frame": 155,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 175,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 194,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6ad9395b5521"
+    },
+    {
+      "frame": 198,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 108,
+      "soundName": "cid:108",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "f4856d9ad426"
+    },
+    {
+      "frame": 237,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6ad9395b5521"
+    },
+    {
+      "frame": 250,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 108,
+      "soundName": "cid:108",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "f4856d9ad426"
+    },
+    {
+      "frame": 273,
+      "label": "砍技22",
+      "tag": "StartSound",
+      "soundId": 108,
+      "soundName": "cid:108",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "f4856d9ad426"
+    },
+    {
+      "frame": 303,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 103,
+      "soundName": "cid:103",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "6ad9395b5521"
+    },
+    {
+      "frame": 305,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 308,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 311,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 314,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 317,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 320,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 323,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 326,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 329,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 332,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 335,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 338,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 367,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "335880d764bc"
+    },
+    {
+      "frame": 372,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 181,
+      "soundName": "cid:181",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "bd5cae972b67"
+    },
+    {
+      "frame": 410,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 188,
+      "soundName": "cid:188",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "a1f8869cfd72"
+    },
+    {
+      "frame": 420,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 193,
+      "soundName": "cid:193",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "0c072a9b5164"
+    },
+    {
+      "frame": 480,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 167,
+      "soundName": "cid:167",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "335880d764bc"
+    },
+    {
+      "frame": 482,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 258,
+      "soundName": "cid:258",
+      "nameSource": "unnamed",
+      "spriteId": 437,
+      "spriteExport": "ikkaku_fla.鸣人全动作_1",
+      "sha1": "7bf3ef2bbf80"
+    }
+  ]
+}

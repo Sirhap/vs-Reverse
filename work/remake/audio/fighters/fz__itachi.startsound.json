@@ -1,0 +1,141 @@
+{
+  "id": "fz/itachi",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/itachi.swf",
+  "defineSoundCount": 2,
+  "startSoundEventCount": 5,
+  "namedEventCount": 0,
+  "actionSpriteId": 0,
+  "defineSounds": {
+    "34": {
+      "sha1": "45ea6411f2b4",
+      "size": 7734,
+      "sampleCount": 42624,
+      "exportName": null,
+      "resolvedName": "cid:34",
+      "nameSource": "unnamed"
+    },
+    "43": {
+      "sha1": "2b5c70ef3ad8",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:43",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 92,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 34,
+      "soundName": "cid:34",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "45ea6411f2b4"
+    },
+    {
+      "frame": 127,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 143,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 159,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 175,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    }
+  ],
+  "actionEvents": [
+    {
+      "frame": 92,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 34,
+      "soundName": "cid:34",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "45ea6411f2b4"
+    },
+    {
+      "frame": 127,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 143,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 159,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 175,
+      "label": "攻击2",
+      "tag": "StartSound",
+      "soundId": 43,
+      "soundName": "cid:43",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "itachi_fla.MainTimeline",
+      "sha1": "2b5c70ef3ad8"
+    }
+  ]
+}

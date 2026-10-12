@@ -1,0 +1,57 @@
+{
+  "id": "sai",
+  "mainTimeline": "decompiled/fighters/fz/sai/scripts/sai_fla/MainTimeline.as",
+  "rootFrames": 71,
+  "addFrameScriptCount": 6,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":10, \"hitType\":4, \"hitx\":0, \"hity\":-5, \"hurtTime\":800, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 14,
+      "frameNumber": 15,
+      "function": "frame15",
+      "summary": "effect.bisha(false); getOwner()",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false); this.$assisterCtrler.getOwner().getBuffCtrl().speedUp(5,5);"
+    },
+    {
+      "frameIndex0": 29,
+      "frameNumber": 30,
+      "function": "frame30",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 31,
+      "frameNumber": 32,
+      "function": "frame32",
+      "summary": "addAttacker(atmmc)",
+      "bodyPreview": "this.$assisterCtrler.addAttacker(\"atmmc\",{ \"x\":{ \"moveToTarget\":true, \"offset\":0"
+    },
+    {
+      "frameIndex0": 32,
+      "frameNumber": 33,
+      "function": "frame33",
+      "summary": "effect.shine(0)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(0);"
+    },
+    {
+      "frameIndex0": 53,
+      "frameNumber": 54,
+      "function": "frame54",
+      "summary": "endAct()",
+      "bodyPreview": "this.$assisterCtrler.endAct();"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

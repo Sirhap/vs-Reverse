@@ -1,0 +1,1249 @@
+{
+  "id": "killerbee",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/killerbee.swf",
+  "defineSoundCount": 33,
+  "startSoundEventCount": 58,
+  "namedEventCount": 1,
+  "actionSpriteId": 759,
+  "actionExport": "killerbee_fla.八尾人柱力全动作_1",
+  "defineSounds": {
+    "46": {
+      "sha1": "c5d51fa6f0c1",
+      "size": 1146,
+      "sampleCount": 3862,
+      "exportName": null,
+      "resolvedName": "cid:46",
+      "nameSource": "unnamed"
+    },
+    "49": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:49",
+      "nameSource": "unnamed"
+    },
+    "58": {
+      "sha1": "94558c8b78ec",
+      "size": 7943,
+      "sampleCount": 21888,
+      "exportName": null,
+      "resolvedName": "cid:58",
+      "nameSource": "unnamed"
+    },
+    "67": {
+      "sha1": "ea1c8bbd722d",
+      "size": 1666,
+      "sampleCount": 6527,
+      "exportName": null,
+      "resolvedName": "cid:67",
+      "nameSource": "unnamed"
+    },
+    "68": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:68",
+      "nameSource": "unnamed"
+    },
+    "71": {
+      "sha1": "b32b1e411a87",
+      "size": 1883,
+      "sampleCount": 5184,
+      "exportName": null,
+      "resolvedName": "cid:71",
+      "nameSource": "unnamed"
+    },
+    "94": {
+      "sha1": "c9d9136def42",
+      "size": 938,
+      "sampleCount": 2570,
+      "exportName": null,
+      "resolvedName": "cid:94",
+      "nameSource": "unnamed"
+    },
+    "95": {
+      "sha1": "e56977e2eea0",
+      "size": 6689,
+      "sampleCount": 18432,
+      "exportName": null,
+      "resolvedName": "cid:95",
+      "nameSource": "unnamed"
+    },
+    "112": {
+      "sha1": "e7c8c0e46f8b",
+      "size": 1458,
+      "sampleCount": 5495,
+      "exportName": null,
+      "resolvedName": "cid:112",
+      "nameSource": "unnamed"
+    },
+    "115": {
+      "sha1": "d38ef61095a3",
+      "size": 7525,
+      "sampleCount": 20736,
+      "exportName": null,
+      "resolvedName": "cid:115",
+      "nameSource": "unnamed"
+    },
+    "136": {
+      "sha1": "25614de120e6",
+      "size": 1666,
+      "sampleCount": 6279,
+      "exportName": null,
+      "resolvedName": "cid:136",
+      "nameSource": "unnamed"
+    },
+    "155": {
+      "sha1": "25f51e0ca54b",
+      "size": 2290,
+      "sampleCount": 9906,
+      "exportName": null,
+      "resolvedName": "cid:155",
+      "nameSource": "unnamed"
+    },
+    "160": {
+      "sha1": "a42a6cec508a",
+      "size": 16302,
+      "sampleCount": 44928,
+      "exportName": null,
+      "resolvedName": "cid:160",
+      "nameSource": "unnamed"
+    },
+    "176": {
+      "sha1": "bf20906431d1",
+      "size": 1874,
+      "sampleCount": 7747,
+      "exportName": null,
+      "resolvedName": "cid:176",
+      "nameSource": "unnamed"
+    },
+    "177": {
+      "sha1": "fec675e6c4ed",
+      "size": 10868,
+      "sampleCount": 29952,
+      "exportName": null,
+      "resolvedName": "cid:177",
+      "nameSource": "unnamed"
+    },
+    "200": {
+      "sha1": "358af634b7f8",
+      "size": 10451,
+      "sampleCount": 28800,
+      "exportName": null,
+      "resolvedName": "cid:200",
+      "nameSource": "unnamed"
+    },
+    "223": {
+      "sha1": "30ee28f2abe2",
+      "size": 938,
+      "sampleCount": 3334,
+      "exportName": null,
+      "resolvedName": "cid:223",
+      "nameSource": "unnamed"
+    },
+    "224": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:224",
+      "nameSource": "unnamed"
+    },
+    "254": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:254",
+      "nameSource": "unnamed"
+    },
+    "265": {
+      "sha1": "ed0c0b7b1b59",
+      "size": 6242,
+      "sampleCount": 32066,
+      "exportName": null,
+      "resolvedName": "cid:265",
+      "nameSource": "unnamed"
+    },
+    "269": {
+      "sha1": "cdea048726a7",
+      "size": 3434,
+      "sampleCount": 16511,
+      "exportName": null,
+      "resolvedName": "cid:269",
+      "nameSource": "unnamed"
+    },
+    "282": {
+      "sha1": "4b030345416d",
+      "size": 1874,
+      "sampleCount": 7933,
+      "exportName": null,
+      "resolvedName": "cid:282",
+      "nameSource": "unnamed"
+    },
+    "338": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:338",
+      "nameSource": "unnamed"
+    },
+    "422": {
+      "sha1": "c6799fbd172b",
+      "size": 2082,
+      "sampleCount": 9704,
+      "exportName": null,
+      "resolvedName": "cid:422",
+      "nameSource": "unnamed"
+    },
+    "433": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:433",
+      "nameSource": "unnamed"
+    },
+    "478": {
+      "sha1": "e446b7bef022",
+      "size": 4266,
+      "sampleCount": 20846,
+      "exportName": null,
+      "resolvedName": "cid:478",
+      "nameSource": "unnamed"
+    },
+    "479": {
+      "sha1": "710717d4944f",
+      "size": 49530,
+      "sampleCount": 273024,
+      "exportName": null,
+      "resolvedName": "cid:479",
+      "nameSource": "unnamed"
+    },
+    "560": {
+      "sha1": "591d5b5bf21d",
+      "size": 4786,
+      "sampleCount": 23947,
+      "exportName": null,
+      "resolvedName": "cid:560",
+      "nameSource": "unnamed"
+    },
+    "561": {
+      "sha1": "f069fc9a6720",
+      "size": 3538,
+      "sampleCount": 16768,
+      "exportName": null,
+      "resolvedName": "cid:561",
+      "nameSource": "unnamed"
+    },
+    "635": {
+      "sha1": "a32771c5d9ce",
+      "size": 3330,
+      "sampleCount": 15752,
+      "exportName": null,
+      "resolvedName": "cid:635",
+      "nameSource": "unnamed"
+    },
+    "712": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "721": {
+      "sha1": "4892c391c6ed",
+      "size": 2810,
+      "sampleCount": 12814,
+      "exportName": null,
+      "resolvedName": "cid:721",
+      "nameSource": "unnamed"
+    },
+    "724": {
+      "sha1": "90ee65d664a6",
+      "size": 2498,
+      "sampleCount": 11208,
+      "exportName": null,
+      "resolvedName": "cid:724",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {},
+  "actionEvents": [
+    {
+      "frame": 81,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 46,
+      "soundName": "cid:46",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "c5d51fa6f0c1"
+    },
+    {
+      "frame": 83,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 97,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "94558c8b78ec"
+    },
+    {
+      "frame": 133,
+      "label": "跳招4",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ea1c8bbd722d"
+    },
+    {
+      "frame": 134,
+      "label": "跳招4",
+      "tag": "StartSound",
+      "soundId": 68,
+      "soundName": "cid:68",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 141,
+      "label": "跳招4",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 147,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 163,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 183,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "c9d9136def42"
+    },
+    {
+      "frame": 183,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 191,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 203,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 217,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e7c8c0e46f8b"
+    },
+    {
+      "frame": 219,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 115,
+      "soundName": "cid:115",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "d38ef61095a3"
+    },
+    {
+      "frame": 235,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 245,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ea1c8bbd722d"
+    },
+    {
+      "frame": 247,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "94558c8b78ec"
+    },
+    {
+      "frame": 253,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "94558c8b78ec"
+    },
+    {
+      "frame": 279,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 299,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 136,
+      "soundName": "cid:136",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "25614de120e6"
+    },
+    {
+      "frame": 301,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 308,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 326,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 331,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e7c8c0e46f8b"
+    },
+    {
+      "frame": 332,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 115,
+      "soundName": "cid:115",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "d38ef61095a3"
+    },
+    {
+      "frame": 358,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 155,
+      "soundName": "cid:155",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "25f51e0ca54b"
+    },
+    {
+      "frame": 359,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 160,
+      "soundName": "cid:160",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "a42a6cec508a"
+    },
+    {
+      "frame": 394,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 176,
+      "soundName": "cid:176",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "bf20906431d1"
+    },
+    {
+      "frame": 394,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 177,
+      "soundName": "cid:177",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "fec675e6c4ed"
+    },
+    {
+      "frame": 417,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 200,
+      "soundName": "cid:200",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "358af634b7f8"
+    },
+    {
+      "frame": 450,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 223,
+      "soundName": "cid:223",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "30ee28f2abe2"
+    },
+    {
+      "frame": 450,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 224,
+      "soundName": "cid:224",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 483,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 223,
+      "soundName": "cid:223",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "30ee28f2abe2"
+    },
+    {
+      "frame": 484,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 254,
+      "soundName": "cid:254",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 506,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e7c8c0e46f8b"
+    },
+    {
+      "frame": 509,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 115,
+      "soundName": "cid:115",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "d38ef61095a3"
+    },
+    {
+      "frame": 544,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 265,
+      "soundName": "cid:265",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ed0c0b7b1b59"
+    },
+    {
+      "frame": 546,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 269,
+      "soundName": "cid:269",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "cdea048726a7"
+    },
+    {
+      "frame": 569,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 282,
+      "soundName": "cid:282",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 574,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 254,
+      "soundName": "cid:254",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 592,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 596,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 606,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 254,
+      "soundName": "cid:254",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 621,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 265,
+      "soundName": "cid:265",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ed0c0b7b1b59"
+    },
+    {
+      "frame": 621,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 338,
+      "soundName": "cid:338",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 662,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 265,
+      "soundName": "cid:265",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ed0c0b7b1b59"
+    },
+    {
+      "frame": 662,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 269,
+      "soundName": "cid:269",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "cdea048726a7"
+    },
+    {
+      "frame": 707,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 422,
+      "soundName": "cid:422",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "c6799fbd172b"
+    },
+    {
+      "frame": 714,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 433,
+      "soundName": "cid:433",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 773,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 478,
+      "soundName": "cid:478",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e446b7bef022"
+    },
+    {
+      "frame": 773,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 479,
+      "soundName": "cid:479",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "710717d4944f"
+    },
+    {
+      "frame": 830,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 560,
+      "soundName": "cid:560",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "591d5b5bf21d"
+    },
+    {
+      "frame": 830,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 561,
+      "soundName": "cid:561",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "f069fc9a6720"
+    },
+    {
+      "frame": 902,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 635,
+      "soundName": "cid:635",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "a32771c5d9ce"
+    },
+    {
+      "frame": 1086,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 712,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1096,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 68,
+      "soundName": "cid:68",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1116,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 721,
+      "soundName": "cid:721",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "4892c391c6ed"
+    },
+    {
+      "frame": 1184,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 724,
+      "soundName": "cid:724",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "90ee65d664a6"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 81,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 46,
+      "soundName": "cid:46",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "c5d51fa6f0c1"
+    },
+    {
+      "frame": 83,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 97,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "94558c8b78ec"
+    },
+    {
+      "frame": 133,
+      "label": "跳招4",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ea1c8bbd722d"
+    },
+    {
+      "frame": 134,
+      "label": "跳招4",
+      "tag": "StartSound",
+      "soundId": 68,
+      "soundName": "cid:68",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 141,
+      "label": "跳招4",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 147,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 163,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 49,
+      "soundName": "cid:49",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 183,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 94,
+      "soundName": "cid:94",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "c9d9136def42"
+    },
+    {
+      "frame": 183,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 191,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 203,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 217,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e7c8c0e46f8b"
+    },
+    {
+      "frame": 219,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 115,
+      "soundName": "cid:115",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "d38ef61095a3"
+    },
+    {
+      "frame": 235,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 245,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "ea1c8bbd722d"
+    },
+    {
+      "frame": 247,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "94558c8b78ec"
+    },
+    {
+      "frame": 253,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 58,
+      "soundName": "cid:58",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "94558c8b78ec"
+    },
+    {
+      "frame": 279,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 299,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 136,
+      "soundName": "cid:136",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "25614de120e6"
+    },
+    {
+      "frame": 301,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 308,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 95,
+      "soundName": "cid:95",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e56977e2eea0"
+    },
+    {
+      "frame": 326,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 71,
+      "soundName": "cid:71",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "b32b1e411a87"
+    },
+    {
+      "frame": 331,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 112,
+      "soundName": "cid:112",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "e7c8c0e46f8b"
+    },
+    {
+      "frame": 332,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 115,
+      "soundName": "cid:115",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "d38ef61095a3"
+    },
+    {
+      "frame": 358,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 155,
+      "soundName": "cid:155",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "25f51e0ca54b"
+    },
+    {
+      "frame": 359,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 160,
+      "soundName": "cid:160",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "a42a6cec508a"
+    },
+    {
+      "frame": 394,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 176,
+      "soundName": "cid:176",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "bf20906431d1"
+    },
+    {
+      "frame": 394,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 177,
+      "soundName": "cid:177",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "fec675e6c4ed"
+    },
+    {
+      "frame": 417,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 200,
+      "soundName": "cid:200",
+      "nameSource": "unnamed",
+      "spriteId": 759,
+      "spriteExport": "killerbee_fla.八尾人柱力全动作_1",
+      "sha1": "358af634b7f8"
+    }
+  ]
+}

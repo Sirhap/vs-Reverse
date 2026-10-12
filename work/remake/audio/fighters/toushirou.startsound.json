@@ -1,0 +1,1021 @@
+{
+  "id": "toushirou",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/toushirou.swf",
+  "defineSoundCount": 33,
+  "startSoundEventCount": 70,
+  "namedEventCount": 2,
+  "actionSpriteId": 894,
+  "actionExport": "toushirou_fla.万解全动作_8",
+  "defineSounds": {
+    "1": {
+      "sha1": "d45f9468105e",
+      "size": 11287,
+      "sampleCount": 15552,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "fc0164a827e3",
+      "size": 6689,
+      "sampleCount": 9216,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "48": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:48",
+      "nameSource": "unnamed"
+    },
+    "59": {
+      "sha1": "4f9e81fefc6b",
+      "size": 14631,
+      "sampleCount": 20160,
+      "exportName": null,
+      "resolvedName": "cid:59",
+      "nameSource": "unnamed"
+    },
+    "62": {
+      "sha1": "d0c9c6199f65",
+      "size": 3434,
+      "sampleCount": 16256,
+      "exportName": null,
+      "resolvedName": "cid:62",
+      "nameSource": "unnamed"
+    },
+    "129": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:129",
+      "nameSource": "unnamed"
+    },
+    "144": {
+      "sha1": "a6603d6c623a",
+      "size": 1250,
+      "sampleCount": 4507,
+      "exportName": null,
+      "resolvedName": "cid:144",
+      "nameSource": "unnamed"
+    },
+    "145": {
+      "sha1": "6969639e2e15",
+      "size": 2914,
+      "sampleCount": 13581,
+      "exportName": null,
+      "resolvedName": "cid:145",
+      "nameSource": "unnamed"
+    },
+    "190": {
+      "sha1": "8417be037e5b",
+      "size": 1666,
+      "sampleCount": 6765,
+      "exportName": null,
+      "resolvedName": "cid:190",
+      "nameSource": "unnamed"
+    },
+    "191": {
+      "sha1": "a009e4c45db9",
+      "size": 3226,
+      "sampleCount": 16029,
+      "exportName": null,
+      "resolvedName": "cid:191",
+      "nameSource": "unnamed"
+    },
+    "196": {
+      "sha1": "b72d8914de79",
+      "size": 3018,
+      "sampleCount": 13894,
+      "exportName": null,
+      "resolvedName": "cid:196",
+      "nameSource": "unnamed"
+    },
+    "199": {
+      "sha1": "6f2cc2f817e3",
+      "size": 2602,
+      "sampleCount": 11507,
+      "exportName": null,
+      "resolvedName": "cid:199",
+      "nameSource": "unnamed"
+    },
+    "276": {
+      "sha1": "bc5ef3138f89",
+      "size": 9615,
+      "sampleCount": 13248,
+      "exportName": null,
+      "resolvedName": "cid:276",
+      "nameSource": "unnamed"
+    },
+    "317": {
+      "sha1": "251199d62bde",
+      "size": 18810,
+      "sampleCount": 25920,
+      "exportName": null,
+      "resolvedName": "cid:317",
+      "nameSource": "unnamed"
+    },
+    "318": {
+      "sha1": "eaf0822b9136",
+      "size": 4890,
+      "sampleCount": 24542,
+      "exportName": null,
+      "resolvedName": "cid:318",
+      "nameSource": "unnamed"
+    },
+    "367": {
+      "sha1": "cbe0bce7491d",
+      "size": 3954,
+      "sampleCount": 20120,
+      "exportName": null,
+      "resolvedName": "cid:367",
+      "nameSource": "unnamed"
+    },
+    "392": {
+      "sha1": "6557246ed7bc",
+      "size": 3018,
+      "sampleCount": 14203,
+      "exportName": null,
+      "resolvedName": "cid:392",
+      "nameSource": "unnamed"
+    },
+    "517": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "527": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:527",
+      "nameSource": "unnamed"
+    },
+    "538": {
+      "sha1": "3f0182f63d02",
+      "size": 1146,
+      "sampleCount": 3699,
+      "exportName": null,
+      "resolvedName": "cid:538",
+      "nameSource": "unnamed"
+    },
+    "571": {
+      "sha1": "6723acab8a9f",
+      "size": 48485,
+      "sampleCount": 66816,
+      "exportName": null,
+      "resolvedName": "cid:571",
+      "nameSource": "unnamed"
+    },
+    "610": {
+      "sha1": "bc3880081e82",
+      "size": 2082,
+      "sampleCount": 9070,
+      "exportName": null,
+      "resolvedName": "cid:610",
+      "nameSource": "unnamed"
+    },
+    "611": {
+      "sha1": "353cf39ddb4d",
+      "size": 9154,
+      "sampleCount": 48104,
+      "exportName": null,
+      "resolvedName": "cid:611",
+      "nameSource": "unnamed"
+    },
+    "665": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:665",
+      "nameSource": "unnamed"
+    },
+    "666": {
+      "sha1": "491f7d80027b",
+      "size": 2706,
+      "sampleCount": 13205,
+      "exportName": null,
+      "resolvedName": "cid:666",
+      "nameSource": "unnamed"
+    },
+    "695": {
+      "sha1": "cbaea7e78446",
+      "size": 1042,
+      "sampleCount": 2938,
+      "exportName": null,
+      "resolvedName": "cid:695",
+      "nameSource": "unnamed"
+    },
+    "732": {
+      "sha1": "a42adfcc63c7",
+      "size": 20900,
+      "sampleCount": 28800,
+      "exportName": null,
+      "resolvedName": "cid:732",
+      "nameSource": "unnamed"
+    },
+    "782": {
+      "sha1": "b0f5290440be",
+      "size": 1978,
+      "sampleCount": 8250,
+      "exportName": null,
+      "resolvedName": "cid:782",
+      "nameSource": "unnamed"
+    },
+    "827": {
+      "sha1": "8544ea33b448",
+      "size": 3226,
+      "sampleCount": 15344,
+      "exportName": null,
+      "resolvedName": "cid:827",
+      "nameSource": "unnamed"
+    },
+    "828": {
+      "sha1": "f67f506c2071",
+      "size": 2602,
+      "sampleCount": 11565,
+      "exportName": null,
+      "resolvedName": "cid:828",
+      "nameSource": "unnamed"
+    },
+    "833": {
+      "sha1": "854367dbac65",
+      "size": 3746,
+      "sampleCount": 18242,
+      "exportName": null,
+      "resolvedName": "cid:833",
+      "nameSource": "unnamed"
+    },
+    "844": {
+      "sha1": "e84a972e31df",
+      "size": 8738,
+      "sampleCount": 45598,
+      "exportName": null,
+      "resolvedName": "cid:844",
+      "nameSource": "unnamed"
+    },
+    "876": {
+      "sha1": "d45f9468105e",
+      "size": 11287,
+      "sampleCount": 15552,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "sha1-cross"
+    }
+  },
+  "soundExports": {
+    "2": "snd_hurt1",
+    "1": "snd_hurt2"
+  },
+  "actionEvents": [
+    {
+      "frame": 77,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 95,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "4f9e81fefc6b"
+    },
+    {
+      "frame": 97,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 665,
+      "soundName": "cid:665",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 113,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 666,
+      "soundName": "cid:666",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "491f7d80027b"
+    },
+    {
+      "frame": 154,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 174,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 191,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 144,
+      "soundName": "cid:144",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "a6603d6c623a"
+    },
+    {
+      "frame": 192,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 216,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 695,
+      "soundName": "cid:695",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbaea7e78446"
+    },
+    {
+      "frame": 238,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 240,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 265,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 270,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 303,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 732,
+      "soundName": "cid:732",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "a42adfcc63c7"
+    },
+    {
+      "frame": 305,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 367,
+      "soundName": "cid:367",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbe0bce7491d"
+    },
+    {
+      "frame": 343,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "4f9e81fefc6b"
+    },
+    {
+      "frame": 351,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 199,
+      "soundName": "cid:199",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "6f2cc2f817e3"
+    },
+    {
+      "frame": 384,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 196,
+      "soundName": "cid:196",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "b72d8914de79"
+    },
+    {
+      "frame": 392,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 367,
+      "soundName": "cid:367",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbe0bce7491d"
+    },
+    {
+      "frame": 447,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 276,
+      "soundName": "cid:276",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "bc5ef3138f89"
+    },
+    {
+      "frame": 449,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 666,
+      "soundName": "cid:666",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "491f7d80027b"
+    },
+    {
+      "frame": 538,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 607,
+      "label": "必杀1",
+      "tag": "StartSound",
+      "soundId": 367,
+      "soundName": "cid:367",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbe0bce7491d"
+    },
+    {
+      "frame": 607,
+      "label": "必杀1",
+      "tag": "StartSound",
+      "soundId": 782,
+      "soundName": "cid:782",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "b0f5290440be"
+    },
+    {
+      "frame": 663,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 664,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 145,
+      "soundName": "cid:145",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "6969639e2e15"
+    },
+    {
+      "frame": 809,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 827,
+      "soundName": "cid:827",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8544ea33b448"
+    },
+    {
+      "frame": 856,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 828,
+      "soundName": "cid:828",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "f67f506c2071"
+    },
+    {
+      "frame": 867,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 318,
+      "soundName": "cid:318",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "eaf0822b9136"
+    },
+    {
+      "frame": 890,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 833,
+      "soundName": "cid:833",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "854367dbac65"
+    },
+    {
+      "frame": 936,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 844,
+      "soundName": "cid:844",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "e84a972e31df"
+    },
+    {
+      "frame": 966,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 666,
+      "soundName": "cid:666",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "491f7d80027b"
+    },
+    {
+      "frame": 1054,
+      "label": "击飞",
+      "tag": "StartSound",
+      "soundId": 876,
+      "soundName": "snd_hurt2",
+      "nameSource": "sha1-cross",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "d45f9468105e"
+    },
+    {
+      "frame": 1122,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 666,
+      "soundName": "cid:666",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "491f7d80027b"
+    },
+    {
+      "frame": 1123,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 827,
+      "soundName": "cid:827",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8544ea33b448"
+    },
+    {
+      "frame": 1166,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 828,
+      "soundName": "cid:828",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "f67f506c2071"
+    },
+    {
+      "frame": 1212,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 571,
+      "soundName": "cid:571",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "6723acab8a9f"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 77,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 95,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "4f9e81fefc6b"
+    },
+    {
+      "frame": 97,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 665,
+      "soundName": "cid:665",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 113,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 666,
+      "soundName": "cid:666",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "491f7d80027b"
+    },
+    {
+      "frame": 154,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 174,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 48,
+      "soundName": "cid:48",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 191,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 144,
+      "soundName": "cid:144",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "a6603d6c623a"
+    },
+    {
+      "frame": 192,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 216,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 695,
+      "soundName": "cid:695",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbaea7e78446"
+    },
+    {
+      "frame": 238,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 240,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 265,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 270,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 303,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 732,
+      "soundName": "cid:732",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "a42adfcc63c7"
+    },
+    {
+      "frame": 305,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 367,
+      "soundName": "cid:367",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbe0bce7491d"
+    },
+    {
+      "frame": 343,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 59,
+      "soundName": "cid:59",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "4f9e81fefc6b"
+    },
+    {
+      "frame": 351,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 199,
+      "soundName": "cid:199",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "6f2cc2f817e3"
+    },
+    {
+      "frame": 384,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 196,
+      "soundName": "cid:196",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "b72d8914de79"
+    },
+    {
+      "frame": 392,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 367,
+      "soundName": "cid:367",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbe0bce7491d"
+    },
+    {
+      "frame": 447,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 276,
+      "soundName": "cid:276",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "bc5ef3138f89"
+    },
+    {
+      "frame": 449,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 666,
+      "soundName": "cid:666",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "491f7d80027b"
+    },
+    {
+      "frame": 538,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 607,
+      "label": "必杀1",
+      "tag": "StartSound",
+      "soundId": 367,
+      "soundName": "cid:367",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "cbe0bce7491d"
+    },
+    {
+      "frame": 607,
+      "label": "必杀1",
+      "tag": "StartSound",
+      "soundId": 782,
+      "soundName": "cid:782",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "b0f5290440be"
+    },
+    {
+      "frame": 663,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8417be037e5b"
+    },
+    {
+      "frame": 664,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 145,
+      "soundName": "cid:145",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "6969639e2e15"
+    },
+    {
+      "frame": 809,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 827,
+      "soundName": "cid:827",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "8544ea33b448"
+    },
+    {
+      "frame": 856,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 828,
+      "soundName": "cid:828",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "f67f506c2071"
+    },
+    {
+      "frame": 867,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 318,
+      "soundName": "cid:318",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "eaf0822b9136"
+    },
+    {
+      "frame": 890,
+      "label": "超必杀2",
+      "tag": "StartSound",
+      "soundId": 833,
+      "soundName": "cid:833",
+      "nameSource": "unnamed",
+      "spriteId": 894,
+      "spriteExport": "toushirou_fla.万解全动作_8",
+      "sha1": "854367dbac65"
+    }
+  ]
+}

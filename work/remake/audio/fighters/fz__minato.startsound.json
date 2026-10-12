@@ -1,0 +1,231 @@
+{
+  "id": "fz/minato",
+  "kind": "assist",
+  "path": "extracted/full/zips/bin_222/assets/fighter/fz/minato.swf",
+  "defineSoundCount": 5,
+  "startSoundEventCount": 8,
+  "namedEventCount": 1,
+  "actionSpriteId": 0,
+  "defineSounds": {
+    "4": {
+      "sha1": "9ec45facae8a",
+      "size": 2290,
+      "sampleCount": 9939,
+      "exportName": null,
+      "resolvedName": "cid:4",
+      "nameSource": "unnamed"
+    },
+    "18": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "26": {
+      "sha1": "4b030345416d",
+      "size": 1874,
+      "sampleCount": 7933,
+      "exportName": null,
+      "resolvedName": "cid:26",
+      "nameSource": "unnamed"
+    },
+    "31": {
+      "sha1": "ce5b165bab7c",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:31",
+      "nameSource": "unnamed"
+    },
+    "50": {
+      "sha1": "7cfc31bac345",
+      "size": 3434,
+      "sampleCount": 16511,
+      "exportName": null,
+      "resolvedName": "cid:50",
+      "nameSource": "unnamed"
+    }
+  },
+  "events": [
+    {
+      "frame": 2,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 4,
+      "soundName": "cid:4",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "9ec45facae8a"
+    },
+    {
+      "frame": 35,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 18,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 64,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 26,
+      "soundName": "cid:26",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 75,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 31,
+      "soundName": "cid:31",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 93,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 26,
+      "soundName": "cid:26",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 104,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 31,
+      "soundName": "cid:31",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 128,
+      "label": "atm",
+      "tag": "StartSound",
+      "soundId": 26,
+      "soundName": "cid:26",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 141,
+      "label": "atm",
+      "tag": "StartSound",
+      "soundId": 50,
+      "soundName": "cid:50",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "7cfc31bac345"
+    }
+  ],
+  "actionEvents": [
+    {
+      "frame": 2,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 4,
+      "soundName": "cid:4",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "9ec45facae8a"
+    },
+    {
+      "frame": 35,
+      "label": "",
+      "tag": "StartSound",
+      "soundId": 18,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 64,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 26,
+      "soundName": "cid:26",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 75,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 31,
+      "soundName": "cid:31",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 93,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 26,
+      "soundName": "cid:26",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 104,
+      "label": "attack2",
+      "tag": "StartSound",
+      "soundId": 31,
+      "soundName": "cid:31",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "ce5b165bab7c"
+    },
+    {
+      "frame": 128,
+      "label": "atm",
+      "tag": "StartSound",
+      "soundId": 26,
+      "soundName": "cid:26",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 141,
+      "label": "atm",
+      "tag": "StartSound",
+      "soundId": 50,
+      "soundName": "cid:50",
+      "nameSource": "unnamed",
+      "spriteId": 0,
+      "spriteExport": "minato_fla.MainTimeline",
+      "sha1": "7cfc31bac345"
+    }
+  ]
+}

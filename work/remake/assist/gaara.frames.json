@@ -1,0 +1,43 @@
+{
+  "id": "gaara",
+  "mainTimeline": "decompiled/fighters/fz/gaara/scripts/gaara_fla/MainTimeline.as",
+  "rootFrames": 85,
+  "addFrameScriptCount": 4,
+  "defineActions": [
+    {
+      "id": "atm1",
+      "fields": "\"power\":50, \"hitType\":5, \"hitx\":0, \"hity\":0, \"hurtTime\":2000, \"hurtType\":0, \"isBreakDef\":false"
+    }
+  ],
+  "frames": [
+    {
+      "frameIndex0": 0,
+      "frameNumber": 1,
+      "function": "frame1",
+      "summary": "stop",
+      "bodyPreview": "stop();"
+    },
+    {
+      "frameIndex0": 15,
+      "frameNumber": 16,
+      "function": "frame16",
+      "summary": "effect.bisha(false)",
+      "bodyPreview": "this.$assisterCtrler.effect.bisha(false);"
+    },
+    {
+      "frameIndex0": 37,
+      "frameNumber": 38,
+      "function": "frame38",
+      "summary": "effect.endBisha()",
+      "bodyPreview": "this.$assisterCtrler.effect.endBisha();"
+    },
+    {
+      "frameIndex0": 43,
+      "frameNumber": 44,
+      "function": "frame44",
+      "summary": "effect.shine(9461816); addAttacker(atmmc)",
+      "bodyPreview": "this.$assisterCtrler.effect.shine(9461816); this.$assisterCtrler.addAttacker(\"atmmc\",{ \"x\":{ \"moveToTarget\":true, \"offset\":0"
+    }
+  ],
+  "engineNote": "Assister.goFight() → gotoAndPlay(2); frame1 (index0) is idle stop; Assister.renderAnimate advances nextFrame until totalFrames-1 → finish."
+}

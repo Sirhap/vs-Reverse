@@ -1,0 +1,69 @@
+{
+  "roundtrip": {
+    "zip": "work/remake/repack/roundtrip_bin222.zip",
+    "write": {
+      "path": "work/remake/repack/roundtrip_bin222.zip",
+      "bytes": 65699574,
+      "members": 407,
+      "store": 352,
+      "deflate": 55,
+      "sha256": "ed421440f20cbe3761758ed301fafb8c6f9c5103484bfb1be8e6a85c6c8f5d14"
+    },
+    "validate_ok": true,
+    "compare": {
+      "byte_equal": true,
+      "bytes_a": 65699574,
+      "bytes_b": 65699574,
+      "content_equal": true,
+      "order_equal": true,
+      "only_a": [],
+      "only_b": [],
+      "content_mismatch": [],
+      "crc_mismatch": [],
+      "method_mismatch": [],
+      "members_a": 407,
+      "members_b": 407
+    },
+    "pass": true,
+    "byte_equal": true
+  },
+  "marked_face": {
+    "member": "assets/face/naruto.png",
+    "marked_png": "work/remake/repack/overlay/assets/face/naruto.png",
+    "zip": "work/remake/repack/marked_face_bin222.zip",
+    "write": {
+      "path": "work/remake/repack/marked_face_bin222.zip",
+      "bytes": 65701527,
+      "members": 407,
+      "store": 352,
+      "deflate": 55,
+      "sha256": "b1f649f7a0e6fac41d9e10af7a988c067dde3991059ab6084f891797eda8f8a7"
+    },
+    "validate_ok": true,
+    "face_changed": true,
+    "old_crc": "86f20a5c",
+    "new_crc": "20b042fe",
+    "old_usize": 1391,
+    "new_usize": 3344,
+    "compare_vs_original": {
+      "byte_equal": false,
+      "bytes_a": 65699574,
+      "bytes_b": 65701527,
+      "content_equal": false,
+      "order_equal": true,
+      "only_a": [],
+      "only_b": [],
+      "content_mismatch": [
+        "assets/face/naruto.png"
+      ],
+      "crc_mismatch": [
+        "assets/face/naruto.png"
+      ],
+      "method_mismatch": [],
+      "members_a": 407,
+      "members_b": 407
+    },
+    "pass": true
+  },
+  "overall_pass": true
+}

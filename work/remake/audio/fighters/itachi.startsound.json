@@ -1,0 +1,1031 @@
+{
+  "id": "itachi",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/itachi.swf",
+  "defineSoundCount": 30,
+  "startSoundEventCount": 57,
+  "namedEventCount": 1,
+  "actionSpriteId": 566,
+  "actionExport": "itachi_fla.卡卡西_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "014ed27e31c8",
+      "size": 1562,
+      "sampleCount": 6048,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "cc482ae9b1cb",
+      "size": 1666,
+      "sampleCount": 6624,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "470c1dc715d1",
+      "size": 5306,
+      "sampleCount": 26784,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "62": {
+      "sha1": "45e00648c7a7",
+      "size": 1042,
+      "sampleCount": 2911,
+      "exportName": null,
+      "resolvedName": "cid:62",
+      "nameSource": "unnamed"
+    },
+    "67": {
+      "sha1": "5d251d000b25",
+      "size": 1042,
+      "sampleCount": 2932,
+      "exportName": null,
+      "resolvedName": "cid:67",
+      "nameSource": "unnamed"
+    },
+    "72": {
+      "sha1": "9b735a8f80ab",
+      "size": 1562,
+      "sampleCount": 6086,
+      "exportName": null,
+      "resolvedName": "cid:72",
+      "nameSource": "unnamed"
+    },
+    "88": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:88",
+      "nameSource": "unnamed"
+    },
+    "110": {
+      "sha1": "84560cdde30c",
+      "size": 1458,
+      "sampleCount": 5472,
+      "exportName": null,
+      "resolvedName": "cid:110",
+      "nameSource": "unnamed"
+    },
+    "113": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:113",
+      "nameSource": "unnamed"
+    },
+    "128": {
+      "sha1": "35afb3fe045c",
+      "size": 1770,
+      "sampleCount": 7200,
+      "exportName": null,
+      "resolvedName": "cid:128",
+      "nameSource": "unnamed"
+    },
+    "141": {
+      "sha1": "541ea0dcb6e6",
+      "size": 2810,
+      "sampleCount": 12701,
+      "exportName": null,
+      "resolvedName": "cid:141",
+      "nameSource": "unnamed"
+    },
+    "142": {
+      "sha1": "f39bc128b957",
+      "size": 3330,
+      "sampleCount": 16632,
+      "exportName": null,
+      "resolvedName": "cid:142",
+      "nameSource": "unnamed"
+    },
+    "183": {
+      "sha1": "b922a70131a4",
+      "size": 3434,
+      "sampleCount": 16416,
+      "exportName": null,
+      "resolvedName": "cid:183",
+      "nameSource": "unnamed"
+    },
+    "216": {
+      "sha1": "bca586e7d505",
+      "size": 2290,
+      "sampleCount": 10080,
+      "exportName": null,
+      "resolvedName": "cid:216",
+      "nameSource": "unnamed"
+    },
+    "243": {
+      "sha1": "c3ff698a34c3",
+      "size": 2810,
+      "sampleCount": 12672,
+      "exportName": null,
+      "resolvedName": "cid:243",
+      "nameSource": "unnamed"
+    },
+    "263": {
+      "sha1": "bcc506446c31",
+      "size": 1146,
+      "sampleCount": 3544,
+      "exportName": null,
+      "resolvedName": "cid:263",
+      "nameSource": "unnamed"
+    },
+    "276": {
+      "sha1": "e13ff6446953",
+      "size": 1562,
+      "sampleCount": 6048,
+      "exportName": null,
+      "resolvedName": "cid:276",
+      "nameSource": "unnamed"
+    },
+    "286": {
+      "sha1": "4b2d0243ecf3",
+      "size": 2394,
+      "sampleCount": 10656,
+      "exportName": null,
+      "resolvedName": "cid:286",
+      "nameSource": "unnamed"
+    },
+    "292": {
+      "sha1": "34632e50008a",
+      "size": 1874,
+      "sampleCount": 7776,
+      "exportName": null,
+      "resolvedName": "cid:292",
+      "nameSource": "unnamed"
+    },
+    "332": {
+      "sha1": "67587b6de526",
+      "size": 2082,
+      "sampleCount": 8732,
+      "exportName": null,
+      "resolvedName": "cid:332",
+      "nameSource": "unnamed"
+    },
+    "341": {
+      "sha1": "79845ec95381",
+      "size": 2602,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:341",
+      "nameSource": "unnamed"
+    },
+    "460": {
+      "sha1": "6d60f43df862",
+      "size": 2498,
+      "sampleCount": 10944,
+      "exportName": null,
+      "resolvedName": "cid:460",
+      "nameSource": "unnamed"
+    },
+    "463": {
+      "sha1": "a89287049caa",
+      "size": 2394,
+      "sampleCount": 10416,
+      "exportName": null,
+      "resolvedName": "cid:463",
+      "nameSource": "unnamed"
+    },
+    "464": {
+      "sha1": "71983fbd3f31",
+      "size": 2602,
+      "sampleCount": 11808,
+      "exportName": null,
+      "resolvedName": "cid:464",
+      "nameSource": "unnamed"
+    },
+    "491": {
+      "sha1": "5d29cbc39f5b",
+      "size": 5930,
+      "sampleCount": 30204,
+      "exportName": null,
+      "resolvedName": "cid:491",
+      "nameSource": "unnamed"
+    },
+    "500": {
+      "sha1": "d58e87a32501",
+      "size": 3434,
+      "sampleCount": 16288,
+      "exportName": null,
+      "resolvedName": "cid:500",
+      "nameSource": "unnamed"
+    },
+    "546": {
+      "sha1": "893fb0f24c00",
+      "size": 1465,
+      "sampleCount": 8064,
+      "exportName": "snd_jump",
+      "resolvedName": "snd_jump",
+      "nameSource": "sha1-cross"
+    },
+    "547": {
+      "sha1": "f3fedd2a5ba0",
+      "size": 1439,
+      "sampleCount": 6336,
+      "exportName": null,
+      "resolvedName": "cid:547",
+      "nameSource": "unnamed"
+    },
+    "554": {
+      "sha1": "a296ef7c203d",
+      "size": 2394,
+      "sampleCount": 10656,
+      "exportName": null,
+      "resolvedName": "cid:554",
+      "nameSource": "unnamed"
+    },
+    "559": {
+      "sha1": "7a93da53e984",
+      "size": 6762,
+      "sampleCount": 34560,
+      "exportName": null,
+      "resolvedName": "cid:559",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "3": "snd_die",
+    "2": "snd_hurt1",
+    "1": "snd_hurt2"
+  },
+  "actionEvents": [
+    {
+      "frame": 84,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 62,
+      "soundName": "cid:62",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "45e00648c7a7"
+    },
+    {
+      "frame": 88,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d251d000b25"
+    },
+    {
+      "frame": 91,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d251d000b25"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "9b735a8f80ab"
+    },
+    {
+      "frame": 140,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 157,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 180,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "84560cdde30c"
+    },
+    {
+      "frame": 181,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 206,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "35afb3fe045c"
+    },
+    {
+      "frame": 209,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 248,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 141,
+      "soundName": "cid:141",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "541ea0dcb6e6"
+    },
+    {
+      "frame": 251,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 142,
+      "soundName": "cid:142",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "f39bc128b957"
+    },
+    {
+      "frame": 301,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "35afb3fe045c"
+    },
+    {
+      "frame": 303,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 331,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 183,
+      "soundName": "cid:183",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "b922a70131a4"
+    },
+    {
+      "frame": 337,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 374,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 216,
+      "soundName": "cid:216",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "bca586e7d505"
+    },
+    {
+      "frame": 382,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d251d000b25"
+    },
+    {
+      "frame": 414,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 243,
+      "soundName": "cid:243",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "c3ff698a34c3"
+    },
+    {
+      "frame": 452,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "9b735a8f80ab"
+    },
+    {
+      "frame": 453,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 142,
+      "soundName": "cid:142",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "f39bc128b957"
+    },
+    {
+      "frame": 465,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 263,
+      "soundName": "cid:263",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "bcc506446c31"
+    },
+    {
+      "frame": 480,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 286,
+      "soundName": "cid:286",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "4b2d0243ecf3"
+    },
+    {
+      "frame": 526,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "84560cdde30c"
+    },
+    {
+      "frame": 526,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 545,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "84560cdde30c"
+    },
+    {
+      "frame": 545,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 567,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 292,
+      "soundName": "cid:292",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "34632e50008a"
+    },
+    {
+      "frame": 587,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 183,
+      "soundName": "cid:183",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "b922a70131a4"
+    },
+    {
+      "frame": 587,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 332,
+      "soundName": "cid:332",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 653,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 341,
+      "soundName": "cid:341",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "79845ec95381"
+    },
+    {
+      "frame": 663,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 332,
+      "soundName": "cid:332",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "67587b6de526"
+    },
+    {
+      "frame": 743,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 460,
+      "soundName": "cid:460",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "6d60f43df862"
+    },
+    {
+      "frame": 769,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 463,
+      "soundName": "cid:463",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "a89287049caa"
+    },
+    {
+      "frame": 770,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 464,
+      "soundName": "cid:464",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "71983fbd3f31"
+    },
+    {
+      "frame": 881,
+      "label": "超必杀1",
+      "tag": "StartSound",
+      "soundId": 491,
+      "soundName": "cid:491",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d29cbc39f5b"
+    },
+    {
+      "frame": 1035,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 546,
+      "soundName": "snd_jump",
+      "nameSource": "sha1-cross",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "893fb0f24c00"
+    },
+    {
+      "frame": 1045,
+      "label": "起身",
+      "tag": "StartSound",
+      "soundId": 547,
+      "soundName": "cid:547",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "f3fedd2a5ba0"
+    },
+    {
+      "frame": 1065,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 554,
+      "soundName": "cid:554",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "a296ef7c203d"
+    },
+    {
+      "frame": 1143,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 559,
+      "soundName": "cid:559",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "7a93da53e984"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 84,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 62,
+      "soundName": "cid:62",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "45e00648c7a7"
+    },
+    {
+      "frame": 88,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d251d000b25"
+    },
+    {
+      "frame": 91,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d251d000b25"
+    },
+    {
+      "frame": 99,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "9b735a8f80ab"
+    },
+    {
+      "frame": 140,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 157,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 88,
+      "soundName": "cid:88",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 180,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "84560cdde30c"
+    },
+    {
+      "frame": 181,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 206,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "35afb3fe045c"
+    },
+    {
+      "frame": 209,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 248,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 141,
+      "soundName": "cid:141",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "541ea0dcb6e6"
+    },
+    {
+      "frame": 251,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 142,
+      "soundName": "cid:142",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "f39bc128b957"
+    },
+    {
+      "frame": 301,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "35afb3fe045c"
+    },
+    {
+      "frame": 303,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 331,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 183,
+      "soundName": "cid:183",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "b922a70131a4"
+    },
+    {
+      "frame": 337,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 374,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 216,
+      "soundName": "cid:216",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "bca586e7d505"
+    },
+    {
+      "frame": 382,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 67,
+      "soundName": "cid:67",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "5d251d000b25"
+    },
+    {
+      "frame": 414,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 243,
+      "soundName": "cid:243",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "c3ff698a34c3"
+    },
+    {
+      "frame": 452,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 72,
+      "soundName": "cid:72",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "9b735a8f80ab"
+    },
+    {
+      "frame": 453,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 142,
+      "soundName": "cid:142",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "f39bc128b957"
+    },
+    {
+      "frame": 465,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 263,
+      "soundName": "cid:263",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "bcc506446c31"
+    },
+    {
+      "frame": 480,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 286,
+      "soundName": "cid:286",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "4b2d0243ecf3"
+    },
+    {
+      "frame": 526,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "84560cdde30c"
+    },
+    {
+      "frame": 526,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 545,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 110,
+      "soundName": "cid:110",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "84560cdde30c"
+    },
+    {
+      "frame": 545,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 113,
+      "soundName": "cid:113",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 567,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 292,
+      "soundName": "cid:292",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "34632e50008a"
+    },
+    {
+      "frame": 587,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 183,
+      "soundName": "cid:183",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "b922a70131a4"
+    },
+    {
+      "frame": 587,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 332,
+      "soundName": "cid:332",
+      "nameSource": "unnamed",
+      "spriteId": 566,
+      "spriteExport": "itachi_fla.卡卡西_1",
+      "sha1": "67587b6de526"
+    }
+  ]
+}

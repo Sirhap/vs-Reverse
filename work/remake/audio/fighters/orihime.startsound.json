@@ -1,0 +1,924 @@
+{
+  "id": "orihime",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/orihime.swf",
+  "defineSoundCount": 18,
+  "startSoundEventCount": 40,
+  "namedEventCount": 0,
+  "actionSpriteId": 503,
+  "actionExport": "orihime_fla.织姬全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "f67f37dcaab9",
+      "size": 54960,
+      "sampleCount": 13740,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "2": {
+      "sha1": "5aa627faaa81",
+      "size": 218512,
+      "sampleCount": 54630,
+      "exportName": "snd_die",
+      "resolvedName": "snd_die",
+      "nameSource": "SymbolClass"
+    },
+    "3": {
+      "sha1": "ef78b874623c",
+      "size": 37120,
+      "sampleCount": 9283,
+      "exportName": "snd_hurt2",
+      "resolvedName": "snd_hurt2",
+      "nameSource": "SymbolClass"
+    },
+    "76": {
+      "sha1": "5285f1f91d81",
+      "size": 92240,
+      "sampleCount": 23060,
+      "exportName": null,
+      "resolvedName": "cid:76",
+      "nameSource": "unnamed"
+    },
+    "111": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:111",
+      "nameSource": "unnamed"
+    },
+    "120": {
+      "sha1": "095549db407e",
+      "size": 24752,
+      "sampleCount": 6189,
+      "exportName": null,
+      "resolvedName": "cid:120",
+      "nameSource": "unnamed"
+    },
+    "130": {
+      "sha1": "80842b35858b",
+      "size": 50764,
+      "sampleCount": 12691,
+      "exportName": null,
+      "resolvedName": "cid:130",
+      "nameSource": "unnamed"
+    },
+    "157": {
+      "sha1": "4308e2689fe8",
+      "size": 38160,
+      "sampleCount": 9541,
+      "exportName": null,
+      "resolvedName": "cid:157",
+      "nameSource": "unnamed"
+    },
+    "181": {
+      "sha1": "c17bfd195b29",
+      "size": 4474,
+      "sampleCount": 21946,
+      "exportName": null,
+      "resolvedName": "cid:181",
+      "nameSource": "unnamed"
+    },
+    "197": {
+      "sha1": "d6df5dce4bd3",
+      "size": 97104,
+      "sampleCount": 24276,
+      "exportName": null,
+      "resolvedName": "cid:197",
+      "nameSource": "unnamed"
+    },
+    "277": {
+      "sha1": "ebf7970d5be8",
+      "size": 8261,
+      "sampleCount": 8261,
+      "exportName": null,
+      "resolvedName": "cid:277",
+      "nameSource": "unnamed"
+    },
+    "291": {
+      "sha1": "d7acb25ded13",
+      "size": 42576,
+      "sampleCount": 10646,
+      "exportName": null,
+      "resolvedName": "cid:291",
+      "nameSource": "unnamed"
+    },
+    "356": {
+      "sha1": "9f6f628ad88e",
+      "size": 4578,
+      "sampleCount": 22932,
+      "exportName": null,
+      "resolvedName": "cid:356",
+      "nameSource": "unnamed"
+    },
+    "357": {
+      "sha1": "17b8c6b87502",
+      "size": 46080,
+      "sampleCount": 23040,
+      "exportName": null,
+      "resolvedName": "cid:357",
+      "nameSource": "unnamed"
+    },
+    "384": {
+      "sha1": "f2a7006116b5",
+      "size": 94736,
+      "sampleCount": 23687,
+      "exportName": null,
+      "resolvedName": "cid:384",
+      "nameSource": "unnamed"
+    },
+    "392": {
+      "sha1": "7b798bbb68c0",
+      "size": 7074,
+      "sampleCount": 36456,
+      "exportName": null,
+      "resolvedName": "cid:392",
+      "nameSource": "unnamed"
+    },
+    "400": {
+      "sha1": "033f93a0a0b3",
+      "size": 9778,
+      "sampleCount": 51264,
+      "exportName": null,
+      "resolvedName": "cid:400",
+      "nameSource": "unnamed"
+    },
+    "441": {
+      "sha1": "e96b55e1d677",
+      "size": 13418,
+      "sampleCount": 71805,
+      "exportName": null,
+      "resolvedName": "cid:441",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "3": "snd_hurt2",
+    "2": "snd_die",
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 189,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "5285f1f91d81"
+    },
+    {
+      "frame": 336,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 111,
+      "soundName": "cid:111",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 346,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 350,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 371,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 111,
+      "soundName": "cid:111",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 396,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 111,
+      "soundName": "cid:111",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 419,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 157,
+      "soundName": "cid:157",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "4308e2689fe8"
+    },
+    {
+      "frame": 451,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d6df5dce4bd3"
+    },
+    {
+      "frame": 454,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 181,
+      "soundName": "cid:181",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "c17bfd195b29"
+    },
+    {
+      "frame": 482,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "5285f1f91d81"
+    },
+    {
+      "frame": 490,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 533,
+      "label": "招22",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 562,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 565,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 592,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 592,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 608,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 608,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 291,
+      "soundName": "cid:291",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d7acb25ded13"
+    },
+    {
+      "frame": 653,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 291,
+      "soundName": "cid:291",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d7acb25ded13"
+    },
+    {
+      "frame": 659,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 356,
+      "soundName": "cid:356",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "9f6f628ad88e"
+    },
+    {
+      "frame": 720,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 722,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 745,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "17b8c6b87502"
+    },
+    {
+      "frame": 749,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 157,
+      "soundName": "cid:157",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "4308e2689fe8"
+    },
+    {
+      "frame": 794,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 384,
+      "soundName": "cid:384",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "f2a7006116b5"
+    },
+    {
+      "frame": 813,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 392,
+      "soundName": "cid:392",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "7b798bbb68c0"
+    },
+    {
+      "frame": 859,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 400,
+      "soundName": "cid:400",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "033f93a0a0b3"
+    },
+    {
+      "frame": 887,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 181,
+      "soundName": "cid:181",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "c17bfd195b29"
+    },
+    {
+      "frame": 959,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "5285f1f91d81"
+    },
+    {
+      "frame": 991,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d6df5dce4bd3"
+    },
+    {
+      "frame": 999,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1003,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1007,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1011,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1015,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1019,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1023,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 1046,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 291,
+      "soundName": "cid:291",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d7acb25ded13"
+    },
+    {
+      "frame": 1054,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 441,
+      "soundName": "cid:441",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "e96b55e1d677"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 189,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "5285f1f91d81"
+    },
+    {
+      "frame": 336,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 111,
+      "soundName": "cid:111",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 346,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 350,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 371,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 111,
+      "soundName": "cid:111",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 396,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 111,
+      "soundName": "cid:111",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 419,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 157,
+      "soundName": "cid:157",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "4308e2689fe8"
+    },
+    {
+      "frame": 451,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d6df5dce4bd3"
+    },
+    {
+      "frame": 454,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 181,
+      "soundName": "cid:181",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "c17bfd195b29"
+    },
+    {
+      "frame": 482,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "5285f1f91d81"
+    },
+    {
+      "frame": 490,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 533,
+      "label": "招22",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 562,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 565,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 130,
+      "soundName": "cid:130",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "80842b35858b"
+    },
+    {
+      "frame": 592,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 592,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 608,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 608,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 291,
+      "soundName": "cid:291",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d7acb25ded13"
+    },
+    {
+      "frame": 653,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 291,
+      "soundName": "cid:291",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d7acb25ded13"
+    },
+    {
+      "frame": 659,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 356,
+      "soundName": "cid:356",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "9f6f628ad88e"
+    },
+    {
+      "frame": 720,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 120,
+      "soundName": "cid:120",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "095549db407e"
+    },
+    {
+      "frame": 722,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 277,
+      "soundName": "cid:277",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "ebf7970d5be8"
+    },
+    {
+      "frame": 745,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 357,
+      "soundName": "cid:357",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "17b8c6b87502"
+    },
+    {
+      "frame": 749,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 157,
+      "soundName": "cid:157",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "4308e2689fe8"
+    },
+    {
+      "frame": 794,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 384,
+      "soundName": "cid:384",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "f2a7006116b5"
+    },
+    {
+      "frame": 813,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 392,
+      "soundName": "cid:392",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "7b798bbb68c0"
+    },
+    {
+      "frame": 859,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 400,
+      "soundName": "cid:400",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "033f93a0a0b3"
+    },
+    {
+      "frame": 887,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 181,
+      "soundName": "cid:181",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "c17bfd195b29"
+    },
+    {
+      "frame": 959,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 76,
+      "soundName": "cid:76",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "5285f1f91d81"
+    },
+    {
+      "frame": 991,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 197,
+      "soundName": "cid:197",
+      "nameSource": "unnamed",
+      "spriteId": 503,
+      "spriteExport": "orihime_fla.织姬全动作_1",
+      "sha1": "d6df5dce4bd3"
+    }
+  ]
+}

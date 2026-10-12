@@ -1,0 +1,1231 @@
+{
+  "id": "naruto_xr",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/naruto_xr.swf",
+  "defineSoundCount": 39,
+  "startSoundEventCount": 105,
+  "namedEventCount": 0,
+  "actionSpriteId": 1256,
+  "actionExport": "naruto_xr_fla.鸣人全动作副本_16",
+  "defineSounds": {
+    "57": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:57",
+      "nameSource": "unnamed"
+    },
+    "73": {
+      "sha1": "a22c1a065de7",
+      "size": 1042,
+      "sampleCount": 3248,
+      "exportName": null,
+      "resolvedName": "cid:73",
+      "nameSource": "unnamed"
+    },
+    "87": {
+      "sha1": "cf366cab77ac",
+      "size": 2089,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:87",
+      "nameSource": "unnamed"
+    },
+    "128": {
+      "sha1": "b9020fcc2c18",
+      "size": 938,
+      "sampleCount": 2394,
+      "exportName": null,
+      "resolvedName": "cid:128",
+      "nameSource": "unnamed"
+    },
+    "129": {
+      "sha1": "2b5c70ef3ad8",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:129",
+      "nameSource": "unnamed"
+    },
+    "163": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:163",
+      "nameSource": "unnamed"
+    },
+    "164": {
+      "sha1": "4b030345416d",
+      "size": 1874,
+      "sampleCount": 7933,
+      "exportName": null,
+      "resolvedName": "cid:164",
+      "nameSource": "unnamed"
+    },
+    "166": {
+      "sha1": "12790939334b",
+      "size": 1666,
+      "sampleCount": 7406,
+      "exportName": null,
+      "resolvedName": "cid:166",
+      "nameSource": "unnamed"
+    },
+    "254": {
+      "sha1": "b78426f40c33",
+      "size": 1458,
+      "sampleCount": 5474,
+      "exportName": null,
+      "resolvedName": "cid:254",
+      "nameSource": "unnamed"
+    },
+    "259": {
+      "sha1": "2e6a20fb1435",
+      "size": 1354,
+      "sampleCount": 5698,
+      "exportName": null,
+      "resolvedName": "cid:259",
+      "nameSource": "unnamed"
+    },
+    "277": {
+      "sha1": "58524e772e3e",
+      "size": 1562,
+      "sampleCount": 5838,
+      "exportName": null,
+      "resolvedName": "cid:277",
+      "nameSource": "unnamed"
+    },
+    "278": {
+      "sha1": "8613c38df7e0",
+      "size": 1666,
+      "sampleCount": 6345,
+      "exportName": null,
+      "resolvedName": "cid:278",
+      "nameSource": "unnamed"
+    },
+    "288": {
+      "sha1": "846055698d45",
+      "size": 2082,
+      "sampleCount": 8784,
+      "exportName": null,
+      "resolvedName": "cid:288",
+      "nameSource": "unnamed"
+    },
+    "290": {
+      "sha1": "0da643d8d50f",
+      "size": 1146,
+      "sampleCount": 3416,
+      "exportName": null,
+      "resolvedName": "cid:290",
+      "nameSource": "unnamed"
+    },
+    "301": {
+      "sha1": "1116c689a17f",
+      "size": 5853,
+      "sampleCount": 18432,
+      "exportName": null,
+      "resolvedName": "cid:301",
+      "nameSource": "unnamed"
+    },
+    "307": {
+      "sha1": "a53d00d9297f",
+      "size": 2394,
+      "sampleCount": 10783,
+      "exportName": null,
+      "resolvedName": "cid:307",
+      "nameSource": "unnamed"
+    },
+    "318": {
+      "sha1": "cb4c1f6b15da",
+      "size": 2706,
+      "sampleCount": 13184,
+      "exportName": null,
+      "resolvedName": "cid:318",
+      "nameSource": "unnamed"
+    },
+    "359": {
+      "sha1": "8e9caced3d42",
+      "size": 4266,
+      "sampleCount": 21168,
+      "exportName": null,
+      "resolvedName": "cid:359",
+      "nameSource": "unnamed"
+    },
+    "399": {
+      "sha1": "d41e821aeb87",
+      "size": 3122,
+      "sampleCount": 14658,
+      "exportName": null,
+      "resolvedName": "cid:399",
+      "nameSource": "unnamed"
+    },
+    "450": {
+      "sha1": "852d6b017b86",
+      "size": 8738,
+      "sampleCount": 45598,
+      "exportName": null,
+      "resolvedName": "cid:450",
+      "nameSource": "unnamed"
+    },
+    "522": {
+      "sha1": "ced3669fe811",
+      "size": 2810,
+      "sampleCount": 12614,
+      "exportName": null,
+      "resolvedName": "cid:522",
+      "nameSource": "unnamed"
+    },
+    "527": {
+      "sha1": "20cf85860d3e",
+      "size": 1458,
+      "sampleCount": 6233,
+      "exportName": null,
+      "resolvedName": "cid:527",
+      "nameSource": "unnamed"
+    },
+    "596": {
+      "sha1": "6dd99447e0d5",
+      "size": 1042,
+      "sampleCount": 2954,
+      "exportName": null,
+      "resolvedName": "cid:596",
+      "nameSource": "unnamed"
+    },
+    "616": {
+      "sha1": "b48495f1e994",
+      "size": 1978,
+      "sampleCount": 8282,
+      "exportName": null,
+      "resolvedName": "cid:616",
+      "nameSource": "unnamed"
+    },
+    "617": {
+      "sha1": "e0cf2d6027b8",
+      "size": 2602,
+      "sampleCount": 12554,
+      "exportName": null,
+      "resolvedName": "cid:617",
+      "nameSource": "unnamed"
+    },
+    "735": {
+      "sha1": "1dce7d7dd390",
+      "size": 1042,
+      "sampleCount": 3060,
+      "exportName": null,
+      "resolvedName": "cid:735",
+      "nameSource": "unnamed"
+    },
+    "769": {
+      "sha1": "5d6ce4468747",
+      "size": 834,
+      "sampleCount": 1820,
+      "exportName": null,
+      "resolvedName": "cid:769",
+      "nameSource": "unnamed"
+    },
+    "850": {
+      "sha1": "59786df31fc9",
+      "size": 2186,
+      "sampleCount": 9418,
+      "exportName": null,
+      "resolvedName": "cid:850",
+      "nameSource": "unnamed"
+    },
+    "855": {
+      "sha1": "75b158e0cce0",
+      "size": 3434,
+      "sampleCount": 16511,
+      "exportName": null,
+      "resolvedName": "cid:855",
+      "nameSource": "unnamed"
+    },
+    "888": {
+      "sha1": "b1e1e007f7c7",
+      "size": 2082,
+      "sampleCount": 9005,
+      "exportName": null,
+      "resolvedName": "cid:888",
+      "nameSource": "unnamed"
+    },
+    "964": {
+      "sha1": "1772e4de6e98",
+      "size": 2914,
+      "sampleCount": 14288,
+      "exportName": null,
+      "resolvedName": "cid:964",
+      "nameSource": "unnamed"
+    },
+    "1005": {
+      "sha1": "6a40dce505a5",
+      "size": 3330,
+      "sampleCount": 15900,
+      "exportName": null,
+      "resolvedName": "cid:1005",
+      "nameSource": "unnamed"
+    },
+    "1034": {
+      "sha1": "f1b13ff41f08",
+      "size": 7386,
+      "sampleCount": 38464,
+      "exportName": null,
+      "resolvedName": "cid:1034",
+      "nameSource": "unnamed"
+    },
+    "1065": {
+      "sha1": "2d15bcfec1ef",
+      "size": 4786,
+      "sampleCount": 23853,
+      "exportName": null,
+      "resolvedName": "cid:1065",
+      "nameSource": "unnamed"
+    },
+    "1068": {
+      "sha1": "f069fc9a6720",
+      "size": 3538,
+      "sampleCount": 16768,
+      "exportName": null,
+      "resolvedName": "cid:1068",
+      "nameSource": "unnamed"
+    },
+    "1142": {
+      "sha1": "993128fc9f05",
+      "size": 2706,
+      "sampleCount": 12312,
+      "exportName": null,
+      "resolvedName": "cid:1142",
+      "nameSource": "unnamed"
+    },
+    "1249": {
+      "sha1": "710717d4944f",
+      "size": 49530,
+      "sampleCount": 273024,
+      "exportName": null,
+      "resolvedName": "cid:1249",
+      "nameSource": "unnamed"
+    },
+    "1250": {
+      "sha1": "ac4531876de9",
+      "size": 3746,
+      "sampleCount": 18292,
+      "exportName": null,
+      "resolvedName": "cid:1250",
+      "nameSource": "unnamed"
+    },
+    "1253": {
+      "sha1": "4d48b1b89b95",
+      "size": 3954,
+      "sampleCount": 18998,
+      "exportName": null,
+      "resolvedName": "cid:1253",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {},
+  "actionEvents": [
+    {
+      "frame": 21,
+      "label": "瞬步",
+      "tag": "StartSound",
+      "soundId": 164,
+      "soundName": "cid:164",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 71,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 596,
+      "soundName": "cid:596",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "6dd99447e0d5"
+    },
+    {
+      "frame": 72,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 616,
+      "soundName": "cid:616",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b48495f1e994"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 617,
+      "soundName": "cid:617",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "e0cf2d6027b8"
+    },
+    {
+      "frame": 123,
+      "label": "跳招3",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "cf366cab77ac"
+    },
+    {
+      "frame": 164,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 184,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 203,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b9020fcc2c18"
+    },
+    {
+      "frame": 205,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 232,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 263,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 735,
+      "soundName": "cid:735",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1dce7d7dd390"
+    },
+    {
+      "frame": 267,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 303,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 769,
+      "soundName": "cid:769",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "5d6ce4468747"
+    },
+    {
+      "frame": 309,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 334,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 164,
+      "soundName": "cid:164",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 342,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 349,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 374,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 380,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 394,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 850,
+      "soundName": "cid:850",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "59786df31fc9"
+    },
+    {
+      "frame": 396,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 855,
+      "soundName": "cid:855",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "75b158e0cce0"
+    },
+    {
+      "frame": 452,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 616,
+      "soundName": "cid:616",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b48495f1e994"
+    },
+    {
+      "frame": 452,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 617,
+      "soundName": "cid:617",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "e0cf2d6027b8"
+    },
+    {
+      "frame": 466,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "cf366cab77ac"
+    },
+    {
+      "frame": 522,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 522,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 888,
+      "soundName": "cid:888",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b1e1e007f7c7"
+    },
+    {
+      "frame": 548,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 278,
+      "soundName": "cid:278",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 583,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 254,
+      "soundName": "cid:254",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b78426f40c33"
+    },
+    {
+      "frame": 587,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 164,
+      "soundName": "cid:164",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 649,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 649,
+      "label": "招32",
+      "tag": "StartSound",
+      "soundId": 735,
+      "soundName": "cid:735",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1dce7d7dd390"
+    },
+    {
+      "frame": 689,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b9020fcc2c18"
+    },
+    {
+      "frame": 689,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 706,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 706,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 735,
+      "soundName": "cid:735",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1dce7d7dd390"
+    },
+    {
+      "frame": 739,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 399,
+      "soundName": "cid:399",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "d41e821aeb87"
+    },
+    {
+      "frame": 745,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 617,
+      "soundName": "cid:617",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "e0cf2d6027b8"
+    },
+    {
+      "frame": 788,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 450,
+      "soundName": "cid:450",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "852d6b017b86"
+    },
+    {
+      "frame": 935,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 964,
+      "soundName": "cid:964",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1772e4de6e98"
+    },
+    {
+      "frame": 976,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 450,
+      "soundName": "cid:450",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "852d6b017b86"
+    },
+    {
+      "frame": 1039,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 1005,
+      "soundName": "cid:1005",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "6a40dce505a5"
+    },
+    {
+      "frame": 1082,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 163,
+      "soundName": "cid:163",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 1101,
+      "label": "空中必杀",
+      "tag": "StartSound",
+      "soundId": 288,
+      "soundName": "cid:288",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "846055698d45"
+    },
+    {
+      "frame": 1118,
+      "label": "空中必杀1",
+      "tag": "StartSound",
+      "soundId": 1034,
+      "soundName": "cid:1034",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "f1b13ff41f08"
+    },
+    {
+      "frame": 1179,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1065,
+      "soundName": "cid:1065",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2d15bcfec1ef"
+    },
+    {
+      "frame": 1181,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1068,
+      "soundName": "cid:1068",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "f069fc9a6720"
+    },
+    {
+      "frame": 1249,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 1142,
+      "soundName": "cid:1142",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "993128fc9f05"
+    },
+    {
+      "frame": 1265,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 450,
+      "soundName": "cid:450",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "852d6b017b86"
+    },
+    {
+      "frame": 1421,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 1249,
+      "soundName": "cid:1249",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "710717d4944f"
+    },
+    {
+      "frame": 1461,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 1250,
+      "soundName": "cid:1250",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "ac4531876de9"
+    },
+    {
+      "frame": 1514,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 1253,
+      "soundName": "cid:1253",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4d48b1b89b95"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 21,
+      "label": "瞬步",
+      "tag": "StartSound",
+      "soundId": 164,
+      "soundName": "cid:164",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 71,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 596,
+      "soundName": "cid:596",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "6dd99447e0d5"
+    },
+    {
+      "frame": 72,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 616,
+      "soundName": "cid:616",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b48495f1e994"
+    },
+    {
+      "frame": 100,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 617,
+      "soundName": "cid:617",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "e0cf2d6027b8"
+    },
+    {
+      "frame": 123,
+      "label": "跳招3",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "cf366cab77ac"
+    },
+    {
+      "frame": 164,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 184,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 203,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 128,
+      "soundName": "cid:128",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b9020fcc2c18"
+    },
+    {
+      "frame": 205,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 232,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 263,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 735,
+      "soundName": "cid:735",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1dce7d7dd390"
+    },
+    {
+      "frame": 267,
+      "label": "砍5",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 303,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 769,
+      "soundName": "cid:769",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "5d6ce4468747"
+    },
+    {
+      "frame": 309,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 334,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 164,
+      "soundName": "cid:164",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4b030345416d"
+    },
+    {
+      "frame": 342,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 349,
+      "label": "砍技12",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 374,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 380,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 57,
+      "soundName": "cid:57",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 394,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 850,
+      "soundName": "cid:850",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "59786df31fc9"
+    },
+    {
+      "frame": 396,
+      "label": "砍技2",
+      "tag": "StartSound",
+      "soundId": 855,
+      "soundName": "cid:855",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "75b158e0cce0"
+    },
+    {
+      "frame": 452,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 616,
+      "soundName": "cid:616",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b48495f1e994"
+    },
+    {
+      "frame": 452,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 617,
+      "soundName": "cid:617",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "e0cf2d6027b8"
+    },
+    {
+      "frame": 466,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "cf366cab77ac"
+    },
+    {
+      "frame": 522,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 129,
+      "soundName": "cid:129",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "2b5c70ef3ad8"
+    },
+    {
+      "frame": 522,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 888,
+      "soundName": "cid:888",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b1e1e007f7c7"
+    },
+    {
+      "frame": 548,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 278,
+      "soundName": "cid:278",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "8613c38df7e0"
+    },
+    {
+      "frame": 583,
+      "label": "招3",
+      "tag": "StartSound",
+      "soundId": 254,
+      "soundName": "cid:254",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "b78426f40c33"
+    },
+    {
+      "frame": 587,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 164,
+      "soundName": "cid:164",
+      "nameSource": "unnamed",
+      "spriteId": 1256,
+      "spriteExport": "naruto_xr_fla.鸣人全动作副本_16",
+      "sha1": "4b030345416d"
+    }
+  ]
+}

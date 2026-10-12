@@ -1,0 +1,29 @@
+{
+  "result": "NOT_FEASIBLE_FOR_HOLD_FINGERPRINT",
+  "evaluated_at_cst": "2026-10-12 ~01:28 CST",
+  "target": "https://www.4399.com/flash/205551_4.htm + Ruffle",
+  "blockers": [
+    {
+      "id": "checkflash_blockflashtip",
+      "detail": "flashopen1.js checkflash fails on Chrome without NPAPI/PPAPI Flash → #swfdiv replaced by iframe#flash22 blockflashtip; no #flashgame/#flashgame1 left for Ruffle to upgrade"
+    },
+    {
+      "id": "login_health_wall",
+      "detail": "4399 health system modal requires login before play; observed 2026-10-11 ~22:15"
+    },
+    {
+      "id": "hold_not_in_page_js",
+      "detail": "Game page HTML/JS has no setHold/Hold literals (confirmed in 4399-205551_4.htm + five footer JS). Hold is injected by 4399 container calling timeline.setHold(hold) after SWF load — that container path is Flash-era player chrome, not present when only Ruffle polyfills the embed"
+    },
+    {
+      "id": "ruffle_no_timeline_setHold",
+      "detail": "Local probe 2026-10-12: Ruffle loads main.swf on 127.0.0.1 but ruffle-player.setHold === undefined. timeline.setHold is an AS3 MovieClip property from ǵ.installTimelineHooks, not ExternalInterface.addCallback — JS cannot call it through Ruffle's public EI surface"
+    }
+  ],
+  "hypothetical_if_ruffle_extension_intercepts_before_checkflash": {
+    "swf_might_load": true,
+    "hold_still_absent": true,
+    "reason": "Even with SWF playing under Ruffle, nobody calls setHold; ServiceHold stays isReady=false / hold=null — same as offline empty path, NOT an online Hold instance fingerprint"
+  },
+  "conclusion": "Ruffle+4399 cannot deliver ONLINE-HOLD-FINGERPRINT.json. Reopen needs native Flash (or 4399 environment that both loads SWF and performs container setHold)."
+}

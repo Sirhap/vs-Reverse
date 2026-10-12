@@ -1,0 +1,943 @@
+{
+  "id": "jiraiya",
+  "kind": "playable",
+  "path": "extracted/full/zips/bin_222/assets/fighter/jiraiya.swf",
+  "defineSoundCount": 22,
+  "startSoundEventCount": 40,
+  "namedEventCount": 0,
+  "actionSpriteId": 371,
+  "actionExport": "jiraiya_fla.自来也全动作_1",
+  "defineSounds": {
+    "1": {
+      "sha1": "57ae5820ac5f",
+      "size": 1354,
+      "sampleCount": 4979,
+      "exportName": "snd_hurt1",
+      "resolvedName": "snd_hurt1",
+      "nameSource": "SymbolClass"
+    },
+    "37": {
+      "sha1": "1ba2f0b7cb95",
+      "size": 2928,
+      "sampleCount": 8064,
+      "exportName": null,
+      "resolvedName": "cid:37",
+      "nameSource": "unnamed"
+    },
+    "47": {
+      "sha1": "491b2b4c2771",
+      "size": 2810,
+      "sampleCount": 12645,
+      "exportName": null,
+      "resolvedName": "cid:47",
+      "nameSource": "unnamed"
+    },
+    "50": {
+      "sha1": "fb10b49d83ae",
+      "size": 1673,
+      "sampleCount": 9216,
+      "exportName": null,
+      "resolvedName": "cid:50",
+      "nameSource": "unnamed"
+    },
+    "87": {
+      "sha1": "d8b69b952f1b",
+      "size": 1146,
+      "sampleCount": 3440,
+      "exportName": null,
+      "resolvedName": "cid:87",
+      "nameSource": "unnamed"
+    },
+    "90": {
+      "sha1": "2ea4a0cfbe2a",
+      "size": 1250,
+      "sampleCount": 4130,
+      "exportName": null,
+      "resolvedName": "cid:90",
+      "nameSource": "unnamed"
+    },
+    "93": {
+      "sha1": "e7f23c810c78",
+      "size": 1978,
+      "sampleCount": 8193,
+      "exportName": null,
+      "resolvedName": "cid:93",
+      "nameSource": "unnamed"
+    },
+    "99": {
+      "sha1": "e1340358daaf",
+      "size": 1042,
+      "sampleCount": 3908,
+      "exportName": null,
+      "resolvedName": "cid:99",
+      "nameSource": "unnamed"
+    },
+    "110": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:110",
+      "nameSource": "unnamed"
+    },
+    "117": {
+      "sha1": "cf366cab77ac",
+      "size": 2089,
+      "sampleCount": 11520,
+      "exportName": null,
+      "resolvedName": "cid:117",
+      "nameSource": "unnamed"
+    },
+    "153": {
+      "sha1": "c01563d211ee",
+      "size": 1562,
+      "sampleCount": 6820,
+      "exportName": null,
+      "resolvedName": "cid:153",
+      "nameSource": "unnamed"
+    },
+    "156": {
+      "sha1": "d614190e55e0",
+      "size": 2290,
+      "sampleCount": 9856,
+      "exportName": null,
+      "resolvedName": "cid:156",
+      "nameSource": "unnamed"
+    },
+    "190": {
+      "sha1": "5ad5342947fa",
+      "size": 2602,
+      "sampleCount": 11951,
+      "exportName": null,
+      "resolvedName": "cid:190",
+      "nameSource": "unnamed"
+    },
+    "223": {
+      "sha1": "a9283d87e16f",
+      "size": 1777,
+      "sampleCount": 9792,
+      "exportName": null,
+      "resolvedName": "cid:223",
+      "nameSource": "unnamed"
+    },
+    "230": {
+      "sha1": "1e20e2df6552",
+      "size": 4162,
+      "sampleCount": 20120,
+      "exportName": null,
+      "resolvedName": "cid:230",
+      "nameSource": "unnamed"
+    },
+    "243": {
+      "sha1": "fe8158d0f429",
+      "size": 3746,
+      "sampleCount": 18944,
+      "exportName": null,
+      "resolvedName": "cid:243",
+      "nameSource": "unnamed"
+    },
+    "303": {
+      "sha1": "82f7465c8e94",
+      "size": 3642,
+      "sampleCount": 17614,
+      "exportName": null,
+      "resolvedName": "cid:303",
+      "nameSource": "unnamed"
+    },
+    "309": {
+      "sha1": "17f491f7881d",
+      "size": 2602,
+      "sampleCount": 11923,
+      "exportName": null,
+      "resolvedName": "cid:309",
+      "nameSource": "unnamed"
+    },
+    "330": {
+      "sha1": "6111c8d38aff",
+      "size": 4162,
+      "sampleCount": 20316,
+      "exportName": null,
+      "resolvedName": "cid:330",
+      "nameSource": "unnamed"
+    },
+    "358": {
+      "sha1": "15c5eabbb341",
+      "size": 3746,
+      "sampleCount": 18945,
+      "exportName": null,
+      "resolvedName": "cid:358",
+      "nameSource": "unnamed"
+    },
+    "369": {
+      "sha1": "c4007b4ef18d",
+      "size": 5826,
+      "sampleCount": 29748,
+      "exportName": null,
+      "resolvedName": "cid:369",
+      "nameSource": "unnamed"
+    },
+    "370": {
+      "sha1": "e53249af0c52",
+      "size": 6450,
+      "sampleCount": 32978,
+      "exportName": null,
+      "resolvedName": "cid:370",
+      "nameSource": "unnamed"
+    }
+  },
+  "soundExports": {
+    "1": "snd_hurt1"
+  },
+  "actionEvents": [
+    {
+      "frame": 82,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 88,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 104,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 47,
+      "soundName": "cid:47",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "491b2b4c2771"
+    },
+    {
+      "frame": 113,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 50,
+      "soundName": "cid:50",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 134,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 154,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 175,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d8b69b952f1b"
+    },
+    {
+      "frame": 176,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 212,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e7f23c810c78"
+    },
+    {
+      "frame": 216,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 257,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 99,
+      "soundName": "cid:99",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e1340358daaf"
+    },
+    {
+      "frame": 312,
+      "label": "砍技20",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d8b69b952f1b"
+    },
+    {
+      "frame": 314,
+      "label": "砍技20",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 341,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d8b69b952f1b"
+    },
+    {
+      "frame": 343,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 369,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 153,
+      "soundName": "cid:153",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "c01563d211ee"
+    },
+    {
+      "frame": 372,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 156,
+      "soundName": "cid:156",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d614190e55e0"
+    },
+    {
+      "frame": 416,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "5ad5342947fa"
+    },
+    {
+      "frame": 450,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 510,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 510,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 99,
+      "soundName": "cid:99",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e1340358daaf"
+    },
+    {
+      "frame": 518,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 524,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 47,
+      "soundName": "cid:47",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "491b2b4c2771"
+    },
+    {
+      "frame": 528,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 559,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e7f23c810c78"
+    },
+    {
+      "frame": 564,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 591,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 591,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e7f23c810c78"
+    },
+    {
+      "frame": 629,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 223,
+      "soundName": "cid:223",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 646,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 230,
+      "soundName": "cid:230",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1e20e2df6552"
+    },
+    {
+      "frame": 653,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 243,
+      "soundName": "cid:243",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "fe8158d0f429"
+    },
+    {
+      "frame": 706,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 223,
+      "soundName": "cid:223",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 747,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 303,
+      "soundName": "cid:303",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "82f7465c8e94"
+    },
+    {
+      "frame": 779,
+      "label": "上必杀",
+      "tag": "StartSound",
+      "soundId": 309,
+      "soundName": "cid:309",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "17f491f7881d"
+    },
+    {
+      "frame": 841,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 330,
+      "soundName": "cid:330",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "6111c8d38aff"
+    },
+    {
+      "frame": 887,
+      "label": "超必杀",
+      "tag": "StartSound",
+      "soundId": 358,
+      "soundName": "cid:358",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "15c5eabbb341"
+    },
+    {
+      "frame": 1097,
+      "label": "开场",
+      "tag": "StartSound",
+      "soundId": 369,
+      "soundName": "cid:369",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "c4007b4ef18d"
+    },
+    {
+      "frame": 1200,
+      "label": "胜利",
+      "tag": "StartSound",
+      "soundId": 370,
+      "soundName": "cid:370",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e53249af0c52"
+    }
+  ],
+  "eventsSample": [
+    {
+      "frame": 82,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 88,
+      "label": "跳砍",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 104,
+      "label": "跳招",
+      "tag": "StartSound",
+      "soundId": 47,
+      "soundName": "cid:47",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "491b2b4c2771"
+    },
+    {
+      "frame": 113,
+      "label": "跳招2",
+      "tag": "StartSound",
+      "soundId": 50,
+      "soundName": "cid:50",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "fb10b49d83ae"
+    },
+    {
+      "frame": 134,
+      "label": "砍1",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 154,
+      "label": "砍2",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 175,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d8b69b952f1b"
+    },
+    {
+      "frame": 176,
+      "label": "砍3",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 212,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e7f23c810c78"
+    },
+    {
+      "frame": 216,
+      "label": "砍4",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 257,
+      "label": "砍技1",
+      "tag": "StartSound",
+      "soundId": 99,
+      "soundName": "cid:99",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e1340358daaf"
+    },
+    {
+      "frame": 312,
+      "label": "砍技20",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d8b69b952f1b"
+    },
+    {
+      "frame": 314,
+      "label": "砍技20",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 341,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 87,
+      "soundName": "cid:87",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d8b69b952f1b"
+    },
+    {
+      "frame": 343,
+      "label": "砍技21",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 369,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 153,
+      "soundName": "cid:153",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "c01563d211ee"
+    },
+    {
+      "frame": 372,
+      "label": "招1",
+      "tag": "StartSound",
+      "soundId": 156,
+      "soundName": "cid:156",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "d614190e55e0"
+    },
+    {
+      "frame": 416,
+      "label": "招2",
+      "tag": "StartSound",
+      "soundId": 190,
+      "soundName": "cid:190",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "5ad5342947fa"
+    },
+    {
+      "frame": 450,
+      "label": "招21",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 510,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 510,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 99,
+      "soundName": "cid:99",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e1340358daaf"
+    },
+    {
+      "frame": 518,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 37,
+      "soundName": "cid:37",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1ba2f0b7cb95"
+    },
+    {
+      "frame": 524,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 47,
+      "soundName": "cid:47",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "491b2b4c2771"
+    },
+    {
+      "frame": 528,
+      "label": "招31",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 559,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e7f23c810c78"
+    },
+    {
+      "frame": 564,
+      "label": "摔1",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 591,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 90,
+      "soundName": "cid:90",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "2ea4a0cfbe2a"
+    },
+    {
+      "frame": 591,
+      "label": "摔2",
+      "tag": "StartSound",
+      "soundId": 93,
+      "soundName": "cid:93",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "e7f23c810c78"
+    },
+    {
+      "frame": 629,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 223,
+      "soundName": "cid:223",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "a9283d87e16f"
+    },
+    {
+      "frame": 646,
+      "label": "必杀",
+      "tag": "StartSound",
+      "soundId": 230,
+      "soundName": "cid:230",
+      "nameSource": "unnamed",
+      "spriteId": 371,
+      "spriteExport": "jiraiya_fla.自来也全动作_1",
+      "sha1": "1e20e2df6552"
+    }
+  ]
+}

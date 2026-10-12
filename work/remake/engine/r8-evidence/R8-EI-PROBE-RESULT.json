@@ -1,0 +1,203 @@
+{
+  "result": "PASS",
+  "online": false,
+  "probe_swf": "HoldProbe.swf",
+  "sample_main_swf_touched": false,
+  "note": "EI addCallback probe — proves Ruffle exposes setHold when registered via ExternalInterface (unlike MC property on main.swf)",
+  "captured_at": "2026-10-11T17:35:53.288Z",
+  "host": "127.0.0.1:8765",
+  "href": "http://127.0.0.1:8765/r8-hold-stub/ei-probe.html",
+  "steps": [
+    {
+      "t": 1791740152588,
+      "ev": "ruffle_load_ok"
+    },
+    {
+      "t": 1791740153276,
+      "ev": "as_ready_callback",
+      "v": true
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_on_setHold",
+      "ready": true
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_passthru",
+      "name": "showGameList",
+      "args": []
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_passthru",
+      "name": "showSort",
+      "args": []
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_passthru",
+      "name": "showRefer",
+      "args": [
+        12345
+      ]
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_passthru",
+      "name": "changeScore",
+      "args": [
+        1
+      ]
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_passthru",
+      "name": "showLogPanel",
+      "args": []
+    },
+    {
+      "t": 1791740153288,
+      "ev": "as_passthru",
+      "name": "renderTime",
+      "args": []
+    }
+  ],
+  "ei": {
+    "setHold_typeof": "function",
+    "isReady_typeof": "function",
+    "probePing_typeof": "function",
+    "showGameList_typeof": "function",
+    "player_keys": [
+      "setHold:function",
+      "isReady:function",
+      "getHoldType:function",
+      "getHoldMethods:function",
+      "getCallLog:function",
+      "showGameList:function",
+      "showSort:function",
+      "showRefer:function",
+      "changeScore:function",
+      "showLogPanel:function",
+      "userLogOut:function",
+      "renderTime:function",
+      "probePing:function"
+    ]
+  },
+  "fail_reason": null,
+  "null_path": {
+    "isReady": false
+  },
+  "setHold_call": {
+    "ok": true,
+    "ret": true,
+    "err": null
+  },
+  "bound_path": {
+    "isReady": true,
+    "hold_type": "object",
+    "hold_methods_or_keys": [
+      "_uid:string",
+      "_nickName:string",
+      "_serverTime:string",
+      "isLog:boolean",
+      "_name:string"
+    ]
+  },
+  "passthru": [
+    {
+      "name": "showGameList",
+      "ok": true,
+      "err": null
+    },
+    {
+      "name": "showSort",
+      "ok": true,
+      "err": null
+    },
+    {
+      "name": "showRefer",
+      "ok": true,
+      "err": null
+    },
+    {
+      "name": "changeScore",
+      "ok": true,
+      "err": null
+    },
+    {
+      "name": "showLogPanel",
+      "ok": true,
+      "err": null
+    },
+    {
+      "name": "renderTime",
+      "ok": true,
+      "err": null
+    }
+  ],
+  "probePing": "R8-EI-PROBE-OK",
+  "as_call_log": [
+    {
+      "holdNull": false,
+      "method": "setHold",
+      "t": 1791740153288
+    },
+    {
+      "args": [],
+      "method": "showGameList",
+      "t": 1791740153288
+    },
+    {
+      "args": [],
+      "method": "showSort",
+      "t": 1791740153288
+    },
+    {
+      "args": [
+        12345
+      ],
+      "method": "showRefer",
+      "t": 1791740153288
+    },
+    {
+      "args": [
+        1
+      ],
+      "method": "changeScore",
+      "t": 1791740153288
+    },
+    {
+      "args": [],
+      "method": "showLogPanel",
+      "t": 1791740153288
+    },
+    {
+      "args": [],
+      "method": "renderTime",
+      "t": 1791740153288
+    }
+  ],
+  "verification": {
+    "method": "headless_chrome_dump_dom",
+    "verified_at": "2026-10-12T01:35:00+08:00",
+    "url": "http://127.0.0.1:8765/r8-hold-stub/ei-probe.html",
+    "static_curl": {
+      "ei-probe.html": 200,
+      "HoldProbe.swf": 200,
+      "hold-mock.js": 200,
+      "ruffle.js": 200
+    },
+    "probe_paths": {
+      "swf": "play/r8-hold-stub/HoldProbe.swf",
+      "html": "play/r8-hold-stub/ei-probe.html",
+      "as3": "work/remake/engine/r8-probe/src/HoldProbe.as",
+      "build_tree": "work/remake/engine/r8-probe/",
+      "swf_bytes": 2114
+    },
+    "sample_main_swf_sha256": "5ddf9410af93872c2b988af81e2580d466cc0f87d5e885198687f129cc00ba3e",
+    "sample_main_swf_untouched": true,
+    "hatch_untouched": true,
+    "contrast_with_main_swf": "main.swf timeline.setHold is MC property — Ruffle does NOT expose as EI; HoldProbe.swf uses ExternalInterface.addCallback — Ruffle DOES expose setHold as function"
+  }
+}
